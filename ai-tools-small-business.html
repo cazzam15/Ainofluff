@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The AI stack every small business actually needs. 4 layers, no tech team, starts at £30/month.">
+  <title>The AI stack every small business actually needs — ainofluff</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --dark: #0F1117;
+      --off-white: #F5F5F0;
+      --teal: #1D9E75;
+      --teal-light: #9FE1CB;
+      --surface: #F1EFE8;
+      --muted: #888780;
+      --border: #D3D1C7;
+      --text: #2C2C2A;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--off-white);
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    nav {
+      background: var(--dark);
+      padding: 0 5vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-logo {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--off-white);
+      text-decoration: none;
+      letter-spacing: -0.02em;
+    }
+
+    .nav-logo span { color: var(--teal); }
+
+    .nav-back {
+      font-size: 13px;
+      color: #888780;
+      text-decoration: none;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.15s;
+    }
+
+    .nav-back:hover { color: var(--off-white); }
+
+    .post-hero {
+      background: var(--dark);
+      padding: 64px 5vw 72px;
+    }
+
+    .post-hero-inner { max-width: 680px; margin: 0 auto; }
+
+    .post-cat {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 20px;
+      display: inline-block;
+      margin-bottom: 20px;
+      background: #FAECE7;
+      color: #993C1D;
+    }
+
+    .post-h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 600;
+      color: var(--off-white);
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+      margin-bottom: 20px;
+    }
+
+    .post-lede {
+      font-size: 18px;
+      color: #888780;
+      line-height: 1.65;
+      margin-bottom: 28px;
+    }
+
+    .post-meta {
+      font-size: 13px;
+      color: #444441;
+      display: flex;
+      gap: 14px;
+      align-items: center;
+    }
+
+    .post-meta-dot { width: 3px; height: 3px; border-radius: 50%; background: #444441; }
+
+    .post-body {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 56px 5vw 80px;
+    }
+
+    .post-body p {
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--text);
+      margin-bottom: 24px;
+    }
+
+    .post-body h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--text);
+      letter-spacing: -0.02em;
+      margin: 48px 0 16px;
+      padding-top: 48px;
+      border-top: 1px solid var(--border);
+    }
+
+    .post-body h2:first-of-type { margin-top: 0; padding-top: 0; border-top: none; }
+
+    .post-body h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 32px 0 12px;
+    }
+
+    .post-body strong { font-weight: 500; }
+
+    .post-body a { color: var(--teal); text-decoration: underline; }
+    .post-body a:hover { color: #0F6E56; }
+
+    .layer-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 24px 28px;
+      margin: 28px 0;
+      border-left: 4px solid var(--teal);
+    }
+
+    .layer-label {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 6px;
+    }
+
+    .layer-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .layer-tools {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    .layer-tools strong { color: var(--text); font-weight: 500; }
+
+    .layer-body { font-size: 15px; color: var(--text); line-height: 1.65; }
+
+    .stat-pull {
+      background: var(--dark);
+      border-radius: 10px;
+      padding: 28px 32px;
+      margin: 36px 0;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .stat-pull-num {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 42px;
+      font-weight: 600;
+      color: var(--teal);
+      white-space: nowrap;
+    }
+
+    .stat-pull-text { font-size: 15px; color: #888780; line-height: 1.55; }
+    .stat-pull-text cite { font-size: 12px; color: #444441; font-style: normal; display: block; margin-top: 4px; }
+
+    .cost-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-size: 15px;
+    }
+
+    .cost-table th {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-align: left;
+      padding: 10px 14px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .cost-table td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    .cost-table tr:last-child td { border-bottom: none; font-weight: 500; color: var(--teal); }
+    .cost-table tr:hover td { background: var(--surface); }
+
+    .post-footer-nav {
+      border-top: 1px solid var(--border);
+      padding-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .btn-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      text-decoration: none;
+      padding: 10px 18px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      transition: border-color 0.15s;
+    }
+
+    .btn-back:hover { border-color: var(--teal); color: var(--teal); }
+
+    .btn-next {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--off-white);
+      text-decoration: none;
+      padding: 10px 18px;
+      background: var(--dark);
+      border-radius: 6px;
+      transition: background 0.15s;
+    }
+
+    .btn-next:hover { background: #1A1F2B; }
+
+    footer {
+      background: var(--dark);
+      padding: 36px 5vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .footer-logo {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--off-white);
+      text-decoration: none;
+    }
+
+    .footer-logo span { color: var(--teal); }
+    .footer-copy { font-size: 12px; color: #444441; }
+
+    @media (max-width: 680px) {
+      .stat-pull { flex-direction: column; gap: 12px; }
+      .cost-table { font-size: 14px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../index.html" class="nav-logo">ai<span>nofluff</span></a>
+    <a href="../index.html" class="nav-back">← All posts</a>
+  </nav>
+
+  <header class="post-hero">
+    <div class="post-hero-inner">
+      <span class="post-cat">Small business</span>
+      <h1 class="post-h1">The AI stack every small business actually needs</h1>
+      <p class="post-lede">4 layers. No tech team. Starts at £30/month.</p>
+      <div class="post-meta">
+        <span>June 2026</span>
+        <span class="post-meta-dot"></span>
+        <span>5 min read</span>
+        <span class="post-meta-dot"></span>
+        <span>@ainofluff</span>
+      </div>
+    </div>
+  </header>
+
+  <article class="post-body">
+
+    <p>Most small business owners don't need <em>more</em> AI tools. They need the right three or four, set up properly, doing actual work.</p>
+
+    <p>Right now, the average small business uses a median of five AI tools — and the most common uses are content creation, marketing support, and workflow automation, all delivering immediate returns in time savings and customer reach. The problem isn't access. It's knowing what to pick.</p>
+
+    <p>Here's the stack that makes sense for a small business running lean.</p>
+
+    <div class="stat-pull">
+      <span class="stat-pull-num">5×</span>
+      <span class="stat-pull-text">
+        Median number of AI tools used by small businesses — and they plan to add more.
+        <cite>SBE Council, March 2026</cite>
+      </span>
+    </div>
+
+    <h2>Layer 1: Your AI assistant</h2>
+
+    <div class="layer-card">
+      <div class="layer-label">Layer 1</div>
+      <div class="layer-title">The brain</div>
+      <div class="layer-tools"><strong>ChatGPT or Claude</strong> — free to ~£20/month</div>
+      <div class="layer-body">Draft emails, write product descriptions, reply to awkward customer messages, brainstorm promotions, summarise research. Anything you currently stare at a blank screen for.</div>
+    </div>
+
+    <p>This is your starting point. Most small businesses using AI are here — reaching for ChatGPT or a similar tool for ad hoc tasks. Very few have a strategy. Even fewer have a policy. That's actually an opportunity: if you get intentional about <em>how</em> you use your AI assistant, you're already ahead.</p>
+
+    <p>Pick one. Learn it properly before adding anything else.</p>
+
+    <h2>Layer 2: Content engine</h2>
+
+    <div class="layer-card">
+      <div class="layer-label">Layer 2</div>
+      <div class="layer-title">The output machine</div>
+      <div class="layer-tools"><strong>Jasper, Buffer, or HubSpot</strong> — £15–40/month</div>
+      <div class="layer-body">Train it on your brand voice, feed it your products, get first drafts back — blog posts, captions, email campaigns. The output needs editing, but editing is faster than starting from nothing.</div>
+    </div>
+
+    <p>Small businesses report saving 5 to 15 hours per week on marketing tasks alone. That's a half-day to a full day back every week.</p>
+
+    <h2>Layer 3: Automation</h2>
+
+    <div class="layer-card">
+      <div class="layer-label">Layer 3</div>
+      <div class="layer-title">The connective tissue</div>
+      <div class="layer-tools"><strong>Zapier or Make</strong> — free to ~£16/month</div>
+      <div class="layer-body">Connect your tools and remove the manual steps in between. New order triggers a thank-you email. A form submission creates a task. A sale updates a spreadsheet. No code required.</div>
+    </div>
+
+    <p>This is the layer most people skip, and it's where the real time savings compound. Tools that once required an engineering team now run on a £15/month subscription. Start with one automation that removes something you do manually every single week. Build from there.</p>
+
+    <h2>Layer 4: Customer service</h2>
+
+    <div class="layer-card">
+      <div class="layer-label">Layer 4</div>
+      <div class="layer-title">The always-on layer</div>
+      <div class="layer-tools"><strong>Tidio or ManyChat</strong> — free to ~£30/month</div>
+      <div class="layer-body">If people ask the same questions repeatedly — where's my order, do you ship to X, what's your returns policy — a chatbot handles it while you sleep. It learns from your existing content and gets better over time.</div>
+    </div>
+
+    <p>Customer service consistently shows some of the strongest AI returns for small businesses, and the tools are cheap enough that a single saved hour per week covers the cost.</p>
+
+    <h2>What this stack costs</h2>
+
+    <table class="cost-table">
+      <thead>
+        <tr>
+          <th>Layer</th>
+          <th>Tool</th>
+          <th>Monthly cost</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>AI assistant</td>
+          <td>ChatGPT or Claude</td>
+          <td>Free – £20</td>
+        </tr>
+        <tr>
+          <td>Content engine</td>
+          <td>Jasper or Buffer</td>
+          <td>£15 – £40</td>
+        </tr>
+        <tr>
+          <td>Automation</td>
+          <td>Zapier or Make</td>
+          <td>Free – £16</td>
+        </tr>
+        <tr>
+          <td>Customer service</td>
+          <td>Tidio or ManyChat</td>
+          <td>Free – £30</td>
+        </tr>
+        <tr>
+          <td colspan="2"><strong>Total</strong></td>
+          <td><strong>£30 – £106/month</strong></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Businesses running three to five well-integrated tools report twice the productivity gains of companies running ten or more fragmented apps. Fewer tools, used properly, beats a pile of subscriptions nobody touches.</p>
+
+    <h2>Where to start</h2>
+
+    <p>Pick one problem you spend too much time on each week. Content creation, customer questions, manual admin. Find the one tool in this stack that solves that problem. Use it every day for a month. Then add the next layer.</p>
+
+    <p>That's it. No tech team required.</p>
+
+    <div class="post-footer-nav">
+      <a href="../index.html" class="btn-back">← All posts</a>
+      <a href="ai-and-kids.html" class="btn-next">Next: AI and kids →</a>
+    </div>
+
+  </article>
+
+  <footer>
+    <a href="../index.html" class="footer-logo">ai<span>nofluff</span></a>
+    <p class="footer-copy">© 2026 ainofluff · <a href="https://instagram.com/ainofluff" style="color:#444441;">@ainofluff</a></p>
+  </footer>
+
+</body>
+</html>
