@@ -10,523 +10,98 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     :root {
-      --dark: #0F1117;
-      --off-white: #F5F5F0;
-      --teal: #1D9E75;
-      --teal-light: #9FE1CB;
-      --surface: #F1EFE8;
-      --muted: #888780;
-      --border: #D3D1C7;
-      --text: #2C2C2A;
+      --dark: #0F1117; --off-white: #F5F5F0; --teal: #1D9E75;
+      --teal-light: #9FE1CB; --surface: #F1EFE8; --muted: #888780;
+      --border: #D3D1C7; --text: #2C2C2A;
     }
-
     html { scroll-behavior: smooth; }
-
-    body {
-      font-family: 'Inter', sans-serif;
-      background: var(--off-white);
-      color: var(--text);
-      line-height: 1.6;
-      font-size: 16px;
-    }
-
-    /* NAV */
-    nav {
-      background: var(--dark);
-      padding: 0 5vw;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 56px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-
-    .nav-logo {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 18px;
-      font-weight: 600;
-      color: var(--off-white);
-      text-decoration: none;
-      letter-spacing: -0.02em;
-    }
-
+    body { font-family: 'Inter', sans-serif; background: var(--off-white); color: var(--text); line-height: 1.6; font-size: 16px; }
+    nav { background: var(--dark); padding: 0 5vw; display: flex; align-items: center; justify-content: space-between; height: 56px; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 600; color: var(--off-white); text-decoration: none; letter-spacing: -0.02em; }
     .nav-logo span { color: var(--teal); }
-
-    .nav-links {
-      display: flex;
-      gap: 28px;
-      list-style: none;
-    }
-
-    .nav-links a {
-      font-size: 14px;
-      color: #888780;
-      text-decoration: none;
-      font-weight: 500;
-      transition: color 0.15s;
-    }
-
+    .nav-links { display: flex; gap: 28px; list-style: none; }
+    .nav-links a { font-size: 14px; color: #888780; text-decoration: none; font-weight: 500; transition: color 0.15s; }
     .nav-links a:hover { color: var(--off-white); }
-
-    /* HERO */
-    .hero {
-      background: var(--dark);
-      padding: 80px 5vw 88px;
-      border-bottom: 1px solid #1A1F2B;
-    }
-
+    .hero { background: var(--dark); padding: 80px 5vw 88px; border-bottom: 1px solid #1A1F2B; }
     .hero-inner { max-width: 720px; }
-
-    .hero-eyebrow {
-      font-size: 12px;
-      font-weight: 500;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--teal);
-      margin-bottom: 24px;
-    }
-
-    .hero-headline {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: clamp(36px, 5vw, 58px);
-      font-weight: 600;
-      line-height: 1.1;
-      color: var(--off-white);
-      letter-spacing: -0.03em;
-      margin-bottom: 28px;
-    }
-
-    .hero-headline .struck {
-      text-decoration: line-through;
-      text-decoration-color: #E24B4A;
-      text-decoration-thickness: 3px;
-      color: #888780;
-    }
-
-    .hero-headline .replace {
-      color: var(--teal);
-    }
-
-    .hero-sub {
-      font-size: 18px;
-      color: #888780;
-      line-height: 1.65;
-      max-width: 520px;
-      margin-bottom: 36px;
-    }
-
+    .hero-eyebrow { font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal); margin-bottom: 24px; }
+    .hero-headline { font-family: 'Space Grotesk', sans-serif; font-size: clamp(36px, 5vw, 58px); font-weight: 600; line-height: 1.1; color: var(--off-white); letter-spacing: -0.03em; margin-bottom: 28px; }
+    .hero-headline .struck { text-decoration: line-through; text-decoration-color: #E24B4A; text-decoration-thickness: 3px; color: #888780; }
+    .hero-headline .replace { color: var(--teal); }
+    .hero-sub { font-size: 18px; color: #888780; line-height: 1.65; max-width: 520px; margin-bottom: 36px; }
     .hero-sub strong { color: var(--off-white); font-weight: 500; }
-
     .hero-cta-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
-
-    .btn-primary {
-      background: var(--teal);
-      color: var(--dark);
-      font-family: 'Inter', sans-serif;
-      font-size: 14px;
-      font-weight: 500;
-      padding: 11px 22px;
-      border-radius: 6px;
-      text-decoration: none;
-      transition: background 0.15s;
-      display: inline-block;
-    }
-
+    .btn-primary { background: var(--teal); color: var(--dark); font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 500; padding: 11px 22px; border-radius: 6px; text-decoration: none; transition: background 0.15s; display: inline-block; }
     .btn-primary:hover { background: var(--teal-light); }
-
-    .btn-ghost {
-      color: #888780;
-      font-size: 14px;
-      font-weight: 500;
-      text-decoration: none;
-      padding: 11px 4px;
-      transition: color 0.15s;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-
+    .btn-ghost { color: #888780; font-size: 14px; font-weight: 500; text-decoration: none; padding: 11px 4px; transition: color 0.15s; display: inline-flex; align-items: center; gap: 6px; }
     .btn-ghost:hover { color: var(--off-white); }
-
-    /* STRIP */
-    .strip {
-      background: var(--teal);
-      padding: 14px 5vw;
-      display: flex;
-      gap: 40px;
-      overflow-x: auto;
-      scrollbar-width: none;
-    }
-
+    .strip { background: var(--teal); padding: 14px 5vw; display: flex; gap: 40px; overflow-x: auto; scrollbar-width: none; }
     .strip::-webkit-scrollbar { display: none; }
-
-    .strip-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      white-space: nowrap;
-      flex-shrink: 0;
-    }
-
-    .strip-num {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 20px;
-      font-weight: 600;
-      color: var(--dark);
-    }
-
+    .strip-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; flex-shrink: 0; }
+    .strip-num { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 600; color: var(--dark); }
     .strip-label { font-size: 13px; color: #085041; font-weight: 500; }
-
-    /* MAIN CONTENT */
     .main { max-width: 1100px; margin: 0 auto; padding: 64px 5vw; }
-
-    .section-header {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      margin-bottom: 32px;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 16px;
-    }
-
-    .section-title {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 22px;
-      font-weight: 600;
-      color: var(--text);
-      letter-spacing: -0.02em;
-    }
-
-    .section-link {
-      font-size: 13px;
-      color: var(--teal);
-      text-decoration: none;
-      font-weight: 500;
-    }
-
+    .section-header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 32px; border-bottom: 1px solid var(--border); padding-bottom: 16px; }
+    .section-title { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600; color: var(--text); letter-spacing: -0.02em; }
+    .section-link { font-size: 13px; color: var(--teal); text-decoration: none; font-weight: 500; }
     .section-link:hover { text-decoration: underline; }
-
-    /* POST GRID */
-    .post-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 20px;
-    }
-
-    .post-card {
-      background: #fff;
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 24px;
-      text-decoration: none;
-      color: inherit;
-      display: flex;
-      flex-direction: column;
-      transition: border-color 0.15s, transform 0.15s;
-    }
-
-    .post-card:hover {
-      border-color: var(--teal);
-      transform: translateY(-2px);
-    }
-
-    .post-card.featured {
-      grid-column: 1 / -1;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 32px;
-      padding: 32px;
-      background: var(--dark);
-      border-color: #1A1F2B;
-    }
-
+    .post-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+    .post-card { background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 24px; text-decoration: none; color: inherit; display: flex; flex-direction: column; transition: border-color 0.15s, transform 0.15s; }
+    .post-card:hover { border-color: var(--teal); transform: translateY(-2px); }
+    .post-card.featured { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 32px; padding: 32px; background: var(--dark); border-color: #1A1F2B; }
     .post-card.featured:hover { border-color: var(--teal); }
-
     .featured-left { display: flex; flex-direction: column; }
-    .featured-right {
-      border-left: 1px solid #1A1F2B;
-      padding-left: 32px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .post-cat {
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      padding: 3px 10px;
-      border-radius: 20px;
-      display: inline-block;
-      margin-bottom: 14px;
-      width: fit-content;
-    }
-
+    .featured-right { border-left: 1px solid #1A1F2B; padding-left: 32px; display: flex; flex-direction: column; justify-content: center; }
+    .post-cat { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; padding: 3px 10px; border-radius: 20px; display: inline-block; margin-bottom: 14px; width: fit-content; }
     .cat-basics { background: #EEEDFE; color: #534AB7; }
     .cat-tools { background: #E1F5EE; color: #0F6E56; }
     .cat-kids { background: #FAEEDA; color: #854F0B; }
     .cat-business { background: #FAECE7; color: #993C1D; }
-
-    .post-title {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 18px;
-      font-weight: 600;
-      line-height: 1.3;
-      letter-spacing: -0.01em;
-      margin-bottom: 10px;
-      color: var(--text);
-    }
-
-    .post-card.featured .post-title {
-      font-size: 26px;
-      color: var(--off-white);
-    }
-
-    .post-excerpt {
-      font-size: 14px;
-      color: var(--muted);
-      line-height: 1.6;
-      flex: 1;
-      margin-bottom: 18px;
-    }
-
+    .post-title { font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 600; line-height: 1.3; letter-spacing: -0.01em; margin-bottom: 10px; color: var(--text); }
+    .post-card.featured .post-title { font-size: 26px; color: var(--off-white); }
+    .post-excerpt { font-size: 14px; color: var(--muted); line-height: 1.6; flex: 1; margin-bottom: 18px; }
     .post-card.featured .post-excerpt { color: #5F5E5A; }
-
-    .post-meta {
-      font-size: 12px;
-      color: #B4B2A9;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
+    .post-meta { font-size: 12px; color: #B4B2A9; display: flex; align-items: center; gap: 12px; }
     .post-meta-dot { width: 3px; height: 3px; border-radius: 50%; background: #B4B2A9; }
-
-    .read-more {
-      font-size: 13px;
-      font-weight: 500;
-      color: var(--teal);
-      display: flex;
-      align-items: center;
-      gap: 4px;
-      margin-top: auto;
-    }
-
-    .featured-stat {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 52px;
-      font-weight: 600;
-      color: var(--teal);
-      line-height: 1;
-      margin-bottom: 8px;
-    }
-
+    .read-more { font-size: 13px; font-weight: 500; color: var(--teal); display: flex; align-items: center; gap: 4px; margin-top: auto; }
+    .featured-stat { font-family: 'Space Grotesk', sans-serif; font-size: 52px; font-weight: 600; color: var(--teal); line-height: 1; margin-bottom: 8px; }
     .featured-stat-label { font-size: 14px; color: #5F5E5A; line-height: 1.5; }
-
-    /* ABOUT STRIP */
-    .about-strip {
-      background: var(--surface);
-      border-radius: 10px;
-      padding: 40px;
-      margin-top: 56px;
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      gap: 40px;
-      align-items: center;
-      border: 1px solid var(--border);
-    }
-
-    .about-left { }
-
-    .about-tag {
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--teal);
-      margin-bottom: 12px;
-    }
-
-    .about-name {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 28px;
-      font-weight: 600;
-      color: var(--text);
-      letter-spacing: -0.02em;
-      margin-bottom: 4px;
-    }
-
+    .about-strip { background: var(--surface); border-radius: 10px; padding: 40px; margin-top: 56px; display: grid; grid-template-columns: 1fr 2fr; gap: 40px; align-items: center; border: 1px solid var(--border); }
+    .about-tag { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--teal); margin-bottom: 12px; }
+    .about-name { font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; color: var(--text); letter-spacing: -0.02em; margin-bottom: 4px; }
     .about-handle { font-size: 14px; color: var(--muted); }
-
-    .about-bio {
-      font-size: 15px;
-      color: var(--text);
-      line-height: 1.7;
-      margin-bottom: 20px;
-    }
-
+    .about-bio { font-size: 15px; color: var(--text); line-height: 1.7; margin-bottom: 20px; }
     .about-bio strong { font-weight: 500; }
-
-    .about-ig {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: var(--dark);
-      color: var(--off-white);
-      text-decoration: none;
-      font-size: 13px;
-      font-weight: 500;
-      padding: 9px 18px;
-      border-radius: 6px;
-      transition: background 0.15s;
-    }
-
+    .about-ig { display: inline-flex; align-items: center; gap: 8px; background: var(--dark); color: var(--off-white); text-decoration: none; font-size: 13px; font-weight: 500; padding: 9px 18px; border-radius: 6px; transition: background 0.15s; }
     .about-ig:hover { background: #1A1F2B; }
-
-    /* NEWSLETTER */
-    .newsletter {
-      background: var(--dark);
-      border-radius: 10px;
-      padding: 48px;
-      margin-top: 24px;
-      text-align: center;
-    }
-
-    .newsletter-eyebrow {
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--teal);
-      margin-bottom: 14px;
-    }
-
-    .newsletter-title {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 26px;
-      font-weight: 600;
-      color: var(--off-white);
-      letter-spacing: -0.02em;
-      margin-bottom: 10px;
-    }
-
-    .newsletter-sub {
-      font-size: 15px;
-      color: #888780;
-      margin-bottom: 28px;
-      max-width: 400px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .newsletter-form {
-      display: flex;
-      gap: 10px;
-      max-width: 420px;
-      margin: 0 auto;
-    }
-
-    .newsletter-form input {
-      flex: 1;
-      background: #1A1F2B;
-      border: 1px solid #2C2C2A;
-      border-radius: 6px;
-      padding: 11px 16px;
-      font-size: 14px;
-      color: var(--off-white);
-      font-family: 'Inter', sans-serif;
-      outline: none;
-      transition: border-color 0.15s;
-    }
-
+    .newsletter { background: var(--dark); border-radius: 10px; padding: 48px; margin-top: 24px; text-align: center; }
+    .newsletter-eyebrow { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal); margin-bottom: 14px; }
+    .newsletter-title { font-family: 'Space Grotesk', sans-serif; font-size: 26px; font-weight: 600; color: var(--off-white); letter-spacing: -0.02em; margin-bottom: 10px; }
+    .newsletter-sub { font-size: 15px; color: #888780; margin-bottom: 28px; max-width: 400px; margin-left: auto; margin-right: auto; }
+    .newsletter-form { display: flex; gap: 10px; max-width: 420px; margin: 0 auto; }
+    .newsletter-form input { flex: 1; background: #1A1F2B; border: 1px solid #2C2C2A; border-radius: 6px; padding: 11px 16px; font-size: 14px; color: var(--off-white); font-family: 'Inter', sans-serif; outline: none; transition: border-color 0.15s; }
     .newsletter-form input::placeholder { color: #444441; }
     .newsletter-form input:focus { border-color: var(--teal); }
-
-    .newsletter-form button {
-      background: var(--teal);
-      color: var(--dark);
-      border: none;
-      border-radius: 6px;
-      padding: 11px 20px;
-      font-size: 14px;
-      font-weight: 500;
-      font-family: 'Inter', sans-serif;
-      cursor: pointer;
-      white-space: nowrap;
-      transition: background 0.15s;
-    }
-
+    .newsletter-form button { background: var(--teal); color: var(--dark); border: none; border-radius: 6px; padding: 11px 20px; font-size: 14px; font-weight: 500; font-family: 'Inter', sans-serif; cursor: pointer; white-space: nowrap; transition: background 0.15s; }
     .newsletter-form button:hover { background: var(--teal-light); }
-
-    /* FOOTER */
-    footer {
-      background: var(--dark);
-      padding: 36px 5vw;
-      margin-top: 80px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 16px;
-    }
-
-    .footer-logo {
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 16px;
-      font-weight: 600;
-      color: var(--off-white);
-      text-decoration: none;
-    }
-
+    footer { background: var(--dark); padding: 36px 5vw; margin-top: 80px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+    .footer-logo { font-family: 'Space Grotesk', sans-serif; font-size: 16px; font-weight: 600; color: var(--off-white); text-decoration: none; }
     .footer-logo span { color: var(--teal); }
-
-    .footer-links {
-      display: flex;
-      gap: 24px;
-      list-style: none;
-    }
-
-    .footer-links a {
-      font-size: 13px;
-      color: #444441;
-      text-decoration: none;
-      transition: color 0.15s;
-    }
-
+    .footer-links { display: flex; gap: 24px; list-style: none; }
+    .footer-links a { font-size: 13px; color: #444441; text-decoration: none; transition: color 0.15s; }
     .footer-links a:hover { color: #888780; }
-
     .footer-copy { font-size: 12px; color: #444441; }
-
-    /* MOBILE */
     @media (max-width: 680px) {
       .hero { padding: 56px 5vw 64px; }
-      .post-card.featured {
-        grid-template-columns: 1fr;
-        gap: 24px;
-      }
-      .featured-right {
-        border-left: none;
-        border-top: 1px solid #1A1F2B;
-        padding-left: 0;
-        padding-top: 24px;
-      }
-      .about-strip {
-        grid-template-columns: 1fr;
-        gap: 24px;
-      }
+      .post-card.featured { grid-template-columns: 1fr; gap: 24px; }
+      .featured-right { border-left: none; border-top: 1px solid #1A1F2B; padding-left: 0; padding-top: 24px; }
+      .about-strip { grid-template-columns: 1fr; gap: 24px; }
       .newsletter { padding: 32px 24px; }
       .newsletter-form { flex-direction: column; }
       .nav-links { display: none; }
     }
-
-    @media (prefers-reduced-motion: reduce) {
-      .post-card { transition: none; }
-    }
+    @media (prefers-reduced-motion: reduce) { .post-card { transition: none; } }
   </style>
 </head>
 <body>
@@ -536,7 +111,8 @@
     <ul class="nav-links">
       <li><a href="#posts">Posts</a></li>
       <li><a href="posts/ai-tools-small-business.html">Small business</a></li>
-      <li><a href="posts/ai-and-kids.html">AI & kids</a></li>
+      <li><a href="posts/ai-and-kids.html">AI &amp; kids</a></li>
+      <li><a href="shop.html">Shop</a></li>
       <li><a href="https://instagram.com/ainofluff" target="_blank" rel="noopener">Instagram ↗</a></li>
     </ul>
   </nav>
@@ -561,22 +137,10 @@
   </header>
 
   <div class="strip" aria-label="Quick stats">
-    <div class="strip-item">
-      <span class="strip-num">68%</span>
-      <span class="strip-label">of small businesses now use AI regularly</span>
-    </div>
-    <div class="strip-item">
-      <span class="strip-num">£0</span>
-      <span class="strip-label">to get started today</span>
-    </div>
-    <div class="strip-item">
-      <span class="strip-num">20+</span>
-      <span class="strip-label">hours saved per month on marketing alone</span>
-    </div>
-    <div class="strip-item">
-      <span class="strip-num">5 min</span>
-      <span class="strip-label">to read any post on this site</span>
-    </div>
+    <div class="strip-item"><span class="strip-num">68%</span><span class="strip-label">of small businesses now use AI regularly</span></div>
+    <div class="strip-item"><span class="strip-num">£0</span><span class="strip-label">to get started today</span></div>
+    <div class="strip-item"><span class="strip-num">20+</span><span class="strip-label">hours saved per month on marketing alone</span></div>
+    <div class="strip-item"><span class="strip-num">5 min</span><span class="strip-label">to read any post on this site</span></div>
   </div>
 
   <main class="main" id="posts">
@@ -594,9 +158,7 @@
           <h3 class="post-title">The AI stack every small business actually needs</h3>
           <p class="post-excerpt">4 layers, no tech team, starts at £30/month. Most small businesses are using five AI tools — here's how to build a stack that actually does something useful, without the overwhelm.</p>
           <div class="post-meta">
-            <span>June 2026</span>
-            <span class="post-meta-dot"></span>
-            <span>5 min read</span>
+            <span>June 2026</span><span class="post-meta-dot"></span><span>5 min read</span>
           </div>
         </div>
         <div class="featured-right">
@@ -606,13 +168,11 @@
       </a>
 
       <a href="posts/ai-and-kids.html" class="post-card">
-        <span class="post-cat cat-kids">AI & kids</span>
+        <span class="post-cat cat-kids">AI &amp; kids</span>
         <h3 class="post-title">AI and kids: what parents actually need to know in 2026</h3>
         <p class="post-excerpt">Which tools are safe, what the age limits actually mean, and how to use AI for homework without doing the homework for them.</p>
         <div class="post-meta" style="margin-bottom:16px;">
-          <span>June 2026</span>
-          <span class="post-meta-dot"></span>
-          <span>6 min read</span>
+          <span>June 2026</span><span class="post-meta-dot"></span><span>6 min read</span>
         </div>
         <span class="read-more">Read post →</span>
       </a>
@@ -622,9 +182,7 @@
         <h3 class="post-title">What even is AI? The actual simple version</h3>
         <p class="post-excerpt">No history lesson. No jargon. Just the bit you actually need to know to start using it today.</p>
         <div class="post-meta" style="margin-bottom:16px;">
-          <span>Coming soon</span>
-          <span class="post-meta-dot"></span>
-          <span>3 min read</span>
+          <span>Coming soon</span><span class="post-meta-dot"></span><span>3 min read</span>
         </div>
         <span class="read-more">Coming soon</span>
       </a>
@@ -660,6 +218,7 @@
     <a href="/" class="footer-logo">ai<span>nofluff</span></a>
     <ul class="footer-links">
       <li><a href="#posts">Posts</a></li>
+      <li><a href="shop.html">Shop</a></li>
       <li><a href="https://instagram.com/ainofluff" target="_blank" rel="noopener">Instagram</a></li>
     </ul>
     <p class="footer-copy">© 2026 ainofluff</p>
@@ -673,10 +232,7 @@
       btn.textContent = 'Subscribed!';
       btn.style.background = '#9FE1CB';
       input.value = '';
-      setTimeout(() => {
-        btn.textContent = 'Subscribe';
-        btn.style.background = '';
-      }, 3000);
+      setTimeout(() => { btn.textContent = 'Subscribe'; btn.style.background = ''; }, 3000);
     }
   </script>
 
