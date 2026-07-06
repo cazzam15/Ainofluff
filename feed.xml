@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ainofluff</title>
+    <link>https://www.ainofluff.co.uk/</link>
+    <atom:link href="https://www.ainofluff.co.uk/feed.xml" rel="self" type="application/rss+xml" />
+    <description>AI explained in plain English. No jargon, no overwhelm. Real tools, real examples, for people who haven't started yet.</description>
+    <language>en-gb</language>
+
+    <item>
+      <title>Claude Sonnet 5 is now free — do you still need to pay for AI?</title>
+      <link>https://www.ainofluff.co.uk/posts/claude-sonnet-5-free.html</link>
+      <guid>https://www.ainofluff.co.uk/posts/claude-sonnet-5-free.html</guid>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 GMT</pubDate>
+      <description>The real story this week isn't a flashy launch — it's that the AI you already have for free just got a lot better. Here's what changed, and what to check before you renew any paid plan.</description>
+    </item>
+
+    <item>
+      <title>What even is AI? The actual simple version</title>
+      <link>https://www.ainofluff.co.uk/posts/what-is-ai.html</link>
+      <guid>https://www.ainofluff.co.uk/posts/what-is-ai.html</guid>
+      <pubDate>Mon, 06 Jul 2026 08:00:00 GMT</pubDate>
+      <description>No history lesson. No jargon. Just the bit you actually need to know to start using AI today.</description>
+    </item>
+
+    <item>
+      <title>AI and kids: what parents actually need to know in 2026</title>
+      <link>https://www.ainofluff.co.uk/posts/ai-and-kids.html</link>
+      <guid>https://www.ainofluff.co.uk/posts/ai-and-kids.html</guid>
+      <pubDate>Mon, 22 Jun 2026 09:00:00 GMT</pubDate>
+      <description>Which tools are safe, what the age limits actually mean, and how to use AI for homework without doing the homework for them.</description>
+    </item>
+
+    <item>
+      <title>The AI stack every small business actually needs</title>
+      <link>https://www.ainofluff.co.uk/posts/ai-tools-small-business.html</link>
+      <guid>https://www.ainofluff.co.uk/posts/ai-tools-small-business.html</guid>
+      <pubDate>Mon, 15 Jun 2026 09:00:00 GMT</pubDate>
+      <description>4 layers, no tech team, starts at £30/month. Most small businesses are using five AI tools — here's how to build a stack that actually does something useful, without the overwhelm.</description>
+    </item>
+
+  </channel>
+</rss>
