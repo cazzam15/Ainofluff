@@ -24,6 +24,8 @@
     .nav-links { display: flex; gap: 28px; list-style: none; }
     .nav-links a { font-size: 14px; color: #888780; text-decoration: none; font-weight: 500; transition: color 0.15s; }
     .nav-links a:hover { color: var(--off-white); }
+    .nav-links a.nav-shop { background: var(--teal); color: var(--dark); padding: 7px 15px; border-radius: 6px; font-weight: 500; }
+    .nav-links a.nav-shop:hover { background: var(--teal-light); color: var(--dark); }
     .hero { background: var(--dark); padding: 80px 5vw 88px; border-bottom: 1px solid #1A1F2B; }
     .hero-inner { max-width: 720px; }
     .hero-eyebrow { font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal); margin-bottom: 24px; }
@@ -35,6 +37,8 @@
     .hero-cta-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
     .btn-primary { background: var(--teal); color: var(--dark); font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 500; padding: 11px 22px; border-radius: 6px; text-decoration: none; transition: background 0.15s; display: inline-block; }
     .btn-primary:hover { background: var(--teal-light); }
+    .btn-outline { color: var(--off-white); border: 1px solid #2C3242; font-size: 14px; font-weight: 500; padding: 10px 21px; border-radius: 6px; text-decoration: none; transition: border-color 0.15s, background 0.15s; display: inline-block; }
+    .btn-outline:hover { border-color: var(--teal); background: #161A24; }
     .btn-ghost { color: #888780; font-size: 14px; font-weight: 500; text-decoration: none; padding: 11px 4px; transition: color 0.15s; display: inline-flex; align-items: center; gap: 6px; }
     .btn-ghost:hover { color: var(--off-white); }
     .strip { background: var(--teal); padding: 14px 5vw; display: flex; gap: 40px; overflow-x: auto; scrollbar-width: none; }
@@ -91,9 +95,9 @@
     .footer-logo { font-family: 'Space Grotesk', sans-serif; font-size: 16px; font-weight: 600; color: var(--off-white); text-decoration: none; }
     .footer-logo span { color: var(--teal); }
     .footer-links { display: flex; gap: 24px; list-style: none; }
-    .footer-links a { font-size: 13px; color: #444441; text-decoration: none; transition: color 0.15s; }
-    .footer-links a:hover { color: #888780; }
-    .footer-copy { font-size: 12px; color: #444441; }
+    .footer-links a { font-size: 13px; color: #888780; text-decoration: none; transition: color 0.15s; }
+    .footer-links a:hover { color: var(--off-white); }
+    .footer-copy { font-size: 12px; color: #888780; }
     @media (max-width: 680px) {
       .hero { padding: 56px 5vw 64px; }
       .post-card.featured { grid-template-columns: 1fr; gap: 24px; }
@@ -101,7 +105,9 @@
       .about-strip { grid-template-columns: 1fr; gap: 24px; }
       .newsletter { padding: 32px 24px; }
       .newsletter-form { flex-direction: column; }
-      .nav-links { display: none; }
+      .nav-links li:not(.nav-shop-item) { display: none; }
+      .nav-links { gap: 0; }
+      footer { justify-content: flex-start; gap: 20px; }
     }
     @media (prefers-reduced-motion: reduce) { .post-card { transition: none; } }
   </style>
@@ -114,8 +120,8 @@
       <li><a href="#posts">Posts</a></li>
       <li><a href="posts/ai-tools-small-business.html">Small business</a></li>
       <li><a href="posts/ai-and-kids.html">AI &amp; kids</a></li>
-      <li><a href="shop.html">Shop</a></li>
       <li><a href="https://instagram.com/ainofluff" target="_blank" rel="noopener">Instagram ↗</a></li>
+      <li class="nav-shop-item"><a href="shop.html" class="nav-shop">Shop</a></li>
     </ul>
   </nav>
 
@@ -133,6 +139,7 @@
       </p>
       <div class="hero-cta-row">
         <a href="#posts" class="btn-primary">Read the posts</a>
+        <a href="shop.html" class="btn-outline">Shop the guides →</a>
         <a href="https://instagram.com/ainofluff" target="_blank" rel="noopener" class="btn-ghost">Follow on Instagram ↗</a>
       </div>
     </div>

@@ -76,14 +76,16 @@
     .footer-logo { font-family: 'Space Grotesk', sans-serif; font-size: 16px; font-weight: 600; color: var(--off-white); text-decoration: none; }
     .footer-logo span { color: var(--teal); }
     .footer-links { display: flex; gap: 24px; list-style: none; }
-    .footer-links a { font-size: 13px; color: #444441; text-decoration: none; }
-    .footer-links a:hover { color: #888780; }
-    .footer-copy { font-size: 12px; color: #444441; }
+    .footer-links a { font-size: 13px; color: #888780; text-decoration: none; transition: color 0.15s; }
+    .footer-links a:hover { color: var(--off-white); }
+    .footer-copy { font-size: 12px; color: #888780; }
     @media (max-width: 680px) {
       .bundle { grid-template-columns: 1fr; gap: 28px; }
       .bundle-right { border-left: none; border-top: 1px solid #1A1F2B; padding-left: 0; padding-top: 28px; }
       .how { grid-template-columns: 1fr; gap: 24px; }
-      .nav-links { display: none; }
+      .nav-links li:not(.nav-back-item) { display: none; }
+      .nav-links { gap: 0; }
+      footer { justify-content: flex-start; gap: 20px; }
     }
   </style>
 </head>
@@ -92,7 +94,7 @@
   <nav>
     <a href="index.html" class="nav-logo">ai<span>nofluff</span></a>
     <ul class="nav-links">
-      <li><a href="index.html#posts">Posts</a></li>
+      <li class="nav-back-item"><a href="index.html#posts">Posts</a></li>
       <li><a href="posts/ai-tools-small-business.html">Small business</a></li>
       <li><a href="posts/ai-and-kids.html">AI &amp; kids</a></li>
       <li><a href="shop.html" class="active">Shop</a></li>
