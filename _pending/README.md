@@ -28,8 +28,12 @@ A JSON array. Each object maps 1:1 onto a row of that sheet:
 }
 ```
 
-`_sources` is extra — it is NOT a sheet column. It exists so the news can be
-fact-checked before posting. The sync step drops it.
+`_sources` is the odd one out: in the queue it's an array, but the sync flattens
+it (newline-joined) into the sheet's **`Sources`** column — column J, added
+2026-07-27. The URLs also appear in the Telegram approval message, so the news
+can be checked at the moment of approving rather than taken on trust.
+
+An entry with no `_sources` still syncs fine; `Sources` just comes through empty.
 
 Entries are appended. The sync step removes what it has copied across, so a
 non-empty file means "not yet in the sheet".
