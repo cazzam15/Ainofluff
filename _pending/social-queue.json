@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "Date": "2026-07-31",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "New EU rules mean AI images need labelling from 2 August",
+    "Caption Notes": "If you use AI to make images, video or posts for your business, new EU rules start on 2 August. Anything that looks real but isn't has to be clearly labelled, so people can tell at a glance. It applies if you sell to customers in the EU, even from the UK. Honestly, it's sensible practice anyway: just say when something is AI-made. Read the plain-English breakdown on ainofluff.co.uk.",
+    "Visual Notes": "Bold text graphic on dark charcoal (#0f1117) dot-grid: huge '2 AUGUST' in off-white (#f2efe6), small green (#1ea57a) tag icon reading 'AI-generated', small ainofluff wordmark bottom-right",
+    "Status": "Ready",
+    "Posted At": "",
+    "_sources": [
+      "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+      "https://artificialintelligenceact.eu/article/50/",
+      "https://datamatters.sidley.com/2026/06/24/eu-ai-act-transparency-obligations-preparing-for-compliance-by-2-august-2026/"
+    ]
+  },
+  {
+    "Date": "2026-08-03",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "The fake-boss voicemail scam every small business should know about",
+    "Caption Notes": "Scammers can copy someone's voice from a short clip of them talking online. The trick going round: a voicemail that sounds exactly like your boss or a supplier, asking for an urgent payment. It sounds right, so people pay. The fix is boring and it works. Ring them back on the number you already have saved, never the one that called you. Follow @ainofluff for more plain-English AI safety.",
+    "Visual Notes": "Phone screen mock-up on dark charcoal: a voicemail notification labelled 'Boss' with a small green warning flag beside it; off-white text 'Call back on a number you already have'",
+    "Status": "Ready",
+    "Posted At": "",
+    "_sources": [
+      "https://www.bbb.org/article/scams/21542-scam-alert-new-tech-creates-fake-calls-and-voicemails",
+      "https://www.wsiu.org/science-technology/2026-07-09/bbb-scam-alert-ai-voice-cloning",
+      "https://spectrumnews1.com/oh/columbus/news/2026/07/12/ai-voice-scams--ai-voice-cloning--university-of-cincinnati--cincinnati-better-business-bureau--kimberly-hyun--bbb-scam-tracker"
+    ]
+  },
+  {
+    "Date": "2026-08-05",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "Android will have to let you pick a different AI assistant",
+    "Caption Notes": "On Android, Google's own assistant gets the best access to your phone. The European Commission has told Google that has to change. Rival assistants like ChatGPT and Claude must get the same hooks, including voice activation and permission to actually do things inside your apps. It's an EU decision, so UK phones may follow along rather than change overnight. Worth knowing before your next upgrade. More plain-English AI news at ainofluff.co.uk.",
+    "Visual Notes": "Split graphic on dark charcoal: Google assistant icon on the left, two rival assistant icons on the right, a green equals sign between them; off-white headline 'Same access, by law'",
+    "Status": "Ready",
+    "Posted At": "",
+    "_sources": [
+      "https://digital-markets-act.ec.europa.eu/commission-provides-guidance-google-ai-interoperability-android-and-sharing-google-search-data-under-2026-07-16_en",
+      "https://digital-strategy.ec.europa.eu/en/news/commission-provides-guidance-google-ai-interoperability-android-and-sharing-google-search-data",
+      "https://thenextweb.com/news/google-eu-android-gemini-rivals-dma"
+    ]
+  }
+]
