@@ -30,5 +30,22 @@
       "https://www.wsiu.org/science-technology/2026-07-09/bbb-scam-alert-ai-voice-cloning",
       "https://spectrumnews1.com/oh/columbus/news/2026/07/12/ai-voice-scams--ai-voice-cloning--university-of-cincinnati--cincinnati-better-business-bureau--kimberly-hyun--bbb-scam-tracker"
     ]
+  },
+  {
+    "Date": "2026-08-04",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "OpenAI launches a ChatGPT programme built for small businesses",
+    "Caption Notes": "OpenAI has launched a programme aimed squarely at small businesses: free webinars, plain-English guides and ready-made links to tools a lot of us already use, including Shopify, Slack and QuickBooks. It's a sign that most small business owners still don't know where to start with ChatGPT, and fair enough, most guides assume too much. If you'd rather skip the trial and error, our guides do the same job in plain English. Browse the shop at ainofluff.co.uk/shop.html.",
+    "Visual Notes": "Bold text graphic on dark charcoal (#0f1117): headline 'ChatGPT for small business' in off-white (#f2efe6), row of small green (#1ea57a) outline icons suggesting everyday tools (shop, chat, invoice), small ainofluff wordmark bottom-right",
+    "Status": "Ready",
+    "Posted At": "",
+    "_sources": [
+      "** UNVERIFIED ** — from search results only, WebFetch was blocked this run. Check these links before approving.",
+      "https://openai.com/index/introducing-chatgpt-small-business-program/",
+      "https://www.techradar.com/pro/openai-wants-to-help-your-small-business-grow-if-you-use-chatgpt-more",
+      "https://www.pymnts.com/news/artificial-intelligence/2026/openai-launches-program-to-accelerate-small-business-ai-adoption/"
+    ]
   }
 ]
