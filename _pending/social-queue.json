@@ -47,5 +47,21 @@
       "https://www.pymnts.com/news/artificial-intelligence/2026/openai-launches-program-to-accelerate-small-business-ai-adoption/",
       "https://openai.com/index/introducing-chatgpt-small-business-program/"
     ]
+  },
+  {
+    "Date": "2026-08-07",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "Android will have to let you pick a different AI assistant",
+    "Caption Notes": "On Android, Google's own assistant gets the best access to your phone. The European Commission has told Google that has to change. Rival assistants like ChatGPT and Claude must get the same hooks, including voice activation and permission to actually do things inside your apps. It's an EU decision, so UK phones may follow along rather than change overnight. Worth knowing before your next upgrade. More plain-English AI news at ainofluff.co.uk.",
+    "Visual Notes": "Split graphic on dark charcoal: Google assistant icon on the left, two rival assistant icons on the right, a green equals sign between them; off-white headline 'Same access, by law'",
+    "Status": "Ready",
+    "Posted At": "",
+    "_sources": [
+      "https://digital-markets-act.ec.europa.eu/commission-provides-guidance-google-ai-interoperability-android-and-sharing-google-search-data-under-2026-07-16_en",
+      "https://digital-strategy.ec.europa.eu/en/news/commission-provides-guidance-google-ai-interoperability-android-and-sharing-google-search-data",
+      "https://thenextweb.com/news/google-eu-android-gemini-rivals-dma"
+    ]
   }
 ]
