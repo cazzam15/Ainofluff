@@ -1,38 +1,5 @@
 [
   {
-    "Date": "2026-08-03",
-    "Platform": "All",
-    "Format": "Photo",
-    "Content Type": "AI News",
-    "Topic": "The fake-boss voicemail scam every small business should know about",
-    "Caption Notes": "Scammers can copy someone's voice from a short clip of them talking online. The trick going round: a voicemail that sounds exactly like your boss or a supplier, asking for an urgent payment. It sounds right, so people pay. The fix is boring and it works. Ring them back on the number you already have saved, never the one that called you. Follow @ainofluff for more plain-English AI safety.",
-    "Visual Notes": "Phone screen mock-up on dark charcoal: a voicemail notification labelled 'Boss' with a small green warning flag beside it; off-white text 'Call back on a number you already have'",
-    "Status": "Ready",
-    "Posted At": "",
-    "_sources": [
-      "https://www.bbb.org/article/scams/21542-scam-alert-new-tech-creates-fake-calls-and-voicemails",
-      "https://www.wsiu.org/science-technology/2026-07-09/bbb-scam-alert-ai-voice-cloning",
-      "https://spectrumnews1.com/oh/columbus/news/2026/07/12/ai-voice-scams--ai-voice-cloning--university-of-cincinnati--cincinnati-better-business-bureau--kimberly-hyun--bbb-scam-tracker"
-    ]
-  },
-  {
-    "Date": "2026-08-04",
-    "Platform": "All",
-    "Format": "Photo",
-    "Content Type": "AI News",
-    "Topic": "OpenAI launches a ChatGPT programme built for small businesses",
-    "Caption Notes": "OpenAI has launched a programme aimed at small businesses: online training, step-by-step guides, and ready-made links to tools you might already use, including Shopify, Slack, Dropbox and Intuit. One catch before you get your hopes up. The in-person AI academies are in the United States only, so from here it's the online bits or nothing. If you'd rather just have it in plain English, our guides do the same job. Browse the shop at ainofluff.co.uk/shop.html.",
-    "Visual Notes": "Bold text graphic on dark charcoal (#0f1117): headline 'ChatGPT for small business' in off-white (#f2efe6), row of small green (#1ea57a) outline icons suggesting everyday tools (shop, chat, invoice), small ainofluff wordmark bottom-right",
-    "Status": "Ready",
-    "Posted At": "",
-    "_sources": [
-      "https://9to5mac.com/2026/07/21/openai-launches-small-business-program-as-it-touts-10m-chatgpt-work-and-codex-users/",
-      "https://bestmediainfo.com/mediainfo/mediainfo-digital/openai-launches-chatgpt-for-small-businesses-programme-with-ai-training-partner-integrations-12186572",
-      "https://www.pymnts.com/news/artificial-intelligence/2026/openai-launches-program-to-accelerate-small-business-ai-adoption/",
-      "https://openai.com/index/introducing-chatgpt-small-business-program/"
-    ]
-  },
-  {
     "Date": "2026-08-07",
     "Platform": "All",
     "Format": "Photo",
@@ -46,6 +13,39 @@
       "https://digital-markets-act.ec.europa.eu/commission-provides-guidance-google-ai-interoperability-android-and-sharing-google-search-data-under-2026-07-16_en",
       "https://digital-strategy.ec.europa.eu/en/news/commission-provides-guidance-google-ai-interoperability-android-and-sharing-google-search-data",
       "https://thenextweb.com/news/google-eu-android-gemini-rivals-dma"
+    ]
+  },
+  {
+    "Date": "2026-08-17",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "ChatGPT's free version just got a lot less limited",
+    "Caption Notes": "ChatGPT's free plan used to cap how much you could chat in a day. OpenAI has now scrapped that limit for text chats, and swapped in a newer model called GPT-5.6 Luna as the default. In plain terms: if you've been holding back because you kept hitting a wall, you shouldn't anymore. Image and file limits still apply. Worth another look if you tried ChatGPT once and got stuck. Follow @ainofluff for more plain-English AI updates.",
+    "Visual Notes": "Bold graphic on dark charcoal (#0f1117): headline 'No more daily chat limit' in off-white (#f2efe6), small green (#1ea57a) tick icon, subtle speech-bubble outline, ainofluff wordmark bottom-right",
+    "Status": "Ready",
+    "Posted At": "",
+    "_sources": [
+      "** UNVERIFIED ** — from search results only, WebFetch was blocked this run. Check these links before approving.",
+      "https://www.macrumors.com/2026/08/06/chatgpt-free-unlimited-text-chats/",
+      "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+      "https://help.openai.com/en/articles/20001354-gpt-56-in-chatgpt"
+    ]
+  },
+  {
+    "Date": "2026-08-19",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "OpenAI's new 'Sign in with ChatGPT' — handy, but know what it shares",
+    "Caption Notes": "OpenAI has launched 'Sign in with ChatGPT', so you can log into some other apps and sites using your ChatGPT account, a bit like 'Sign in with Google'. It only shares your name, email and photo with the app itself. But OpenAI keeps a record of every app you sign into this way, plus your IP address and device details. Handy for speed. Worth knowing before you use it everywhere. Read more plain-English AI safety at ainofluff.co.uk.",
+    "Visual Notes": "Split graphic on dark charcoal: padlock icon with 'Sign in with ChatGPT' label on the left; short off-white list on the right, 'Shared: name, email, photo' above 'Kept by OpenAI: IP, device, every app used' in smaller text; ainofluff wordmark bottom-right",
+    "Status": "Ready",
+    "Posted At": "",
+    "_sources": [
+      "** UNVERIFIED ** — from search results only, WebFetch was blocked this run. Check these links before approving.",
+      "https://www.techtimes.com/articles/322791/20260803/sign-chatgpt-launches-what-openai-retains-not-what-gets-shared.htm",
+      "https://help.openai.com/en/articles/20001410-sign-in-with-chatgpt"
     ]
   }
 ]
