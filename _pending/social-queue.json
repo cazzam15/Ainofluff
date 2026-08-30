@@ -1,38 +1,5 @@
 [
   {
-    "Date": "2026-08-17",
-    "Platform": "All",
-    "Format": "Photo",
-    "Content Type": "AI News",
-    "Topic": "ChatGPT's free version just got a lot less limited",
-    "Caption Notes": "ChatGPT's free plan used to cap how much you could chat in a day. OpenAI has now scrapped that limit for text chats, and swapped in a newer model called GPT-5.6 Luna as the default. In plain terms: if you've been holding back because you kept hitting a wall, you shouldn't anymore. Image and file limits still apply. Worth another look if you tried ChatGPT once and got stuck. Follow @ainofluff for more plain-English AI updates.",
-    "Visual Notes": "Bold graphic on dark charcoal (#0f1117): headline 'No more daily chat limit' in off-white (#f2efe6), small green (#1ea57a) tick icon, subtle speech-bubble outline, ainofluff wordmark bottom-right",
-    "Status": "Ready",
-    "Posted At": "",
-    "_sources": [
-      "** UNVERIFIED ** — from search results only, WebFetch was blocked this run. Check these links before approving.",
-      "https://www.macrumors.com/2026/08/06/chatgpt-free-unlimited-text-chats/",
-      "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-      "https://help.openai.com/en/articles/20001354-gpt-56-in-chatgpt"
-    ]
-  },
-  {
-    "Date": "2026-08-19",
-    "Platform": "All",
-    "Format": "Photo",
-    "Content Type": "AI News",
-    "Topic": "OpenAI's new 'Sign in with ChatGPT' — handy, but know what it shares",
-    "Caption Notes": "OpenAI has launched 'Sign in with ChatGPT', so you can log into some other apps and sites using your ChatGPT account, a bit like 'Sign in with Google'. It only shares your name, email and photo with the app itself. But OpenAI keeps a record of every app you sign into this way, plus your IP address and device details. Handy for speed. Worth knowing before you use it everywhere. Read more plain-English AI safety at ainofluff.co.uk.",
-    "Visual Notes": "Split graphic on dark charcoal: padlock icon with 'Sign in with ChatGPT' label on the left; short off-white list on the right, 'Shared: name, email, photo' above 'Kept by OpenAI: IP, device, every app used' in smaller text; ainofluff wordmark bottom-right",
-    "Status": "Ready",
-    "Posted At": "",
-    "_sources": [
-      "** UNVERIFIED ** — from search results only, WebFetch was blocked this run. Check these links before approving.",
-      "https://www.techtimes.com/articles/322791/20260803/sign-chatgpt-launches-what-openai-retains-not-what-gets-shared.htm",
-      "https://help.openai.com/en/articles/20001410-sign-in-with-chatgpt"
-    ]
-  },
-  {
     "Date": "2026-08-20",
     "Platform": "All",
     "Format": "Photo",
@@ -48,6 +15,40 @@
       "https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/",
       "https://www.malwarebytes.com/blog/news/2026/08/whatsapp-is-testing-a-new-warning-for-scam-messages",
       "https://www.digitaltrends.com/phones/whatsapps-new-scam-alert-feature-will-flag-scam-messages-while-keeping-your-chats-private/"
+    ]
+  },
+  {
+    "Date": "2026-08-31",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "Free ChatGPT now shows ads — here's how it decides what to show you",
+    "Caption Notes": "If you use the free version of ChatGPT, you might start seeing ads pop up in your chats. OpenAI has switched them on for free users across Europe, and UK users already had them from earlier this year. The ads are picked based on what you're currently asking about, plus your rough location — not your past chats or saved memories. Paid plans stay ad-free. Read the full breakdown on ainofluff.co.uk.",
+    "Visual Notes": "Graphic on dark charcoal (#0f1117): chat bubble outline with a small 'Ad' tag in the corner, off-white headline 'Free ChatGPT now shows ads', small green (#1ea57a) note 'Paid plans: still ad-free', ainofluff wordmark bottom-right",
+    "Status": "Ready",
+    "Posted At": "",
+    "_sources": [
+      "** UNVERIFIED ** — from search results only, WebFetch was blocked this run. Check these links before approving.",
+      "https://openai.com/index/chatgpt-ads-expands-across-europe/",
+      "https://www.euronews.com/next/2026/08/21/chatgpt-to-start-showing-ads-across-europe-next-week",
+      "https://www.techtimes.com/articles/325091/20260820/chatgpt-ads-reach-europe-monday-opting-out-changes-which-ads-you-see-not-whether-you-see-them.htm"
+    ]
+  },
+  {
+    "Date": "2026-09-01",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "Google's giving students a free year of AI — plus new study tools in Gemini",
+    "Caption Notes": "Google has started rolling out new study tools inside Gemini: flashcards, practice quizzes and study plans built from your own notes. Eligible college students in many countries can also get a free year of Google's paid AI plan. If you've got a teenager heading off to college, or fancy trying it yourself, it's worth a look — free tools are still free tools. Follow @ainofluff for more plain-English AI updates.",
+    "Visual Notes": "Graphic on dark charcoal (#0f1117): notebook/flashcard icon, off-white headline 'Free AI study tools land in Gemini', small green (#1ea57a) note '+ free year of AI Pro for eligible students', ainofluff wordmark bottom-right",
+    "Status": "Ready",
+    "Posted At": "",
+    "_sources": [
+      "** UNVERIFIED ** — from search results only, WebFetch was blocked this run. Check these links before approving.",
+      "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/",
+      "https://thenextweb.com/news/google-students-free-ai-pro-gemini-study-tools",
+      "https://techafricanews.com/2026/08/25/google-free-ai-plans-college-students-gemini-study-tools/"
     ]
   }
 ]
