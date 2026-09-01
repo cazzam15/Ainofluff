@@ -1,23 +1,5 @@
 [
   {
-    "Date": "2026-08-20",
-    "Platform": "All",
-    "Format": "Photo",
-    "Content Type": "AI News",
-    "Topic": "WhatsApp is testing a scam-spotting AI that never reads your chats",
-    "Caption Notes": "WhatsApp is trialling a feature called Scam Alert. If someone outside your contacts messages you, a small AI model on your own phone checks the message against known scam patterns — nothing is sent to WhatsApp or Meta to do this. If it looks dodgy, you get a private warning with the option to block, report or carry on. It's an early, limited test, so most people won't see it yet, but it's a sign of where messaging safety is heading. Follow @ainofluff for more plain-English AI safety updates.",
-    "Visual Notes": "Graphic on dark charcoal (#0f1117): phone outline with a chat bubble and a small shield/warning triangle icon, off-white headline 'Scam-checking, without the snooping', small green tick beside 'Stays on your phone', ainofluff wordmark bottom-right",
-    "Status": "Ready",
-    "Posted At": "",
-    "_sources": [
-      "** UNVERIFIED ** — from search results only, WebFetch was blocked this run. Check these links before approving.",
-      "https://www.forbes.com/sites/daveywinder/2026/08/14/meta-confirms-new-whatsapp-on-device-ai-powered-scam-alert-beta/",
-      "https://engineering.fb.com/2026/08/12/security/how-were-building-scam-alert-whatsapp/",
-      "https://www.malwarebytes.com/blog/news/2026/08/whatsapp-is-testing-a-new-warning-for-scam-messages",
-      "https://www.digitaltrends.com/phones/whatsapps-new-scam-alert-feature-will-flag-scam-messages-while-keeping-your-chats-private/"
-    ]
-  },
-  {
     "Date": "2026-08-31",
     "Platform": "All",
     "Format": "Photo",
@@ -49,6 +31,23 @@
       "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/",
       "https://thenextweb.com/news/google-students-free-ai-pro-gemini-study-tools",
       "https://techafricanews.com/2026/08/25/google-free-ai-plans-college-students-gemini-study-tools/"
+    ]
+  },
+  {
+    "Date": "2026-09-02",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "UK actors are demanding a law against AI voice cloning scams",
+    "Caption Notes": "More than 80 British actors — including Hugh Bonneville and Nicola Coughlan — have asked the Prime Minister for a new law to protect people's voices from AI cloning. A scammer needs a few seconds of audio to fake your voice, no permission needed. Nearly a third of UK adults say they've been targeted by a voice-cloning scam, often a fake call from a 'relative' in trouble. If a call sounds urgent and wants money, hang up and ring back on a number you have. Follow @ainofluff for more AI safety updates.",
+    "Visual Notes": "Graphic on dark charcoal (#0f1117): simple soundwave icon with a small padlock over it, off-white headline 'Your voice, cloned in seconds', small green (#1ea57a) note '80+ UK actors call for a new law', ainofluff wordmark bottom-right",
+    "Status": "Ready",
+    "Posted At": "",
+    "_sources": [
+      "** UNVERIFIED ** — from search results only, WebFetch was blocked this run. Check these links before approving.",
+      "https://www.itv.com/news/2026-08-28/nicola-coughlan-and-matt-lucas-among-stars-backing-ai-voice-cloning-campaign",
+      "https://variety.com/2026/digital/global/nicola-coughlan-matt-lucas-ai-voice-cloning-law-1236845817/",
+      "https://www.artsprofessional.co.uk/news/actors-petition-government-to-legislate-against-ai-voice-cloning"
     ]
   }
 ]
