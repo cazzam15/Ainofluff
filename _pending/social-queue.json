@@ -1,53 +1,36 @@
 [
   {
-    "Date": "2026-08-31",
+    "Date": "2026-09-14",
     "Platform": "All",
     "Format": "Photo",
     "Content Type": "AI News",
-    "Topic": "Free ChatGPT now shows ads — here's how it decides what to show you",
-    "Caption Notes": "If you use the free version of ChatGPT, you might start seeing ads pop up in your chats. OpenAI has switched them on for free users across Europe, and UK users already had them from earlier this year. The ads are picked based on what you're currently asking about, plus your rough location — not your past chats or saved memories. Paid plans stay ad-free. Read the full breakdown on ainofluff.co.uk.",
-    "Visual Notes": "Graphic on dark charcoal (#0f1117): chat bubble outline with a small 'Ad' tag in the corner, off-white headline 'Free ChatGPT now shows ads', small green (#1ea57a) note 'Paid plans: still ad-free', ainofluff wordmark bottom-right",
+    "Topic": "UK small business AI use has more than doubled this year, to 47%",
+    "Caption Notes": "Nearly half of UK small business owners are now using AI — up from just 22% a year ago, according to a new Simply Business survey. Most are using it to write content, solve problems and cut down on admin. But only one in five feel truly confident with it, and security worries are still holding a lot of people back. If you're dabbling but unsure where to start, that's exactly what our guides are for. Browse the shop at ainofluff.co.uk/shop.html.",
+    "Visual Notes": "Graphic on dark charcoal (#0f1117): a simple rising bar icon (two bars, one small one tall), off-white headline 'UK small business AI use: 22% -> 47%', small green (#1ea57a) note 'But only 1 in 5 feel confident using it', ainofluff wordmark bottom-right",
     "Status": "Ready",
     "Posted At": "",
     "_sources": [
       "** UNVERIFIED ** — from search results only, WebFetch was blocked this run. Check these links before approving.",
-      "https://openai.com/index/chatgpt-ads-expands-across-europe/",
-      "https://www.euronews.com/next/2026/08/21/chatgpt-to-start-showing-ads-across-europe-next-week",
-      "https://www.techtimes.com/articles/325091/20260820/chatgpt-ads-reach-europe-monday-opting-out-changes-which-ads-you-see-not-whether-you-see-them.htm"
+      "https://www.simplybusiness.co.uk/knowledge/business-news/small-business-ai-usage-doubles/",
+      "https://bmmagazine.co.uk/ai/ai-adoption-small-businesses-doubles/",
+      "https://securitybrief.co.uk/story/uk-small-firms-ai-use-more-than-doubles-in-a-year"
     ]
   },
   {
-    "Date": "2026-09-01",
+    "Date": "2026-09-15",
     "Platform": "All",
     "Format": "Photo",
     "Content Type": "AI News",
-    "Topic": "Google's giving students a free year of AI — plus new study tools in Gemini",
-    "Caption Notes": "Google has started rolling out new study tools inside Gemini: flashcards, practice quizzes and study plans built from your own notes. Eligible college students in many countries can also get a free year of Google's paid AI plan. If you've got a teenager heading off to college, or fancy trying it yourself, it's worth a look — free tools are still free tools. Follow @ainofluff for more plain-English AI updates.",
-    "Visual Notes": "Graphic on dark charcoal (#0f1117): notebook/flashcard icon, off-white headline 'Free AI study tools land in Gemini', small green (#1ea57a) note '+ free year of AI Pro for eligible students', ainofluff wordmark bottom-right",
+    "Topic": "California just passed the toughest AI chatbot law yet, to protect kids",
+    "Caption Notes": "California has signed the strictest child-safety law yet for AI chatbots, named after a teenager who died after months of conversations with ChatGPT. From 2027, chatbot makers there must verify users' ages, spot signs of self-harm in under-18s, alert parents and pass independent safety audits. It's a US law, but the same chatbots are used by teenagers here too. If your child chats with AI, it's worth checking what safety settings the apps they use already offer. Follow @ainofluff for more plain-English AI safety updates.",
+    "Visual Notes": "Graphic on dark charcoal (#0f1117): a chat bubble icon with a small shield over it, off-white headline 'California's new law protects kids from AI chatbots', small green (#1ea57a) note 'Age checks, self-harm alerts, parent notifications', ainofluff wordmark bottom-right",
     "Status": "Ready",
     "Posted At": "",
     "_sources": [
       "** UNVERIFIED ** — from search results only, WebFetch was blocked this run. Check these links before approving.",
-      "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/",
-      "https://thenextweb.com/news/google-students-free-ai-pro-gemini-study-tools",
-      "https://techafricanews.com/2026/08/25/google-free-ai-plans-college-students-gemini-study-tools/"
-    ]
-  },
-  {
-    "Date": "2026-09-02",
-    "Platform": "All",
-    "Format": "Photo",
-    "Content Type": "AI News",
-    "Topic": "UK actors are demanding a law against AI voice cloning scams",
-    "Caption Notes": "More than 80 British actors — including Hugh Bonneville and Nicola Coughlan — have asked the Prime Minister for a new law to protect people's voices from AI cloning. A scammer needs a few seconds of audio to fake your voice, no permission needed. Nearly a third of UK adults say they've been targeted by a voice-cloning scam, often a fake call from a 'relative' in trouble. If a call sounds urgent and wants money, hang up and ring back on a number you have. Follow @ainofluff for more AI safety updates.",
-    "Visual Notes": "Graphic on dark charcoal (#0f1117): simple soundwave icon with a small padlock over it, off-white headline 'Your voice, cloned in seconds', small green (#1ea57a) note '80+ UK actors call for a new law', ainofluff wordmark bottom-right",
-    "Status": "Ready",
-    "Posted At": "",
-    "_sources": [
-      "** UNVERIFIED ** — from search results only, WebFetch was blocked this run. Check these links before approving.",
-      "https://www.itv.com/news/2026-08-28/nicola-coughlan-and-matt-lucas-among-stars-backing-ai-voice-cloning-campaign",
-      "https://variety.com/2026/digital/global/nicola-coughlan-matt-lucas-ai-voice-cloning-law-1236845817/",
-      "https://www.artsprofessional.co.uk/news/actors-petition-government-to-legislate-against-ai-voice-cloning"
+      "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+      "https://calmatters.org/economy/technology/2026/09/california-enacts-laws-restricting-chatbots-protecting-kids-online/",
+      "https://sd18.senate.ca.gov/news/governor-newsom-signs-adams-law"
     ]
   }
 ]
