@@ -32,5 +32,22 @@
       "https://calmatters.org/economy/technology/2026/09/california-enacts-laws-restricting-chatbots-protecting-kids-online/",
       "https://sd18.senate.ca.gov/news/governor-newsom-signs-adams-law"
     ]
+  },
+  {
+    "Date": "2026-09-16",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "Northern Ireland man loses £250,000 to an AI deepfake investment scam",
+    "Caption Notes": "A man in Northern Ireland has lost £250,000 after scammers used an AI-generated video of a well-known financial personality to promote a fake investment. He was then messaged on WhatsApp, talked into paying more, and even gave the scammers remote access to his computer. Police say this kind of fraud is getting harder to spot because the fake videos look so real. If a video seems to show someone recommending an investment, check directly with that person or company before sending any money. Follow @ainofluff for more plain-English AI safety updates.",
+    "Visual Notes": "Graphic on dark charcoal (#0f1117): a phone screen showing a video play button with a red warning triangle overlay, off-white headline 'One fake video. £250,000 gone.', small green (#1ea57a) note 'Always verify before you invest', ainofluff wordmark bottom-right",
+    "Status": "Ready",
+    "Posted At": "",
+    "_sources": [
+      "** UNVERIFIED ** — from search results only, WebFetch was blocked this run. Check these links before approving.",
+      "https://www.newsletter.co.uk/news/crime/warning-after-victim-conned-out-of-ps250000-in-ai-investment-scam-8973218",
+      "https://www.rte.ie/news/2026/0907/1590626-co-down-scam/",
+      "https://www.irishnews.com/news/northern-ireland/psni-urging-public-to-be-vigilant-after-sophisticated-investment-fraud-victim-looses-250000-IZL253VWX5BOLJN7ZKZ56RUYDY/"
+    ]
   }
 ]
