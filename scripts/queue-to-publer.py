@@ -4,7 +4,8 @@
 Writes exports/publer-fb-ig.csv (full caption). X export is paused; x_text stays in the queue.
 Each exported post needs: Date (YYYY-MM-DD HH:MM), Caption Notes, media, alt_text.
 media and alt_text can be a string or a list (carousel); alt_text needs one entry per image.
-Optional: source_url (posted as a comment), label (defaults to "news").
+Optional: label (defaults to "news"). The Comment(s) column is always left empty: Publer's
+free plan doesn't allow first comments. source_url stays in the queue as a record only.
 Posts are stamped with exported_at once written, and skipped on later runs.
 """
 import csv
@@ -40,14 +41,13 @@ def as_list(v):
     return v if isinstance(v, list) else [v]
 
 
-def row(post, text, comment):
+def row(post, text):
     r = dict.fromkeys(HEADER, "")
     r[HEADER[0]] = post["Date"]
     r[HEADER[1]] = text
     r[HEADER[3]] = ",".join(MEDIA_BASE + m for m in as_list(post["media"]))
     r[HEADER[5]] = post.get("label", DEFAULT_LABEL)
     r[HEADER[6]] = "||".join(as_list(post["alt_text"]))
-    r[HEADER[7]] = comment
     return [r[h] for h in HEADER]
 
 
@@ -80,7 +80,7 @@ def main():
         w = csv.writer(f, quoting=csv.QUOTE_ALL)
         w.writerow(HEADER)
         for p in posts:
-            w.writerow(row(p, p["Caption Notes"], p.get("source_url", "")))
+            w.writerow(row(p, p["Caption Notes"]))
     print(f"Wrote {out} ({len(posts)} posts)")
 
     today = date.today().isoformat()

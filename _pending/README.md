@@ -59,12 +59,16 @@ A JSON array, UTF-8, 2-space indent. A post as the routine writes it:
   "graphic": {"headline": "...", "highlight": "...", "lines": ["...", "..."], "source": "Source: ..."},
   "alt_text": "one sentence describing the graphic",
   "label": "news",
-  "source_url": "original source; posted as the first comment",
+  "source_url": "original source, kept as a record only",
   "checked_sources": ["every URL fetched to check the story"],
   "Status": "hold",
   "Posted At": ""
 }
 ```
+
+`source_url` is not exported: Publer's free plan doesn't allow first comments, so
+the CSV's Comment(s) column is always empty. The caption's last line names the
+source instead.
 
 `Status` is `"hold"` until approved, then `"publer"`. `approve.py` adds `media`;
 `queue-to-publer.py` adds `exported_at`. Older posts use `_sources` instead of
