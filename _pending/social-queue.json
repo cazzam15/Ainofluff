@@ -19,7 +19,8 @@
     "x_text": "Someone in Northern Ireland lost £250,000 to a scam that began with an AI deepfake of a finance celebrity. Warning signs: a famous face selling an investment, pressure to pay more, a move to WhatsApp, requests for remote access. Check the FCA register first.",
     "media": "ai-deepfake-investment-scam.png",
     "alt_text": "The headline '4 warning signs of an AI investment scam' above a numbered list: a famous face promoting an investment, a small first payment then pressure to pay more, the chat moving to WhatsApp, and someone asking for remote access to your computer.",
-    "source_url": "https://www.irishnews.com/news/northern-ireland/psni-urging-public-to-be-vigilant-after-sophisticated-investment-fraud-victim-looses-250000-IZL253VWX5BOLJN7ZKZ56RUYDY/"
+    "source_url": "https://www.irishnews.com/news/northern-ireland/psni-urging-public-to-be-vigilant-after-sophisticated-investment-fraud-victim-looses-250000-IZL253VWX5BOLJN7ZKZ56RUYDY/",
+    "exported_at": "2026-09-26"
   },
   {
     "Date": "2026-10-01 19:00",
@@ -41,6 +42,36 @@
     "x_text": "47% of UK small business owners now use AI, up from 22% a year ago. Fewer than 1 in 5 feel very confident with it. Plain-English starter guides: ainofluff.co.uk/shop.html (Source: Simply Business, 2026)",
     "media": "uk-small-business-ai-survey.png",
     "alt_text": "A large teal '47%' above the words 'of UK small business owners now use AI', with notes that this is up from 22% a year ago and fewer than 1 in 5 feel very confident using it.",
-    "source_url": "https://www.simplybusiness.co.uk/knowledge/business-news/small-business-ai-usage-doubles/"
+    "source_url": "https://www.simplybusiness.co.uk/knowledge/business-news/small-business-ai-usage-doubles/",
+    "exported_at": "2026-09-26"
+  },
+  {
+    "Date": "2026-10-02 19:00",
+    "Platform": "All",
+    "Format": "Carousel",
+    "Content Type": "Built with AI",
+    "Topic": "How I built ainofluff with AI, without coding",
+    "Caption Notes": "I don't write code. In one long day I built this website, put it on its own domain, launched four digital products and filled a month of Instagram.\n\nSwipe for the prompt that built the homepage and the four things that broke.\n\nNone of the fixes needed coding. Each one needed me to spot the problem, describe it in plain words and paste in the fix.\n\nYour turn. Pick one small thing you'd build if you knew how. A one-page site. A price list. A spreadsheet that does your sums. Describe it to AI in as much detail as slide 4.\n\nFull write-up on ainofluff.co.uk\n\n#BuiltWithAI #AIforBeginners #SmallBusinessUK #NoCode",
+    "Visual Notes": "social/how-i-built-ainofluff-1.png to -6.png (6-slide carousel, 1080x1350)",
+    "Status": "publer",
+    "Posted At": "",
+    "label": "built-with-ai",
+    "media": [
+      "how-i-built-ainofluff-1.png",
+      "how-i-built-ainofluff-2.png",
+      "how-i-built-ainofluff-3.png",
+      "how-i-built-ainofluff-4.png",
+      "how-i-built-ainofluff-5.png",
+      "how-i-built-ainofluff-6.png"
+    ],
+    "alt_text": [
+      "Headline reading 'I don't code. I built this whole site with AI anyway.' with 'Here's how, mistakes included.' underneath.",
+      "Heading 'The starting point' above three lines: a name, a Claude Pro subscription and a free GitHub account, then 'No designer. No developer. No clue what DNS meant.'",
+      "Heading 'One long day' above a numbered list: a website written by Claude, its own domain ainofluff.co.uk, four digital products on Gumroad and a month of Instagram posts.",
+      "Heading 'The prompt that built the homepage' above a boxed prompt asking Claude for a single dark, teal-accented HTML homepage that works on GitHub Pages, then 'Every detail saves a round of corrections.'",
+      "Heading '4 things that broke' above four items marked with red crosses: Buy buttons that went nowhere, the shop missing from the menu, Instagram refusing to connect and a squashed spreadsheet.",
+      "Heading 'The running costs' above a table: hosting £0, Gumroad £0 until something sells, the domain once a year and Claude Pro monthly, then 'Read the full build at ainofluff.co.uk'."
+    ],
+    "source_url": "https://ainofluff.co.uk/posts/how-i-built-ainofluff.html"
   }
 ]
