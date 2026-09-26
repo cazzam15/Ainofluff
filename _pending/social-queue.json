@@ -1,31 +1,13 @@
 [
   {
-    "Date": "",
-    "Platform": "All",
-    "Format": "Photo",
-    "Content Type": "AI News",
-    "Topic": "UK small business AI use has more than doubled this year, to 47%",
-    "Caption Notes": "47% of UK small business owners now use AI, up from 22% a year ago. Most use it to write content, solve problems and cut admin. But fewer than 1 in 5 feel very confident using AI, and security worries hold many back. If you're using it but unsure where to start, our guides cover the basics: ainofluff.co.uk/shop.html\n\nSource: Simply Business SME Insights Report 2026, survey of 1,842 UK small business owners.",
-    "Visual Notes": "Graphic on dark charcoal (#0f1117): a simple rising bar icon (two bars, one small one tall), off-white headline 'UK small business AI use: 22% -> 47%', small green (#1ea57a) note 'Fewer than 1 in 5 feel very confident using AI', ainofluff wordmark bottom-right",
-    "Status": "hold",
-    "Posted At": "",
-    "_sources": [
-      "CHECKED: Simply Business SME Insights Report 2026, survey of 1,842 UK small business owners (47%, up from 22%; fewer than 1 in 5 very confident).",
-      "Links below not yet checked:",
-      "https://www.simplybusiness.co.uk/knowledge/business-news/small-business-ai-usage-doubles/",
-      "https://bmmagazine.co.uk/ai/ai-adoption-small-businesses-doubles/",
-      "https://securitybrief.co.uk/story/uk-small-firms-ai-use-more-than-doubles-in-a-year"
-    ]
-  },
-  {
-    "Date": "",
+    "Date": "2026-09-29 19:00",
     "Platform": "All",
     "Format": "Photo",
     "Content Type": "AI News",
     "Topic": "Someone in Northern Ireland loses £250,000 to an AI deepfake investment scam",
-    "Caption Notes": "Someone in Northern Ireland has lost £250,000 to a scam that started with an AI-generated video of a well-known financial personality. Police say these fake videos are getting harder to spot. 4 warning signs:\n\n1. A celebrity video promoting an investment\n2. A small first payment that seems to work\n3. The chat moving to WhatsApp\n4. A request for remote access to your computer\n\nSee any of these? Stop, and check with the person or company directly before you send money. Follow @ainofluff for more plain-English AI safety updates.\n\nSource: PSNI, 7 Sep 2026.",
-    "Visual Notes": "Graphic on dark charcoal (#0f1117): a phone screen showing a video play button with a red warning triangle overlay, off-white headline '4 warning signs of an AI investment scam', small green (#1ea57a) note 'Always verify before you invest', ainofluff wordmark bottom-right",
-    "Status": "hold",
+    "Caption Notes": "Someone in Northern Ireland lost £250,000 to a scam that started with an AI-generated video of a well-known finance personality.\n\nThe video was only the hook. The rest happened on WhatsApp and on a laptop the scammers took control of.\n\n4 warning signs:\n1. A famous face promoting an investment\n2. A small first payment, then pressure to pay more\n3. The chat moves to WhatsApp\n4. Someone asks for remote access to your computer\n\nSpot one? Stop. Check the firm on the FCA register before you send a penny.\n\nPolice say a celebrity endorsement never proves an investment is real. Send this to someone who'd trust that video.\n\nSource: PSNI, 7 Sep 2026.",
+    "Visual Notes": "social/ai-deepfake-investment-scam.png (1080x1350)",
+    "Status": "publer",
     "Posted At": "",
     "_sources": [
       "CHECKED: PSNI, 7 Sep 2026.",
@@ -33,6 +15,32 @@
       "https://www.newsletter.co.uk/news/crime/warning-after-victim-conned-out-of-ps250000-in-ai-investment-scam-8973218",
       "https://www.rte.ie/news/2026/0907/1590626-co-down-scam/",
       "https://www.irishnews.com/news/northern-ireland/psni-urging-public-to-be-vigilant-after-sophisticated-investment-fraud-victim-looses-250000-IZL253VWX5BOLJN7ZKZ56RUYDY/"
-    ]
+    ],
+    "x_text": "Someone in Northern Ireland lost £250,000 to a scam that began with an AI deepfake of a finance celebrity. Warning signs: a famous face selling an investment, pressure to pay more, a move to WhatsApp, requests for remote access. Check the FCA register first.",
+    "media": "ai-deepfake-investment-scam.png",
+    "alt_text": "The headline '4 warning signs of an AI investment scam' above a numbered list: a famous face promoting an investment, a small first payment then pressure to pay more, the chat moving to WhatsApp, and someone asking for remote access to your computer.",
+    "source_url": "https://www.irishnews.com/news/northern-ireland/psni-urging-public-to-be-vigilant-after-sophisticated-investment-fraud-victim-looses-250000-IZL253VWX5BOLJN7ZKZ56RUYDY/"
+  },
+  {
+    "Date": "2026-10-01 19:00",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "UK small business AI use has more than doubled this year, to 47%",
+    "Caption Notes": "47% of UK small business owners now use AI. A year ago it was 22%.\n\nWriting content, solving problems and coming up with ideas top the list. The confidence lags behind: fewer than 1 in 5 feel very confident using it, and security worries hold plenty back.\n\nUsing AI but not sure you're doing it right? Our starter guides cover the basics. Link in bio.\n\nSource: Simply Business SME Insights Report 2026, survey of 1,842 UK small business owners.",
+    "Visual Notes": "social/uk-small-business-ai-survey.png (1080x1350)",
+    "Status": "publer",
+    "Posted At": "",
+    "_sources": [
+      "CHECKED: Simply Business SME Insights Report 2026, survey of 1,842 UK small business owners (47%, up from 22%; fewer than 1 in 5 very confident).",
+      "Links below not yet checked:",
+      "https://www.simplybusiness.co.uk/knowledge/business-news/small-business-ai-usage-doubles/",
+      "https://bmmagazine.co.uk/ai/ai-adoption-small-businesses-doubles/",
+      "https://securitybrief.co.uk/story/uk-small-firms-ai-use-more-than-doubles-in-a-year"
+    ],
+    "x_text": "47% of UK small business owners now use AI, up from 22% a year ago. Fewer than 1 in 5 feel very confident with it. Plain-English starter guides: ainofluff.co.uk/shop.html (Source: Simply Business, 2026)",
+    "media": "uk-small-business-ai-survey.png",
+    "alt_text": "A large teal '47%' above the words 'of UK small business owners now use AI', with notes that this is up from 22% a year ago and fewer than 1 in 5 feel very confident using it.",
+    "source_url": "https://www.simplybusiness.co.uk/knowledge/business-news/small-business-ai-usage-doubles/"
   }
 ]
