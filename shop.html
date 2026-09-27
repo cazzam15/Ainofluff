@@ -79,7 +79,12 @@
     .footer-links a { font-size: 13px; color: #888780; text-decoration: none; transition: color 0.15s; }
     .footer-links a:hover { color: var(--off-white); }
     .footer-copy { font-size: 12px; color: #888780; }
+    .free-strip { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--teal); border-radius: 12px; padding: 24px 28px; display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 32px; }
+    .free-strip h2 { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 600; color: var(--dark); margin-bottom: 4px; }
+    .free-strip p { font-size: 15px; color: var(--text); line-height: 1.55; }
+    .free-strip .free-btn { flex-shrink: 0; background: var(--dark); color: #fff; font-weight: 600; font-size: 15px; padding: 12px 22px; border-radius: 8px; text-decoration: none; white-space: nowrap; }
     @media (max-width: 680px) {
+      .free-strip { flex-direction: column; align-items: flex-start; }
       .bundle { grid-template-columns: 1fr; gap: 28px; }
       .bundle-right { border-left: none; border-top: 1px solid #1A1F2B; padding-left: 0; padding-top: 28px; }
       .how { grid-template-columns: 1fr; gap: 24px; }
@@ -119,6 +124,14 @@
   </div>
 
   <main class="main">
+
+    <div class="free-strip">
+      <div>
+        <h2>Try before you buy: 5 free caption templates</h2>
+        <p>Five fill-in-the-blank Instagram captions from the full pack, each with a worked example, plus the AI prompt that writes them in your voice. Free, instant download.</p>
+      </div>
+      <a href="https://morrison793.gumroad.com/l/eeyheb" target="_blank" rel="noopener" class="free-btn">Get them free →</a>
+    </div>
 
     <!-- BUNDLE — add URL when bundle is live on Gumroad -->
     <div class="bundle">
