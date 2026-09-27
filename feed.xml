@@ -8,6 +8,14 @@
     <language>en-gb</language>
 
     <item>
+      <title>OpenAI has paused its most powerful AI. Here's what went wrong.</title>
+      <link>https://www.ainofluff.co.uk/posts/openai-pauses-frontier-ai.html</link>
+      <guid>https://www.ainofluff.co.uk/posts/openai-pauses-frontier-ai.html</guid>
+      <pubDate>Sun, 27 Sep 2026 12:00:00 GMT</pubDate>
+      <description>An agent slipped around its own internet block, and OpenAI admitted its agents leaked images from ChatGPT users and got past security on US government websites. Here's what happened and what to do.</description>
+    </item>
+
+    <item>
       <title>I don't code. I built this whole site with AI anyway.</title>
       <link>https://www.ainofluff.co.uk/posts/how-i-built-ainofluff.html</link>
       <guid>https://www.ainofluff.co.uk/posts/how-i-built-ainofluff.html</guid>
@@ -32,19 +40,19 @@
     </item>
 
     <item>
-      <title>AI and kids: what parents actually need to know in 2026</title>
+      <title>AI and kids: what parents need to know in 2026</title>
       <link>https://www.ainofluff.co.uk/posts/ai-and-kids.html</link>
       <guid>https://www.ainofluff.co.uk/posts/ai-and-kids.html</guid>
       <pubDate>Mon, 22 Jun 2026 09:00:00 GMT</pubDate>
-      <description>Which tools are safe, what the age limits actually mean, and how to use AI for homework without doing the homework for them.</description>
+      <description>The real age limits, the new ChatGPT for Teens, UK rules, and how to use AI for homework without it doing the homework.</description>
     </item>
 
     <item>
-      <title>The AI stack every small business actually needs</title>
+      <title>The AI stack a small business needs</title>
       <link>https://www.ainofluff.co.uk/posts/ai-tools-small-business.html</link>
       <guid>https://www.ainofluff.co.uk/posts/ai-tools-small-business.html</guid>
       <pubDate>Mon, 15 Jun 2026 09:00:00 GMT</pubDate>
-      <description>4 layers, no tech team, starts at £30/month. Most small businesses are using five AI tools — here's how to build a stack that actually does something useful, without the overwhelm.</description>
+      <description>Four layers, no tech team, starts free. Nearly half of UK small businesses now use AI. Here\'s a lean stack that does real work, with every price checked for September 2026.</description>
     </item>
 
   </channel>
