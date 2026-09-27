@@ -12,6 +12,6 @@ Apply these to all ainofluff copy: posts, captions, pages and newsletters.
 - Vary sentence rhythm
 - Trust the reader
 - Put the reader in the room
-- Score all copy on Directness, Rhythm, Trust, Authenticity and Density (1–10 each). Revise anything under 35/50.
+- Before handing copy over, reread it for directness, rhythm, trust, authenticity and density, and revise the weakest lines.
 - British English, GBP pricing.
 - Fact-check every statistic against its original source before publishing.
