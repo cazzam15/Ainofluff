@@ -102,3 +102,25 @@ NOT on the site. Promoting it means:
 Each draft has a sibling `<name>.sources.md` listing every claim and where it
 came from. Check those before promoting. AI news moves fast and gets reported
 wrong, and a blog post is public and indexed.
+
+## tools/ and tools-kit/: the New tools page
+
+The tools routine (cloud, Mondays 09:00 UTC) follows `tools-kit/ROUTINE.md`. It
+looks for last week's launches in tools UK small businesses use, checks each one
+against the company's own announcement, and writes one draft update for
+`tools.html`:
+
+- `tools/<date>.html`: one `<section class="update">` block, ready to insert
+- `tools/<date>.sources.md`: every claim and the URL that confirms it
+
+To publish: pull, read both files, edit or delete entries in the `.html` draft,
+then run
+
+```
+python3 scripts/approve-tools.py <date>
+```
+
+It inserts the block at the top of the list on `tools.html`, sets "Last updated"
+and deletes the draft. It refuses drafts with em dashes, duplicate source links,
+or an entry without exactly one source link. Then run through `DEPLOY.md`, commit
+and push. To skip a week, delete the draft. The routine never edits `tools.html`.
