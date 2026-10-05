@@ -74,5 +74,27 @@
     ],
     "source_url": "https://ainofluff.co.uk/posts/how-i-built-ainofluff.html",
     "exported_at": "2026-09-26"
+  },
+  {
+    "id": "2026-10-05-ai-scam-watchlist",
+    "added": "2026-10-05",
+    "Date": "",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "Nearly half of UK adults can't tell what's genuine online anymore, NTS warns",
+    "Caption Notes": "Nearly half of UK adults say they can't tell anymore whether something online is genuine. A quarter feel overwhelmed by how convincing AI-made scams have become.\n\nNational Trading Standards has published an AI Scam Watchlist naming the five tricks behind most of the damage: fake websites, cloned voices, deepfake video, AI-made images and 'digital humans' who chat back in real time.\n\nBad spelling and blurry photos used to give scams away. They don't anymore. Before you pay or share details, stop, check the person or company through a separate channel, and hold back your money and data until you're sure.\n\nFollow @ainofluff for more plain-English AI updates.\n\nSource: National Trading Standards, 30 Sep 2026.",
+    "x_text": "Nearly half of UK adults say they can't tell if something online is genuine, and a quarter feel overwhelmed by AI scams. National Trading Standards names 5 tricks to watch for: fake sites, cloned voices, deepfake video, AI images, digital humans. Source: NTS, 30 Sep 2026.",
+    "graphic": {"headline": "Half of UK adults can't spot scams", "highlight": "Half", "lines": ["AI scams: 5 tricks to know", "Fake sites, cloned voices, deepfake video", "Stop. Check separately. Then pay."], "source": "Source: NTS, Sep 2026"},
+    "alt_text": "A graphic headlined 'Half of UK adults can't spot scams' above three lines: AI scams and 5 tricks to know, fake sites, cloned voices and deepfake video, and advice to stop, check separately, then pay.",
+    "label": "news",
+    "source_url": "https://nationaltradingstandards.uk/news/half-of-brits-struggle-to-tell-whats-genuine-online-as-ai-supercharges-scams",
+    "checked_sources": [
+      "https://nationaltradingstandards.uk/news/half-of-brits-struggle-to-tell-whats-genuine-online-as-ai-supercharges-scams",
+      "https://nationaltradingstandards.uk/news",
+      "https://fintech.global/2026/09/30/ai-scams-leave-a-quarter-of-uk-adults-overwhelmed/"
+    ],
+    "Status": "hold",
+    "Posted At": ""
   }
 ]
