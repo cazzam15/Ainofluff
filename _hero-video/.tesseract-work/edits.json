@@ -1,0 +1,1785 @@
+[
+ {
+  "type": "createFxTextLayer",
+  "compositionId": "main",
+  "layerId": 1,
+  "name": "Label: jargon",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 0,
+   "duration": 9000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    96,
+    230
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "sourceText": {
+   "text": "JARGON",
+   "fontFamily": "Inter",
+   "fontStyle": "Medium",
+   "fontSize": 26,
+   "fillColor": [
+    0.5333333333333333,
+    0.5294117647058824,
+    0.5019607843137255,
+    1.0
+   ],
+   "justification": "left",
+   "tracking": 180
+  }
+ },
+ {
+  "type": "createFxRectLayer",
+  "compositionId": "main",
+  "layerId": 3,
+  "name": "Divider",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 0,
+   "duration": 9000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    96,
+    490
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "rect": {
+   "size": [
+    888,
+    2
+   ],
+   "fillColor": [
+    0.17254901960784313,
+    0.19607843137254902,
+    0.25882352941176473,
+    1.0
+   ]
+  }
+ },
+ {
+  "type": "createFxTextLayer",
+  "compositionId": "main",
+  "layerId": 2,
+  "name": "Label: plain English",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 0,
+   "duration": 9000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    96,
+    530
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "sourceText": {
+   "text": "PLAIN ENGLISH",
+   "fontFamily": "Inter",
+   "fontStyle": "Medium",
+   "fontSize": 26,
+   "fillColor": [
+    0.11372549019607843,
+    0.6196078431372549,
+    0.4588235294117647,
+    1.0
+   ],
+   "justification": "left",
+   "tracking": 180
+  }
+ },
+ {
+  "type": "createFxRectLayer",
+  "compositionId": "main",
+  "layerId": 4,
+  "name": "Dot 1",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 0,
+   "duration": 9000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    96,
+    870
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "rect": {
+   "size": [
+    40,
+    6
+   ],
+   "fillColor": [
+    0.17254901960784313,
+    0.19607843137254902,
+    0.25882352941176473,
+    1.0
+   ]
+  }
+ },
+ {
+  "type": "createFxRectLayer",
+  "compositionId": "main",
+  "layerId": 7,
+  "name": "Dot 1 active",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 0,
+   "duration": 3000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    96,
+    870
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "rect": {
+   "size": [
+    40,
+    6
+   ],
+   "fillColor": [
+    0.11372549019607843,
+    0.6196078431372549,
+    0.4588235294117647,
+    1.0
+   ]
+  }
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 7,
+   "propertyType": "scaleX"
+  },
+  "keyframes": [
+   {
+    "id": "dot0-scaleX-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "dot0-scaleX-1",
+    "layerTime": 400,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "createFxRectLayer",
+  "compositionId": "main",
+  "layerId": 5,
+  "name": "Dot 2",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 0,
+   "duration": 9000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    152,
+    870
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "rect": {
+   "size": [
+    40,
+    6
+   ],
+   "fillColor": [
+    0.17254901960784313,
+    0.19607843137254902,
+    0.25882352941176473,
+    1.0
+   ]
+  }
+ },
+ {
+  "type": "createFxRectLayer",
+  "compositionId": "main",
+  "layerId": 8,
+  "name": "Dot 2 active",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 3000,
+   "duration": 3000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    152,
+    870
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "rect": {
+   "size": [
+    40,
+    6
+   ],
+   "fillColor": [
+    0.11372549019607843,
+    0.6196078431372549,
+    0.4588235294117647,
+    1.0
+   ]
+  }
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 8,
+   "propertyType": "scaleX"
+  },
+  "keyframes": [
+   {
+    "id": "dot1-scaleX-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "dot1-scaleX-1",
+    "layerTime": 400,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "createFxRectLayer",
+  "compositionId": "main",
+  "layerId": 6,
+  "name": "Dot 3",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 0,
+   "duration": 9000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    208,
+    870
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "rect": {
+   "size": [
+    40,
+    6
+   ],
+   "fillColor": [
+    0.17254901960784313,
+    0.19607843137254902,
+    0.25882352941176473,
+    1.0
+   ]
+  }
+ },
+ {
+  "type": "createFxRectLayer",
+  "compositionId": "main",
+  "layerId": 9,
+  "name": "Dot 3 active",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 6000,
+   "duration": 3000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    208,
+    870
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "rect": {
+   "size": [
+    40,
+    6
+   ],
+   "fillColor": [
+    0.11372549019607843,
+    0.6196078431372549,
+    0.4588235294117647,
+    1.0
+   ]
+  }
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 9,
+   "propertyType": "scaleX"
+  },
+  "keyframes": [
+   {
+    "id": "dot2-scaleX-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "dot2-scaleX-1",
+    "layerTime": 400,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "createFxTextLayer",
+  "compositionId": "main",
+  "layerId": 10,
+  "name": "Jargon 1",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 0,
+   "duration": 3000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    96,
+    360
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "sourceText": {
+   "text": "Large language model",
+   "fontFamily": "Space Grotesk Light",
+   "fontStyle": "Medium",
+   "fontSize": 84,
+   "fillColor": [
+    0.37254901960784315,
+    0.3686274509803922,
+    0.35294117647058826,
+    1.0
+   ],
+   "justification": "left"
+  }
+ },
+ {
+  "type": "createFxRectLayer",
+  "compositionId": "main",
+  "layerId": 11,
+  "name": "Strike 1",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 0,
+   "duration": 3000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    88,
+    330
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "rect": {
+   "size": [
+    905,
+    8
+   ],
+   "fillColor": [
+    0.8862745098039215,
+    0.29411764705882354,
+    0.2901960784313726,
+    1.0
+   ]
+  }
+ },
+ {
+  "type": "createFxTextLayer",
+  "compositionId": "main",
+  "layerId": 12,
+  "name": "Plain 1",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 0,
+   "duration": 3000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    96,
+    590
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "sourceText": {
+   "text": "A chatbot that writes like a person",
+   "fontFamily": "Space Grotesk Light",
+   "fontStyle": "Bold",
+   "fontSize": 84,
+   "fillColor": [
+    0.9607843137254902,
+    0.9607843137254902,
+    0.9411764705882353,
+    1.0
+   ],
+   "justification": "left",
+   "boxText": true,
+   "boxPosition": [
+    0,
+    0
+   ],
+   "boxSize": [
+    888,
+    220
+   ]
+  }
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 10,
+   "propertyType": "opacity"
+  },
+  "keyframes": [
+   {
+    "id": "pair0j-opacity-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair0j-opacity-1",
+    "layerTime": 350,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   },
+   {
+    "id": "pair0j-opacity-2",
+    "layerTime": 2600,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair0j-opacity-3",
+    "layerTime": 2900,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.4,
+     "y1": 0,
+     "x2": 1,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 10,
+   "propertyType": "positionY"
+  },
+  "keyframes": [
+   {
+    "id": "pair0j-positionY-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 388
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair0j-positionY-1",
+    "layerTime": 450,
+    "value": {
+     "type": "float",
+     "value": 360
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 11,
+   "propertyType": "scaleX"
+  },
+  "keyframes": [
+   {
+    "id": "pair0s-scaleX-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair0s-scaleX-1",
+    "layerTime": 650,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair0s-scaleX-2",
+    "layerTime": 1000,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 11,
+   "propertyType": "opacity"
+  },
+  "keyframes": [
+   {
+    "id": "pair0s-opacity-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair0s-opacity-1",
+    "layerTime": 2600,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair0s-opacity-2",
+    "layerTime": 2900,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.4,
+     "y1": 0,
+     "x2": 1,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 12,
+   "propertyType": "opacity"
+  },
+  "keyframes": [
+   {
+    "id": "pair0p-opacity-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair0p-opacity-1",
+    "layerTime": 1050,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair0p-opacity-2",
+    "layerTime": 1450,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   },
+   {
+    "id": "pair0p-opacity-3",
+    "layerTime": 2600,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair0p-opacity-4",
+    "layerTime": 2900,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.4,
+     "y1": 0,
+     "x2": 1,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 12,
+   "propertyType": "positionY"
+  },
+  "keyframes": [
+   {
+    "id": "pair0p-positionY-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 622
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair0p-positionY-1",
+    "layerTime": 1050,
+    "value": {
+     "type": "float",
+     "value": 622
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair0p-positionY-2",
+    "layerTime": 1550,
+    "value": {
+     "type": "float",
+     "value": 590
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "createFxTextLayer",
+  "compositionId": "main",
+  "layerId": 20,
+  "name": "Jargon 2",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 3000,
+   "duration": 3000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    96,
+    360
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "sourceText": {
+   "text": "Agentic AI",
+   "fontFamily": "Space Grotesk Light",
+   "fontStyle": "Medium",
+   "fontSize": 84,
+   "fillColor": [
+    0.37254901960784315,
+    0.3686274509803922,
+    0.35294117647058826,
+    1.0
+   ],
+   "justification": "left"
+  }
+ },
+ {
+  "type": "createFxRectLayer",
+  "compositionId": "main",
+  "layerId": 21,
+  "name": "Strike 2",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 3000,
+   "duration": 3000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    88,
+    330
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "rect": {
+   "size": [
+    420,
+    8
+   ],
+   "fillColor": [
+    0.8862745098039215,
+    0.29411764705882354,
+    0.2901960784313726,
+    1.0
+   ]
+  }
+ },
+ {
+  "type": "createFxTextLayer",
+  "compositionId": "main",
+  "layerId": 22,
+  "name": "Plain 2",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 3000,
+   "duration": 3000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    96,
+    590
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "sourceText": {
+   "text": "AI that does the job for you",
+   "fontFamily": "Space Grotesk Light",
+   "fontStyle": "Bold",
+   "fontSize": 84,
+   "fillColor": [
+    0.9607843137254902,
+    0.9607843137254902,
+    0.9411764705882353,
+    1.0
+   ],
+   "justification": "left",
+   "boxText": true,
+   "boxPosition": [
+    0,
+    0
+   ],
+   "boxSize": [
+    888,
+    220
+   ]
+  }
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 20,
+   "propertyType": "opacity"
+  },
+  "keyframes": [
+   {
+    "id": "pair1j-opacity-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair1j-opacity-1",
+    "layerTime": 350,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   },
+   {
+    "id": "pair1j-opacity-2",
+    "layerTime": 2600,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair1j-opacity-3",
+    "layerTime": 2900,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.4,
+     "y1": 0,
+     "x2": 1,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 20,
+   "propertyType": "positionY"
+  },
+  "keyframes": [
+   {
+    "id": "pair1j-positionY-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 388
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair1j-positionY-1",
+    "layerTime": 450,
+    "value": {
+     "type": "float",
+     "value": 360
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 21,
+   "propertyType": "scaleX"
+  },
+  "keyframes": [
+   {
+    "id": "pair1s-scaleX-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair1s-scaleX-1",
+    "layerTime": 650,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair1s-scaleX-2",
+    "layerTime": 1000,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 21,
+   "propertyType": "opacity"
+  },
+  "keyframes": [
+   {
+    "id": "pair1s-opacity-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair1s-opacity-1",
+    "layerTime": 2600,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair1s-opacity-2",
+    "layerTime": 2900,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.4,
+     "y1": 0,
+     "x2": 1,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 22,
+   "propertyType": "opacity"
+  },
+  "keyframes": [
+   {
+    "id": "pair1p-opacity-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair1p-opacity-1",
+    "layerTime": 1050,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair1p-opacity-2",
+    "layerTime": 1450,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   },
+   {
+    "id": "pair1p-opacity-3",
+    "layerTime": 2600,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair1p-opacity-4",
+    "layerTime": 2900,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.4,
+     "y1": 0,
+     "x2": 1,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 22,
+   "propertyType": "positionY"
+  },
+  "keyframes": [
+   {
+    "id": "pair1p-positionY-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 622
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair1p-positionY-1",
+    "layerTime": 1050,
+    "value": {
+     "type": "float",
+     "value": 622
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair1p-positionY-2",
+    "layerTime": 1550,
+    "value": {
+     "type": "float",
+     "value": 590
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "createFxTextLayer",
+  "compositionId": "main",
+  "layerId": 30,
+  "name": "Jargon 3",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 6000,
+   "duration": 3000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    96,
+    360
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "sourceText": {
+   "text": "Hallucination",
+   "fontFamily": "Space Grotesk Light",
+   "fontStyle": "Medium",
+   "fontSize": 84,
+   "fillColor": [
+    0.37254901960784315,
+    0.3686274509803922,
+    0.35294117647058826,
+    1.0
+   ],
+   "justification": "left"
+  }
+ },
+ {
+  "type": "createFxRectLayer",
+  "compositionId": "main",
+  "layerId": 31,
+  "name": "Strike 3",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 6000,
+   "duration": 3000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    88,
+    330
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "rect": {
+   "size": [
+    539,
+    8
+   ],
+   "fillColor": [
+    0.8862745098039215,
+    0.29411764705882354,
+    0.2901960784313726,
+    1.0
+   ]
+  }
+ },
+ {
+  "type": "createFxTextLayer",
+  "compositionId": "main",
+  "layerId": 32,
+  "name": "Plain 3",
+  "insertIndex": 0,
+  "activeRange": {
+   "start": 6000,
+   "duration": 3000
+  },
+  "transform": {
+   "anchorPoint": [
+    0,
+    0
+   ],
+   "position": [
+    96,
+    590
+   ],
+   "scale": [
+    100,
+    100
+   ],
+   "rotation": 0,
+   "opacity": 100
+  },
+  "sourceText": {
+   "text": "When AI makes\nthings up",
+   "fontFamily": "Space Grotesk Light",
+   "fontStyle": "Bold",
+   "fontSize": 84,
+   "fillColor": [
+    0.9607843137254902,
+    0.9607843137254902,
+    0.9411764705882353,
+    1.0
+   ],
+   "justification": "left",
+   "boxText": true,
+   "boxPosition": [
+    0,
+    0
+   ],
+   "boxSize": [
+    888,
+    220
+   ]
+  }
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 30,
+   "propertyType": "opacity"
+  },
+  "keyframes": [
+   {
+    "id": "pair2j-opacity-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair2j-opacity-1",
+    "layerTime": 350,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   },
+   {
+    "id": "pair2j-opacity-2",
+    "layerTime": 2600,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair2j-opacity-3",
+    "layerTime": 2900,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.4,
+     "y1": 0,
+     "x2": 1,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 30,
+   "propertyType": "positionY"
+  },
+  "keyframes": [
+   {
+    "id": "pair2j-positionY-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 388
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair2j-positionY-1",
+    "layerTime": 450,
+    "value": {
+     "type": "float",
+     "value": 360
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 31,
+   "propertyType": "scaleX"
+  },
+  "keyframes": [
+   {
+    "id": "pair2s-scaleX-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair2s-scaleX-1",
+    "layerTime": 650,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair2s-scaleX-2",
+    "layerTime": 1000,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 31,
+   "propertyType": "opacity"
+  },
+  "keyframes": [
+   {
+    "id": "pair2s-opacity-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair2s-opacity-1",
+    "layerTime": 2600,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair2s-opacity-2",
+    "layerTime": 2900,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.4,
+     "y1": 0,
+     "x2": 1,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 32,
+   "propertyType": "opacity"
+  },
+  "keyframes": [
+   {
+    "id": "pair2p-opacity-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair2p-opacity-1",
+    "layerTime": 1050,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair2p-opacity-2",
+    "layerTime": 1450,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   },
+   {
+    "id": "pair2p-opacity-3",
+    "layerTime": 2600,
+    "value": {
+     "type": "float",
+     "value": 100
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair2p-opacity-4",
+    "layerTime": 2900,
+    "value": {
+     "type": "float",
+     "value": 0
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.4,
+     "y1": 0,
+     "x2": 1,
+     "y2": 1
+    }
+   }
+  ]
+ },
+ {
+  "type": "setFxPropertyKeyframes",
+  "compositionId": "main",
+  "property": {
+   "layerId": 32,
+   "propertyType": "positionY"
+  },
+  "keyframes": [
+   {
+    "id": "pair2p-positionY-0",
+    "layerTime": 0,
+    "value": {
+     "type": "float",
+     "value": 622
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair2p-positionY-1",
+    "layerTime": 1050,
+    "value": {
+     "type": "float",
+     "value": 622
+    },
+    "easing": {
+     "type": "linear"
+    }
+   },
+   {
+    "id": "pair2p-positionY-2",
+    "layerTime": 1550,
+    "value": {
+     "type": "float",
+     "value": 590
+    },
+    "easing": {
+     "type": "cubicBezier",
+     "x1": 0.2,
+     "y1": 0,
+     "x2": 0.2,
+     "y2": 1
+    }
+   }
+  ]
+ }
+]
