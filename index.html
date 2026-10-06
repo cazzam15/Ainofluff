@@ -109,6 +109,14 @@
     .footer-links a { font-size: 13px; color: #888780; text-decoration: none; transition: color 0.15s; }
     .footer-links a:hover { color: var(--off-white); }
     .footer-copy { font-size: 12px; color: #888780; }
+    .today { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: center; background: #fff; border: 1px solid var(--border); border-left: 4px solid var(--teal); border-radius: 10px; padding: 24px 28px; margin-bottom: 56px; }
+    .today-eyebrow { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--teal); margin-bottom: 8px; }
+    .today-title { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.25; margin-bottom: 6px; }
+    .today-title a { color: var(--text); text-decoration: none; }
+    .today-title a:hover { color: var(--teal); }
+    .today-sum { font-size: 15px; color: var(--muted); max-width: 70ch; }
+    .today-all { font-size: 14px; font-weight: 500; color: var(--teal); text-decoration: none; white-space: nowrap; }
+    .today-all:hover { text-decoration: underline; }
     /* Motion. Only runs when JS has marked the page (html.js) and the visitor allows motion. */
     @media (prefers-reduced-motion: no-preference) {
       .hero-headline .struck { animation: rise 0.6s cubic-bezier(.2,0,.2,1) 0.1s both; }
@@ -139,6 +147,7 @@
       .nav-links li:not(.nav-shop-item) { display: none; }
       .nav-links { gap: 0; }
       footer { justify-content: flex-start; gap: 20px; }
+      .today { grid-template-columns: 1fr; gap: 12px; padding: 20px; }
     }
     @media (prefers-reduced-motion: reduce) {
       .post-card { transition: none; }
@@ -153,8 +162,9 @@
     <a href="/" class="nav-logo">ai<span>nofluff</span></a>
     <ul class="nav-links">
       <li><a href="#posts">Posts</a></li>
-      <li><a href="builds.html">Builds</a></li>
+      <li><a href="news.html">AI news</a></li>
       <li><a href="tools.html">New tools</a></li>
+      <li><a href="builds.html">Builds</a></li>
       <li><a href="posts/ai-tools-small-business.html">Small business</a></li>
       <li><a href="posts/ai-and-kids.html">AI &amp; kids</a></li>
       <li><a href="https://instagram.com/ainofluff" target="_blank" rel="noopener">Instagram ↗</a></li>
@@ -215,6 +225,17 @@
   </div>
 
   <main class="main" id="posts">
+
+    <!-- news:latest (scripts/publish-news.py replaces everything up to the closing marker) -->
+    <div class="today">
+      <div>
+        <p class="today-eyebrow">Today's AI news · 6 October</p>
+        <h2 class="today-title"><a href="news.html#n-2026-10-06-chatgpt-picture-ads">ChatGPT will show picture ads while it makes your images</a></h2>
+        <p class="today-sum">OpenAI is testing picture ads in ChatGPT&#x27;s image maker, starting in the US. UK Free and Go users already see text ads, and you can limit what they know about you.</p>
+      </div>
+      <a href="news.html" class="today-all">All AI news →</a>
+    </div>
+    <!-- /news:latest -->
 
     <div class="section-header reveal">
       <h2 class="section-title">Latest posts</h2>
@@ -329,8 +350,9 @@
     <a href="/" class="footer-logo">ai<span>nofluff</span></a>
     <ul class="footer-links">
       <li><a href="#posts">Posts</a></li>
-      <li><a href="builds.html">Builds</a></li>
+      <li><a href="news.html">AI news</a></li>
       <li><a href="tools.html">New tools</a></li>
+      <li><a href="builds.html">Builds</a></li>
       <li><a href="shop.html">Shop</a></li>
       <li><a href="https://instagram.com/ainofluff" target="_blank" rel="noopener">Instagram</a></li>
       <li><a href="https://youtube.com/@ainofluffuk" target="_blank" rel="noopener">YouTube</a></li>

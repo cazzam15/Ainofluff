@@ -4,6 +4,27 @@ Nothing in this folder is published. The leading underscore means GitHub Pages
 (Jekyll) excludes the whole directory from the built site, so these files are not
 reachable at ainofluff.co.uk. They ARE visible in the public GitHub repo.
 
+## Daily news: published automatically
+
+Since 6 October 2026 the daily news routine (cloud, 06:00 UTC, so 07:00 UK in summer and
+06:00 in winter) follows `news-kit/ROUTINE.md`. It picks one story, fact-checks it against
+the original source and writes `news/<date>.json`. Then it runs
+
+```
+python3 scripts/publish-news.py <date>
+```
+
+That puts the story at the top of `news.html`, in the "Today's AI news" slot on the
+homepage and in `feed.xml`. It also adds the social post to the queue, renders the graphic
+and approves it for 19:00 that day. Nobody reviews it first. The JSON stays in `news/` as
+the record of sources.
+
+You still bulk-import into Publer yourself: run `scripts/queue-to-publer.py` whenever
+suits. Posts whose time has passed move to the next free day at 19:00.
+
+To take a story down, delete its `<article>` from `news.html`, its `<item>` from
+`feed.xml`, and the homepage block if it's today's, then commit and push.
+
 ## The flow: hold → approve → Publer
 
 1. **Hold.** The news routine (cloud, Mondays 07:00 UTC) researches AI news,

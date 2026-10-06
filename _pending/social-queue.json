@@ -111,7 +111,7 @@
   {
     "id": "2026-10-06-chatgpt-picture-ads",
     "added": "2026-10-06",
-    "Date": "",
+    "Date": "2026-10-08 19:00",
     "Platform": "All",
     "Format": "Photo",
     "Content Type": "AI News",
@@ -138,7 +138,8 @@
       "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
       "https://ppc.land/chatgpt-ads-go-live-in-the-uk-as-openai-expands-pilot-beyond-us/"
     ],
-    "Status": "hold",
-    "Posted At": ""
+    "Status": "publer",
+    "Posted At": "",
+    "media": "2026-10-06-chatgpt-picture-ads.png"
   }
 ]

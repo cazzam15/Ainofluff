@@ -7,11 +7,13 @@ media and alt_text can be a string or a list (carousel); alt_text needs one entr
 Optional: label (defaults to "news"). The Comment(s) column is always left empty: Publer's
 free plan doesn't allow first comments. source_url stays in the queue as a record only.
 Posts are stamped with exported_at once written, and skipped on later runs.
+Posts whose Date has already passed (for example daily news you import a few days late)
+move to the next free day at 19:00 UK time, one post per day, and the script lists them.
 """
 import csv
 import json
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -35,6 +37,33 @@ HEADER = [
     "Reminder - For stories, reels, shorts, and TikToks",
 ]
 REQUIRED = ["Date", "Caption Notes", "media", "alt_text"]
+SLOT_HOUR = 19
+
+
+def reschedule_past(queue, posts):
+    """Move posts dated in the past to the next free day at SLOT_HOUR, in date order."""
+    now = datetime.now()
+    taken = set()
+    for p in queue:
+        try:
+            taken.add(datetime.strptime(p.get("Date", ""), "%Y-%m-%d %H:%M").date())
+        except ValueError:
+            pass
+    late = []
+    for p in posts:
+        try:
+            when = datetime.strptime(p.get("Date", ""), "%Y-%m-%d %H:%M")
+        except ValueError:
+            continue
+        if when <= now + timedelta(minutes=30):
+            late.append((when, p))
+    slot = now.replace(hour=SLOT_HOUR, minute=0, second=0, microsecond=0)
+    for when, p in sorted(late, key=lambda x: x[0]):
+        while slot <= now + timedelta(minutes=30) or slot.date() in taken:
+            slot += timedelta(days=1)
+        p["Date"] = slot.strftime("%Y-%m-%d %H:%M")
+        taken.add(slot.date())
+        print(f"Rescheduled {p.get('id') or p.get('Topic')!r}: {when:%Y-%m-%d %H:%M} has passed, now {p['Date']}")
 
 
 def as_list(v):
@@ -54,6 +83,7 @@ def row(post, text):
 def main():
     queue = json.loads(QUEUE.read_text())
     posts = [p for p in queue if p.get("Status") == "publer" and not p.get("exported_at")]
+    reschedule_past(queue, posts)
     errors = []
     for p in posts:
         missing = [k for k in REQUIRED if not p.get(k)]
