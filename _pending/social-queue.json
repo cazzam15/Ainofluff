@@ -107,5 +107,38 @@
     "Posted At": "",
     "media": "2026-10-05-ai-scam-watchlist.png",
     "exported_at": "2026-10-05"
+  },
+  {
+    "id": "2026-10-06-chatgpt-picture-ads",
+    "added": "2026-10-06",
+    "Date": "",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "ChatGPT will show picture ads while it makes your images, US test first",
+    "Caption Notes": "ChatGPT is about to show picture ads while it makes your images. OpenAI announced the new format on 5 October. Testing starts later this month in the US, for people on the Free and Go plans.\n\nIn the UK, Free and Go users already see text ads under some answers. They arrived in June. Plus and Pro stay ad-free, and OpenAI says it shows no ads to under-18s.\n\nOpenAI says ads never change ChatGPT's answers and advertisers never see your chats. You still decide how much the ads know about you:\n\n• Open Settings > Ads controls. Switch off personalised ads, and stop past chats and memory shaping them.\n• Use Temporary Chat for anything private. It shows no ads.\n• On Free, you can go ads-free. The catch: fewer messages and no image making.\n\nFollow @ainofluff for more plain-English AI updates.\n\nSource: OpenAI, 5 Oct 2026.",
+    "x_text": "ChatGPT will test picture ads during image generation, US first, for Free and Go users. UK Free and Go users already see text ads. Turn off ad personalisation in Settings > Ads controls, or use Temporary Chat, which shows no ads. Source: OpenAI, 5 Oct 2026.",
+    "graphic": {
+      "headline": "ChatGPT ads are getting pictures",
+      "highlight": "pictures",
+      "lines": [
+        "US test starts this month",
+        "UK Free users already see text ads",
+        "Settings > Ads controls to limit them"
+      ],
+      "source": "Source: OpenAI, Oct 2026"
+    },
+    "alt_text": "A graphic headlined 'ChatGPT ads are getting pictures' above three lines: the US test starts this month, UK Free users already see text ads, and Settings then Ads controls lets you limit them.",
+    "label": "news",
+    "source_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+    "checked_sources": [
+      "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+      "https://help.openai.com/en/articles/20001047-ads-in-chatgpt",
+      "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
+      "https://ppc.land/chatgpt-ads-go-live-in-the-uk-as-openai-expands-pilot-beyond-us/"
+    ],
+    "Status": "hold",
+    "Posted At": ""
   }
 ]
