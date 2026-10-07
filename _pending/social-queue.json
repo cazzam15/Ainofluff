@@ -142,5 +142,38 @@
     "Posted At": "",
     "media": "2026-10-06-chatgpt-picture-ads.png",
     "exported_at": "2026-10-06"
+  },
+  {
+    "id": "2026-10-07-gemini-free-flash-lite-only",
+    "added": "2026-10-07",
+    "Date": "2026-10-07 19:00",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "Free Gemini drops to Flash-Lite only from 9 October",
+    "Caption Notes": "Free Gemini is shrinking. From 9 October, personal accounts without a Google AI plan only get Flash-Lite, Google's smallest model. Flash and Pro need a subscription.\n\nAI Plus keeps Flash-Lite and Flash but loses Pro. Google will email Plus subscribers with their date. AI Pro and AI Ultra keep all three models, plus Deep Think.\n\nEvery model also gets an effort setting: low, medium or high. High gives fuller answers but eats your usage limit faster.\n\nGoogle hasn't said which countries get the change, and its help page lists no exceptions. Check your model picker after 9 October.\n\n• Update the Gemini app.\n• Try Flash-Lite on your usual tasks before you pay.\n• Upgrading? You can change or cancel a plan at any time.\n\nFollow @ainofluff for more plain-English AI updates.\n\nSource: Google Gemini Apps Help, 7 Oct 2026.",
+    "x_text": "From 9 October, free Gemini only offers Flash-Lite, Google's smallest model. AI Plus keeps Flash but loses Pro. AI Pro and Ultra keep everything. Google hasn't said which countries, so check your model picker. Source: Google Gemini Apps Help, 7 Oct 2026.",
+    "graphic": {
+      "headline": "Free Gemini gets smaller",
+      "highlight": "smaller",
+      "lines": [
+        "From 9 Oct: Flash-Lite only",
+        "Flash now needs AI Plus",
+        "Pro needs AI Pro or Ultra"
+      ],
+      "source": "Source: Google, Oct 2026"
+    },
+    "alt_text": "A graphic headlined 'Free Gemini gets smaller' above three lines: from 9 October free users get Flash-Lite only, Flash now needs AI Plus, and Pro needs AI Pro or Ultra.",
+    "label": "news",
+    "source_url": "https://support.google.com/gemini/answer/17004136",
+    "checked_sources": [
+      "https://www.gov.uk",
+      "https://support.google.com/gemini/answer/17004136",
+      "https://support.google.com/gemini/answer/17004136?hl=en-GB",
+      "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
+    ],
+    "Status": "publer",
+    "Posted At": "",
+    "media": "2026-10-07-gemini-free-flash-lite-only.png"
   }
 ]
