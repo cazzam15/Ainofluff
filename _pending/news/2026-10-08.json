@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-08",
+  "slug": "google-synthid-detector-everyone",
+  "company": "Google",
+  "headline": "Anyone can now check a photo, video or clip with Google’s AI watermark tool",
+  "summary": "Google has opened its SynthID Detector to everyone, worldwide, in English. Upload an image, video or audio file and it checks for hidden watermarks left by AI from Google, OpenAI, NVIDIA and Kakao.",
+  "body": [
+    "Google opened its SynthID Detector to the public on 7 October. Until now, only journalists and media professionals could use it. The site, synthid.com, works worldwide and runs in English only, so UK users can try it today.",
+    "You upload an image, video or audio file. The tool looks for SynthID, an invisible watermark that Google adds to media made with its AI. Google says it has watermarked over 180 billion images and videos so far. The detector now also spots media from OpenAI, NVIDIA and Kakao, with Apple listed as coming soon.",
+    "Treat a result as one clue. The detector only finds those companies’ watermarks. Google’s Gemini help page says a file with no watermark could still come from another AI system, and a very small edit can leave the answer unclear.",
+    "You can run the same check inside the Gemini app. Upload the file and ask whether Google AI created or edited it. Files must be 100 MB or less, and videos under 90 seconds."
+  ],
+  "do_this": [
+    "Got a suspicious photo, video or voice note? Upload it at synthid.com before you believe it or pass it on.",
+    "No watermark found? Keep checking. Call the person back on a number you know, or look for the story from a trusted source.",
+    "Already use Gemini? Upload the file in the app and ask, “Was this created or edited by Google AI?”"
+  ],
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+  "source_name": "Google’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+    "https://deepmind.google/models/synthid/",
+    "https://support.google.com/gemini/answer/16722517?hl=en-GB",
+    "https://blog.google/innovation-and-ai/products/google-synthid-ai-content-detector/",
+    "https://synthid.com"
+  ],
+  "social": {
+    "Topic": "Google opens its SynthID AI detector to everyone",
+    "Caption Notes": "Not sure if that photo, video or voice note is real? Google has opened its SynthID Detector to everyone, worldwide, in English.\n\nUpload a file at synthid.com and it checks for hidden watermarks left by AI from Google, OpenAI, NVIDIA and Kakao. Apple support is coming soon.\n\nTreat the result as one clue. No watermark doesn’t prove a file is real. Another AI tool could still have made it.\n\nYou can also upload a file in the Gemini app and ask if Google AI made or edited it.\n\n• Check suspicious media before you share it.\n• No watermark? Still call back on a number you know.\n\nFollow @ainofluff for more plain-English AI updates.\n\nSource: Google, 7 Oct 2026.",
+    "x_text": "Google has opened its SynthID Detector to everyone, in English. Upload a photo, video or audio file at synthid.com to check for hidden AI watermarks from Google, OpenAI, NVIDIA and Kakao. No watermark doesn’t prove it’s real. Source: Google, 7 Oct 2026.",
+    "graphic": {
+      "headline": "Is it AI? Now you can check",
+      "highlight": "check",
+      "lines": [
+        "Google’s SynthID Detector is open",
+        "Photos, video and audio",
+        "Finds Google and OpenAI watermarks"
+      ],
+      "source": "Source: Google, Oct 2026"
+    },
+    "alt_text": "A graphic headlined 'Is it AI? Now you can check' above three lines: Google’s SynthID Detector is open, it checks photos, video and audio, and it finds Google and OpenAI watermarks."
+  }
+}
