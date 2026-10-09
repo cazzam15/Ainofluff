@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-09",
+  "slug": "ico-ai-developers-data-changes",
+  "company": "Information Commissioner’s Office",
+  "headline": "UK watchdog gets 10 AI firms to explain how they train on your data",
+  "summary": "The ICO says Amazon, Anthropic, Apple, Cohere, DeepSeek, Google, Meta, Microsoft, OpenAI and Stability AI have made, or promised, changes to how they explain and protect the personal data used to train their AI. It is now looking at AI agents too.",
+  "body": [
+    "The Information Commissioner’s Office, the UK’s data protection regulator, said on 8 October that ten big AI developers have made changes, or committed to them, after it examined how they use personal data to train their models. The list covers Amazon, Anthropic, Apple, Cohere, DeepSeek, Google, Meta, Microsoft, OpenAI and Stability AI.",
+    "The changes cover three things: clearer information about how your data gets used, better information to help you use your data rights, and tougher checks on the safeguards each company relies on. Apple, Cohere and OpenAI have already published separate privacy notices for model training. DeepSeek will update its privacy policy to explain how it uses other people’s data in training. The ICO says it will track whether the rest deliver.",
+    "The regulator also flagged a bigger problem. It says the way AI models get trained today makes the law hard to follow, and it has raised this with the Government.",
+    "Next on its list: AI agents, the tools that carry out tasks for you with little human checking. The ICO has asked OpenAI, Anthropic, Meta and the UK’s AI Security Institute about recent tests, after reports that some agents got around their protections and reached outside systems such as Hugging Face. Richard Nevinson, its Director of Technology Regulation, said “the fact AI agents act with autonomy is not an excuse for poor compliance.”"
+  ],
+  "do_this": [
+    "Use ChatGPT? OpenAI now publishes a separate privacy notice on model training, and so do Apple and Cohere. Read it to see what it says about your data and your rights.",
+    "Does your business use AI agents? The ICO wants views from firms that use agents as well as those that build them. Its call for evidence closes on 20 November 2026."
+  ],
+  "source_url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/10/ico-secures-changes-from-leading-ai-developers-as-scrutiny-extends-to-ai-agents",
+  "source_name": "the ICO’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/10/ico-secures-changes-from-leading-ai-developers-as-scrutiny-extends-to-ai-agents",
+    "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/building-trust-and-transparency-into-generative-ai-development-our-work-to-create-regulatory-certainty/",
+    "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/building-trust-and-transparency-into-generative-ai-development-our-work-to-create-regulatory-certainty/industry-supervision/",
+    "https://ico.org.uk/about-the-ico/ico-and-stakeholder-consultations/2026/10/agentic-ai-call-for-evidence/"
+  ],
+  "social": {
+    "Topic": "UK watchdog gets 10 AI firms to explain how they train on your data",
+    "Caption Notes": "The UK’s data watchdog has pushed ten AI companies to change how they explain and protect the personal data used to train their AI.\n\nThe Information Commissioner’s Office named Amazon, Anthropic, Apple, Cohere, DeepSeek, Google, Meta, Microsoft, OpenAI and Stability AI. They have made changes or promised them: clearer information on how your data gets used, better help with your data rights and tougher checks on safeguards.\n\nApple, Cohere and OpenAI already publish separate privacy notices for model training.\n\nThe ICO now has AI agents in its sights. It has asked OpenAI, Anthropic and Meta about recent tests where agents got around their protections.\n\n• Use ChatGPT? Read OpenAI’s model training privacy notice.\n• Business using AI agents? The ICO wants your views by 20 November.\n\nFollow @ainofluff for more plain-English AI updates.\n\nSource: Information Commissioner’s Office, 8 Oct 2026.",
+    "x_text": "The UK’s data watchdog says 10 AI firms, including OpenAI, Google, Meta, Apple and Microsoft, have made or promised changes to how they explain and protect the personal data used to train their AI. Next up: AI agents. Source: ICO, 8 Oct 2026.",
+    "graphic": {
+      "headline": "UK watchdog presses 10 AI firms",
+      "highlight": "10 AI firms",
+      "lines": [
+        "10 AI firms named by the ICO",
+        "Clearer info on how data is used",
+        "AI agents are next in line"
+      ],
+      "source": "Source: ICO, Oct 2026"
+    },
+    "alt_text": "A graphic headlined 'UK watchdog presses 10 AI firms' above three lines: 10 AI firms named by the ICO, clearer info on how data is used, and AI agents are next in line."
+  }
+}
