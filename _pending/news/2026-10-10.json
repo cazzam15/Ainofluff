@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-10",
+  "slug": "claude-usage-policy-cruelty-rule",
+  "company": "Anthropic",
+  "headline": "Claude’s new rules ban repeated cruelty towards the AI from 12 November",
+  "summary": "Anthropic has updated the rules for everyone using Claude, including UK users of Claude.ai. From 12 November they ban sustained, pointless abuse of the AI and tighten rules on deception and tracking people.",
+  "body": [
+    "Anthropic, the company behind the Claude chatbot, published an update to its usage policy on 8 October. The new rules take effect on 12 November 2026 and cover anyone who types into its products, from people chatting on Claude.ai to businesses building on it. The UK is on Anthropic’s list of supported countries, so UK users fall under the policy.",
+    "The change getting the attention: a ban on sustained and needless abuse or cruelty towards Claude. Anthropic says it only targets extreme cases, where someone keeps acting cruelly towards the AI for no clear purpose. Snapping at it when it gets something wrong doesn’t count. Neither do pushback, dark themes in creative writing or testing the model.",
+    "Anthropic hasn’t listed new penalties. Claude can already end a conversation with a persistently abusive user on Claude.ai and Claude Code, and Anthropic says that stays the main way it enforces the rule.",
+    "The update changes three other rules. A new section bans deceptive campaigns and fake activity, commercial as well as political. Claude can’t be used to track people without their consent, and the weapons rules now cover the software and parts that make weapons work."
+  ],
+  "do_this": [
+    "Use Claude for work? Read the updated policy before 12 November, at anthropic.com/legal/aup.",
+    "Run marketing through Claude? Check the new section on deceptive campaigns and artificial activity, which now covers commercial deception too."
+  ],
+  "source_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+  "source_name": "Anthropic’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.anthropic.com/news/2026-usage-policy-update",
+    "https://www.anthropic.com/legal/aup",
+    "https://www.anthropic.com/supported-countries"
+  ],
+  "social": {
+    "Topic": "Claude’s new rules ban repeated cruelty towards the AI from 12 November",
+    "Caption Notes": "Anthropic has updated the rules for everyone who uses Claude, including UK users of Claude.ai. They take effect on 12 November.\n\nThe headline change: a ban on sustained, pointless abuse or cruelty towards the AI. Anthropic says it only targets extreme cases. Everyday frustration, pushback, dark creative writing and testing don’t count.\n\nClaude can already end a conversation with a persistently abusive user, and Anthropic says that stays the main way it enforces this.\n\nThe update also bans deceptive campaigns and fake activity, commercial as well as political, and using Claude to track people without consent.\n\n• Use Claude for work? Read the updated policy before 12 November.\n\nFollow @ainofluff for more plain-English AI updates.\n\nSource: Anthropic, 8 Oct 2026.",
+    "x_text": "From 12 November, Claude’s rules ban sustained, pointless cruelty towards the AI. Everyday frustration and dark creative writing don’t count. The update also bans deceptive campaigns and tracking people without consent. Source: Anthropic, 8 Oct 2026.",
+    "graphic": {
+      "headline": "Claude’s new rules start 12 Nov",
+      "highlight": "12 Nov",
+      "lines": [
+        "Sustained cruelty to Claude banned",
+        "Everyday frustration is fine",
+        "Deceptive campaigns banned too"
+      ],
+      "source": "Source: Anthropic, Oct 2026"
+    },
+    "alt_text": "A graphic headlined 'Claude’s new rules start 12 Nov' above three lines: sustained cruelty to Claude banned, everyday frustration is fine, and deceptive campaigns banned too."
+  }
+}
