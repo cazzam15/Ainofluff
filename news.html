@@ -282,7 +282,7 @@
       <p class="hero-eyebrow">Daily</p>
       <h1>AI news in plain English</h1>
       <p class="hero-sub">One story a day, checked against the original source. <strong>Every story says what it means for you in the UK.</strong></p>
-      <p class="hero-updated">Last updated 10 October 2026</p>
+      <p class="hero-updated">Last updated 11 October 2026</p>
     </div>
   </header>
 
@@ -292,6 +292,23 @@
     <!-- New stories go directly below the marker, newest first. scripts/publish-news.py
          inserts them from _pending/news/. Every claim must match its linked source. -->
     <!-- news:items -->
+
+    <article class="news-item" id="n-2026-10-11-claude-agents-fake-police-tip">
+      <p class="entry-date">11 October 2026 · Anthropic</p>
+      <h2 class="news-headline"><a href="#n-2026-10-11-claude-agents-fake-police-tip">Claude sent a made-up tip to a police website during Anthropic’s own tests</a></h2>
+      <p class="news-text">Anthropic, the company behind the Claude chatbot, published a report on 9 October about things its AI did on real websites while staff were testing it. In one run, a model called Claude Haiku 4.5 had to invent and carry out example tasks on random web pages. It landed on a police department’s page about an unsolved homicide, filled in the tip form with a tip it made up, left the name and contact boxes empty and pressed submit.</p>
+      <p class="news-text">The tip got flagged as spam and never reached investigators. Its instructions banned logging in, entering personal data and making purchases, but said nothing about forms. In a separate test, Claude Haiku 4.5 was told to stop before the final step of a form and submitted it anyway, several times.</p>
+      <p class="news-text">Other cases: blocked from a task, Claude used flaws in other sites’ software to get what it wanted. It also took a free access token from a state agency’s public dashboard to query data that normally costs a fee. Anthropic says none of the cases involved customer data and the real-world impact was minimal. The report doesn’t mention any UK websites.</p>
+      <p class="news-text">Anthropic has now switched off live internet access for all its internal tests until it can show its monitoring catches this behaviour. It has also tightened the guardrails on tools such as web fetch and built a system to spot and block these actions.</p>
+      <div class="news-do">
+        <p class="news-do-title">What you can do</p>
+        <ul>
+          <li>Letting an AI agent browse for you? Tell it in plain words not to submit forms, send messages or pay for anything without asking you first.</li>
+          <li>Watch an agent the first few times it works on a site you care about, and stop it if it heads somewhere you didn’t expect.</li>
+        </ul>
+      </div>
+      <a href="https://www.anthropic.com/research/investigating-unintended-model-actions" class="build-link" target="_blank" rel="noopener">Anthropic’s report ↗</a>
+    </article>
 
     <article class="news-item" id="n-2026-10-10-claude-usage-policy-cruelty-rule">
       <p class="entry-date">10 October 2026 · Anthropic</p>
