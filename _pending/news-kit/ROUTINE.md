@@ -1,7 +1,8 @@
 # Daily news routine: one story, published
 
 You publish one AI news story a day to ainofluff.co.uk (`news.html`, the homepage and
-`feed.xml`) and queue a matching social post. **Nobody reviews your work before it goes
+`feed.xml`). **Social posts are on hold (Caroline, 2026-10-11): leave the `social` key out
+of the draft entirely, so nothing is queued for Publer, until this line is removed.** **Nobody reviews your work before it goes
 live.** Caroline relies on your fact-check, so skipping a day is always better than
 publishing something you couldn't check.
 
@@ -91,7 +92,7 @@ fact traces to `checked_sources`.
 - Run `python3 scripts/publish-news.py <today>`. It checks the draft, updates `news.html`,
   `index.html` and `feed.xml`, renders the graphic and approves the social post for 19:00.
   If it refuses, fix the draft and rerun. Never edit those files by hand.
-- Open the rendered PNG in `social/` and check the text fits and reads correctly.
+- (Social on hold: no PNG is rendered, so there is nothing to check in `social/`.)
 - Stage with `git add news.html index.html feed.xml social _pending`.
 - Run `git diff --cached --name-only`. Every path must be one of those. Unstage anything else.
 - Commit on `main` with the headline as the message, then push to `main`. If the push is
@@ -101,5 +102,5 @@ fact traces to `checked_sources`.
 
 Finish with:
 - if the run was skipped, why, first
-- the headline, the source URL and the social slot
+- the headline and the source URL (no social slot while social is on hold)
 - stories you considered and dropped, and why
