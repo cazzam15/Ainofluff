@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-13",
+  "slug": "uk-government-ai-cyber-defences",
+  "company": "UK Government (Cabinet Office)",
+  "headline": "UK government steps up defences against AI cyber attacks",
+  "summary": "The government will use AI to protect its own systems and may tighten cyber laws for hospitals and utilities. Ministers want businesses to get the basics right too.",
+  "body": [
+    "The Cabinet Office announced a package of measures on Monday 12 October to protect Britain from AI risks. The government will scale up its use of advanced AI to defend public services. Two pilots have already helped find and fix more than a thousand potential weak spots across government systems.",
+    "Ministers will look at strengthening the Cyber Security and Resilience Bill, including how serious AI incidents and near misses get reported. They want hospitals, utilities and other essential services better protected, including against AI systems that slip out of human control. The National Cyber Security Centre and the AI Security Institute are also working out how to respond when AI agents, which carry out tasks with little human supervision, cause a serious incident.",
+    "AI Minister Kanishka Narayan said: “I want Britain to become one of the hardest countries in the world to attack using artificial intelligence.” He also told AI companies: “if you cannot adequately control the risks, do not release the system.”",
+    "The announcement asks nothing of the public. For businesses, it repeats three asks from an open letter ministers sent earlier this year: treat cyber security as a job for the people at the top, get the basics right with Cyber Essentials, and follow the National Cyber Security Centre’s advice, including its Early Warning service."
+  ],
+  "do_this": [
+    "Run a UK business or charity? Sign up for the National Cyber Security Centre’s Early Warning service. It’s free and emails you if it spots signs of an attack on your internet addresses or domain names.",
+    "Look at Cyber Essentials, the government-backed basic security standard. It covers firewalls, settings, updates, who can access what and malware protection, and certification starts at £320 plus VAT."
+  ],
+  "source_url": "https://www.gov.uk/government/news/britain-steps-up-national-defences-against-growing-ai-risks",
+  "source_name": "the Cabinet Office announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.gov.uk/government/news/britain-steps-up-national-defences-against-growing-ai-risks",
+    "https://www.ncsc.gov.uk/information/early-warning-service",
+    "https://www.ncsc.gov.uk/cyberessentials/overview"
+  ]
+}
