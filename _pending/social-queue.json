@@ -174,7 +174,9 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-10-07-gemini-free-flash-lite-only.png"
+    "media": "2026-10-07-gemini-free-flash-lite-only.png",
+    "skipped": "outdated",
+    "exported_at": "2026-10-14"
   },
   {
     "id": "2026-10-08-google-synthid-detector-everyone",
@@ -209,7 +211,8 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-10-08-google-synthid-detector-everyone.png"
+    "media": "2026-10-08-google-synthid-detector-everyone.png",
+    "exported_at": "2026-10-14"
   },
   {
     "id": "2026-10-09-ico-ai-developers-data-changes",
@@ -243,7 +246,8 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-10-09-ico-ai-developers-data-changes.png"
+    "media": "2026-10-09-ico-ai-developers-data-changes.png",
+    "exported_at": "2026-10-14"
   },
   {
     "id": "2026-10-10-claude-usage-policy-cruelty-rule",
@@ -276,7 +280,8 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-10-10-claude-usage-policy-cruelty-rule.png"
+    "media": "2026-10-10-claude-usage-policy-cruelty-rule.png",
+    "exported_at": "2026-10-14"
   },
   {
     "id": "2026-10-11-claude-agents-fake-police-tip",
@@ -307,6 +312,7 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-10-11-claude-agents-fake-police-tip.png"
+    "media": "2026-10-11-claude-agents-fake-police-tip.png",
+    "exported_at": "2026-10-14"
   }
 ]
