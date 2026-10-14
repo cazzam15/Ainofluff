@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-14",
+  "slug": "gemini-customize-menu-argon",
+  "company": "Google",
+  "headline": "Gemini gets a Customize menu for everyone and a new top model for paying users",
+  "summary": "Google is adding a Customize option to Gemini on every plan, so you can set how it replies and link other apps. Paying subscribers also get Gemini 4 Argon, its newest model.",
+  "body": [
+    "Google updated the Gemini app on Tuesday 13 October. Open the left-hand menu and you’ll find a new Customize option. It brings your settings for how Gemini replies, the apps it connects to and your skills into one place. Skills are saved instructions Gemini reuses, so it can write in your style or follow your formatting rules without you repeating yourself. Google says skills are open to over-18s for now.",
+    "Customize is rolling out worldwide on every plan, free included, on the web, phones and the Gemini desktop app for Windows and Mac. Gemini can now connect to more than 40 apps, including Instacart, OpenTable and Adobe. You choose which ones to link and can change your settings at any time. Most of those apps work only in English in the US for now. Google says select apps reach other English-speaking regions, Brazil and India, but hasn’t said which ones work in the UK.",
+    "People paying for Google AI Pro or Ultra also get Gemini 4 Argon, rolling out worldwide from 13 October. Google calls it its newest frontier model and pitches it at bigger jobs: analysing a complex financial report, turning scattered sources into a slide deck or building an interactive 3D model. Google’s release note doesn’t mention Argon for free accounts."
+  ],
+  "do_this": [
+    "Open Gemini, tap the left-hand menu and look for Customize. Google is still rolling it out, so it may not appear for you yet.",
+    "Before you link an app, think about what you’d be letting Gemini reach. Link only the ones you’ll use."
+  ],
+  "source_url": "https://gemini.google/release-notes/",
+  "source_name": "Google’s Gemini release notes",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://gemini.google/release-notes/"
+  ]
+}
