@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-16",
+  "slug": "circle-to-search-scam-texts",
+  "company": "Google",
+  "headline": "Got a dodgy text? Google’s Circle to Search can check it for scam signs",
+  "summary": "Google says Circle to Search on Android can look over a suspicious text and flag signs of a scam before you tap a link. It hasn’t said which countries get the scam check.",
+  "body": [
+    "Google posted a scam tip on Thursday 15 October. Circle to Search, the Android tool that searches whatever you circle on your screen, can look over a text message you’re unsure about. You circle the message and get an AI Overview with guidance and suggested next steps.",
+    "Google says to use it before you click a link or share personal details. If the check shows red flags, it suggests you delete the message and block the number. Google adds that results, availability and compatibility may vary, and it hasn’t said which countries get the scam check.",
+    "Circle to Search works on selected Android phones, including Pixel 6 and later, according to Google’s help page. You may need to update the Google app first. A clean result doesn’t prove a text is safe, so don’t let it rush you into tapping a link."
+  ],
+  "do_this": [
+    "On an Android phone, press and hold the home button or the bar at the bottom of the screen, then draw a circle around the text you’re unsure about.",
+    "If it looks like a scam, forward the text to 7726. It’s free and reports the message to your mobile provider. Then delete it and block the number."
+  ],
+  "source_url": "https://blog.google/innovation-and-ai/technology/safety-security/circle-to-search-android-text-message-scams/",
+  "source_name": "Google’s blog post",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://blog.google/rss/",
+    "https://blog.google/innovation-and-ai/technology/safety-security/circle-to-search-android-text-message-scams/",
+    "https://support.google.com/websearch/answer/14508957",
+    "https://www.android.com/intl/en_us/articles/how-to-use-circle-to-search/",
+    "https://www.gov.uk/report-suspicious-emails-websites-phishing"
+  ]
+}
