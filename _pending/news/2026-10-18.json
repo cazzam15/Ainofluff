@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-18",
+  "slug": "cma-microsoft-copilot-business-software",
+  "company": "Competition and Markets Authority",
+  "headline": "UK watchdog moves to check Copilot isn’t crowding out rival AI tools at work",
+  "summary": "The Competition and Markets Authority wants special powers over Microsoft’s business software, Copilot included, so firms can freely pick and mix AI tools. Businesses have until 13 November to have their say.",
+  "body": [
+    "On Friday 16 October the Competition and Markets Authority (CMA), the UK’s competition watchdog, proposed giving Microsoft “strategic market status” in business software. That label would let the CMA set rules for how Microsoft runs Word, Excel, Outlook, Teams, Copilot and its security and server products in the UK.",
+    "The CMA says over a million UK businesses and public sector organisations use this software, with around 20 million monthly users. It found that customers face barriers when they try to switch, and that Microsoft’s deals and tightly linked products nudge them towards more Microsoft.",
+    "AI tops the CMA’s list of possible next steps. It wants to check that customers can freely choose the best AI tools for their needs, and that rival AI providers get a level playing field against Copilot. CMA chief executive Sarah Cardell said organisations should be able to “switch provider when they want to and combine services from different suppliers.”",
+    "Nothing changes yet. The findings are provisional, the CMA says the label “does not assume wrongdoing”, and a final decision must come by February 2027."
+  ],
+  "do_this": [
+    "If your business runs on Microsoft 365 and you’ve found it hard to use a different AI tool alongside it, tell the CMA. Email business.software.sms@cma.gov.uk before 5pm on 13 November 2026."
+  ],
+  "source_url": "https://www.gov.uk/government/news/cma-takes-first-steps-to-ensure-choice-in-business-software",
+  "source_name": "the CMA’s press release",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.gov.uk/government/news/cma-takes-first-steps-to-ensure-choice-in-business-software",
+    "https://www.gov.uk/cma-cases/microsofts-business-software-ecosystem",
+    "https://www.gov.uk/government/consultations/proposed-decision-sms-investigation-into-microsofts-business-software-ecosystem"
+  ]
+}
