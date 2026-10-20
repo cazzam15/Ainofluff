@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-20",
+  "slug": "uk-ai-sovereignty-plan-advice",
+  "company": "Council for Science and Technology",
+  "headline": "Government advisers warn the UK risks being just a big customer for other countries’ AI",
+  "summary": "The government’s top science and technology advisers want a UK AI Sovereignty Plan, so Britain keeps some control over the AI its public services rely on. Their advice went online on 19 October.",
+  "body": [
+    "On 19 October the government published a letter from the Council for Science and Technology, its top independent advisory body on science and technology. The council’s co-chairs, Dame Angela McLean and Lord Browne of Madingley, wrote to AI minister Kanishka Narayan in July. Their warning: “Without deliberate and urgent action, the UK risks becoming a high-value AI customer.”",
+    "The council says the UK should keep access to leading global models, but “should not depend on them for all use cases.” It wants the government to map what it should own, work on with partners or access securely, and to put one person in charge of those choices.",
+    "It also suggests quick trial projects in areas such as national security, health and education, with plans that give the public “a role in shaping their design.” Other ideas include building AI skills and testing smaller UK-made models.",
+    "This is advice. It changes nothing in the apps you use today, and the government decides what to do with it."
+  ],
+  "do_this": [],
+  "source_url": "https://www.gov.uk/government/publications/ai-sovereignty-preserving-uk-agency-in-an-ai-enabled-world/ai-sovereignty-preserving-uk-agency-in-an-ai-enabled-world-web-version",
+  "source_name": "the Council for Science and Technology’s letter on GOV.UK",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.gov.uk/search/news-and-communications?keywords=artificial+intelligence&order=updated-newest",
+    "https://www.gov.uk/government/publications/ai-sovereignty-preserving-uk-agency-in-an-ai-enabled-world",
+    "https://www.gov.uk/government/publications/ai-sovereignty-preserving-uk-agency-in-an-ai-enabled-world/ai-sovereignty-preserving-uk-agency-in-an-ai-enabled-world-web-version"
+  ]
+}
