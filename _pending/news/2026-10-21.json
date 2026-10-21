@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-21",
+  "slug": "gemini-small-business-hub",
+  "company": "Google",
+  "headline": "Google adds a small business hub to the Gemini app",
+  "summary": "Google is adding a business landing page, marketing and finance skills and new app connections to Gemini for small business owners. It says they start rolling out worldwide to all Gemini app users in the coming days.",
+  "body": [
+    "On 20 October Google announced new Gemini tools for small business owners. The centrepiece is a business landing page in the Gemini app, a single place to work on your brand, look at your finances and read customer insights. Marketing and finance skills arrive with it.",
+    "You can upload your website, brand kit, fonts or colour palettes, and Gemini keeps to that style when it makes images with Nano Banana 2.1, Google’s latest image model. Gemini can also turn spreadsheets, receipts and purchase records into financial graphics and interactive models.",
+    "Gemini can connect to Google Business Profile, Google Ads and Google Workspace, plus apps such as Adobe, Canva, Dropbox, Shopify, Wix, Zoho and Xero. Google says the tools are “beginning to roll out in the coming days globally for all Gemini app users,” so UK owners should get them. The post doesn’t mention prices or plans.",
+    "One catch for the UK: Google’s release notes from 13 October said most connected apps work in English in the US, with only some apps in other English-speaking regions. Expect the list on your screen to be shorter than the one in the announcement."
+  ],
+  "do_this": [
+    "Open the Gemini app over the next few days and look for the new business page.",
+    "Before you connect Xero or Shopify, decide which business data you’re happy for Gemini to read.",
+    "Try it on one small job first, like a month of receipts, and check the totals yourself."
+  ],
+  "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
+  "source_name": "Google’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://blog.google/rss/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
+    "https://gemini.google/release-notes/"
+  ]
+}
