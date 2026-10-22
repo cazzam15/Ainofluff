@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-22",
+  "slug": "ai-found-php-website-flaw",
+  "company": "PHP",
+  "headline": "AI helped uncover a serious website flaw, and the UK’s NCSC says update now",
+  "summary": "PHP, which security firm Wiz says powers 70% of websites, fixed two critical flaws on 21 October that let attackers take over a web server without logging in. Wiz says Google’s Gemini helped find them, and the UK’s National Cyber Security Centre wants every site updated.",
+  "body": [
+    "On 21 October the PHP project released updates for two critical flaws. PHP is the programming language behind many websites, and the bugs can let an attacker run their own commands on a web server without a password. PHP says every installation serving web pages is at risk and urges everyone to “update immediately”.",
+    "Security firm Wiz found the flaws with help from AI. Its researchers used Google’s Gemini 4 Argon and OpenAI’s GPT-5.6 Sol, and they write that Gemini “made an invaluable contribution to finding the vulnerability”. In its tests, Wiz took over WordPress, Drupal and Joomla sites this way.",
+    "The UK’s National Cyber Security Centre issued an alert the same day. It wants organisations to find every PHP system they run, install the fix, and consider taking a site offline if they can’t protect it quickly. Anyone still on an old version should move to one that still gets security updates.",
+    "A safe site needs PHP 8.5.12, 8.4.27, 8.3.36 or 8.2.35. PHP 8.1 and older are out of support, and PHP 8.2 stops getting security fixes after 31 December 2026."
+  ],
+  "do_this": [
+    "If your business website runs on WordPress, Drupal or Joomla, email your web host or developer today and ask whether PHP has been updated to a fixed version.",
+    "Ask which PHP version your site runs. Anything below 8.2 needs moving to a supported version.",
+    "If you manage your own server, follow the NCSC alert step by step."
+  ],
+  "source_url": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+  "source_name": "the NCSC’s alert",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+    "https://www.php.net/archive/2026.php",
+    "https://www.wiz.io/blog/php2shell-php-rce"
+  ]
+}

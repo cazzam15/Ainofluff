@@ -8,6 +8,14 @@
     <language>en-gb</language>
 
     <item>
+      <title>AI helped uncover a serious website flaw, and the UK’s NCSC says update now</title>
+      <link>https://www.ainofluff.co.uk/news.html#n-2026-10-22-ai-found-php-website-flaw</link>
+      <guid>https://www.ainofluff.co.uk/news.html#n-2026-10-22-ai-found-php-website-flaw</guid>
+      <pubDate>Thu, 22 Oct 2026 06:00:00 GMT</pubDate>
+      <description>PHP, which security firm Wiz says powers 70% of websites, fixed two critical flaws on 21 October that let attackers take over a web server without logging in. Wiz says Google’s Gemini helped find them, and the UK’s National Cyber Security Centre wants every site updated.</description>
+    </item>
+
+    <item>
       <title>Google adds a small business hub to the Gemini app</title>
       <link>https://www.ainofluff.co.uk/news.html#n-2026-10-21-gemini-small-business-hub</link>
       <guid>https://www.ainofluff.co.uk/news.html#n-2026-10-21-gemini-small-business-hub</guid>
