@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-23",
+  "slug": "claude-duet-background-agent-us-first",
+  "company": "Anthropic",
+  "headline": "Anthropic’s Claude Duet works through your apps while you’re away, US first",
+  "summary": "Anthropic has opened a waitlist for Claude Duet, an app that sends you a morning brief and works through your email and business tools in the background. It starts with US Pro and Max subscribers, and Anthropic hasn’t said when other countries get it.",
+  "body": [
+    "On 21 October Anthropic opened a waitlist for Claude Duet, a new app that works for you in the background. Each morning it sends a brief on the important items across the apps you connect. Through the day it keeps watch on those apps, finishes tasks you hand it and carries on while you’re away. Anthropic says it built Duet for professionals and small business owners.",
+    "Duet can plug into Gmail, Slack, QuickBooks, Stripe, Shopify, HubSpot, Canva, Docusign and thousands of other tools. Before it sends a message, makes a payment, signs a document or deletes anything, it shows you the action and waits for your approval. Some jobs stay blocked even if you say yes, such as trading securities or moving money between accounts.",
+    "For now Duet is a research preview, open first to Pro and Max subscribers in the US. Claude itself works in the UK, but Anthropic names no other countries for Duet yet. It shares your plan’s usage limits, and Anthropic warns it can still misread a thread or misjudge what’s urgent."
+  ],
+  "do_this": [
+    "If you pay for Claude in the UK, keep an eye on Anthropic’s Claude Duet page for news of a wider rollout.",
+    "When you try any assistant that acts for you, connect one or two apps first and read every action before you approve it."
+  ],
+  "source_url": "https://claude.com/resources/articles/claude-duet",
+  "source_name": "Anthropic’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://claude.com/resources/articles/claude-duet",
+    "https://www.anthropic.com/supported-countries",
+    "https://www.anthropic.com/news"
+  ]
+}
