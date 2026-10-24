@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-24",
+  "slug": "chancellor-budget-ai-package",
+  "company": "HM Treasury",
+  "headline": "Chancellor’s Budget AI plan: £100m biosecurity lab, cyber shield and local AI help",
+  "summary": "The Treasury has set out hundreds of millions of pounds of AI spending that Chancellor John Healey plans to make part of his Budget next week. It covers national security, homegrown AI firms and £30m for local partnerships to help councils, small businesses and workers.",
+  "body": [
+    "On 24 October the Treasury published an AI package that Chancellor John Healey will announce in his Budget next week. The biggest single items cover safety: £100m for a new AI Biosecurity Lab to spot biological threats early and speed up vaccines, and another £120m for the AI Security Institute, which tests AI models for risks. OpenAI and Anthropic will back the lab with up to £200m in AI model credits.",
+    "Cyber defences get £60m for a National Cyber Shield that uses AI agents, plus £70m for a centre that hunts for weak spots in critical infrastructure. UK AI firms get £60m more through the Sovereign AI Fund. AI Minister Kanishka Narayan said the UK “cannot afford to rely entirely on technology built overseas.”",
+    "Closer to home, £30m goes to local AI partnerships run by mayoral authorities. Councils, colleges and businesses, including small firms, can team up to use AI in local services and train workers. A £15m prize will reward AI that fixes everyday problems, with health first in line, and £10m a year will fund research on how AI changes jobs.",
+    "The Treasury points to the NHS for proof AI already helps. Clinicians use it on more than 210,000 chest X-rays a month, and the average wait for a follow-up CT scan has dropped from 6.3 to 5.6 days."
+  ],
+  "do_this": [
+    "If you run a small business in an area with a metro mayor, watch your mayoral authority’s news for its local AI partnership and any support or training it offers."
+  ],
+  "source_url": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai",
+  "source_name": "HM Treasury’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai",
+    "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab",
+    "https://www.gov.uk/search/all?keywords=biosecurity+lab&order=updated-newest",
+    "https://gemini.google/release-notes/"
+  ]
+}
