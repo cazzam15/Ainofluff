@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-25",
+  "slug": "nice-ai-prostate-mri-tools",
+  "company": "NICE",
+  "headline": "NICE backs five AI tools to help NHS doctors spot prostate cancer on MRI scans",
+  "summary": "NICE has said five AI tools can be used in the NHS to help radiologists spot prostate cancer on MRI scans while more evidence is gathered. A radiologist will still review every scan.",
+  "body": [
+    "On 23 October NICE published draft guidance recommending five AI tools for NHS use during a two-year evidence-gathering period: AI-Rad Companion Prostate MR, DeepHealth Prostate, ProstatID, Prostate Intelligence (Pi) and QP-Prostate. The software highlights areas on a prostate MRI scan where cancer might be, sorts them by risk and gives the radiologist supporting information.",
+    "A radiologist still reads every scan and checks the AI results before any decision about care. Dr Anastasia Chalkidou, who runs NICE’s HealthTech programme, called the tools “a second pair of eyes.” Professor Peter Johnson, NHS National Clinical Director for Cancer, said they could help “give men clear answers sooner.”",
+    "Demand for prostate MRI scans has grown, and England recorded more than 58,000 new prostate cancer diagnoses in 2023. NICE’s committee found the evidence so far limited and not always consistent, so it wants NHS data on accuracy, patient outcomes, costs and how the tools work for different groups of patients. Two other tools, hProstate and mdprostate, weren’t recommended because no evidence was available for them.",
+    "The guidance is still a draft. NICE’s schedule shows the consultation running until 12 November, and the committee will weigh the comments before it publishes final guidance."
+  ],
+  "do_this": [
+    "To comment on the draft, search for “Artificial intelligence (AI) technologies to help detect prostate cancer on MRI” on the NICE website before 12 November."
+  ],
+  "source_url": "https://www.nice.org.uk/news/articles/ai-could-help-spot-prostate-cancer-more-accurately-says-nice",
+  "source_name": "NICE’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.nice.org.uk/news/articles/ai-could-help-spot-prostate-cancer-more-accurately-says-nice",
+    "https://www.nice.org.uk/guidance/indevelopment/gid-htg10879",
+    "https://www.nice.org.uk/what-nice-does",
+    "https://gemini.google/release-notes/"
+  ]
+}
