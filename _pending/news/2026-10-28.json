@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-28",
+  "slug": "bank-of-england-fca-ai-survey",
+  "company": "Bank of England and FCA",
+  "headline": "86% of UK finance firms now use AI, says Bank of England and FCA survey",
+  "summary": "A Bank of England and FCA survey of 196 UK financial firms found 86% use AI, up from 75% in 2024. Most have AI agents running, but only 2% let them act with broad autonomy.",
+  "body": [
+    "Your bank, insurer or lender probably uses AI. On 26 October the Bank of England and the Financial Conduct Authority published their survey of AI in UK financial services, and 86% of the firms that replied said they use it. In 2024 the figure was 75%.",
+    "The survey got 196 responses: 101 larger firms and 95 smaller ones, spread across UK banks, international banks, insurers, lenders, investment firms and payment companies. Smaller firms are catching up, with 73% using AI. Most of those mainly use the same kind of tool as ChatGPT, known as a large language model.",
+    "AI agents, which carry out tasks rather than just answer questions, have spread too. 80% of firms said they have agents deployed, and another 14% plan to within a year. Only 2% said they let agents act with broad autonomy.",
+    "So AI may already sit behind some of the letters, chats and decisions you get from financial firms. The rules on complaints stay the same, whoever or whatever made the mistake."
+  ],
+  "do_this": [
+    "If a bank, insurer or lender gets something wrong, complain to the firm first and explain how you want it fixed.",
+    "If the firm doesn’t reply within 8 weeks, or within 15 days for a fraud, scam or payment complaint, or you’re unhappy with its final answer, take it to the Financial Ombudsman Service for free."
+  ],
+  "source_url": "https://www.bankofengland.co.uk/report/2026/artificial-intelligence-in-uk-financial-services-2026",
+  "source_name": "the Bank of England and FCA’s survey",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.bankofengland.co.uk/report/2026/artificial-intelligence-in-uk-financial-services-2026",
+    "https://www.financial-ombudsman.org.uk/consumers/how-to-complain",
+    "https://gemini.google/release-notes/"
+  ]
+}
