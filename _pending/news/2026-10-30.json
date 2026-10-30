@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-30",
+  "slug": "google-gemini-4-carbon-cyber-defenders-first",
+  "company": "Google",
+  "headline": "Google’s strongest AI model yet goes to cyber security experts first, with no public date",
+  "summary": "Google announced Gemini 4 Carbon on 28 October. A small group of cyber defenders gets it first, and Google says the public will get it “soon”, without giving a date.",
+  "body": [
+    "Google announced Gemini 4 Carbon on 28 October and calls it its strongest AI model so far. You can’t use it in the Gemini app yet. Google is starting with a small group of cyber defenders, the people who protect computer systems from attack.",
+    "Google says Carbon handles long jobs with many steps, and that its own teams have watched it “run for days to persist through dead ends.” It also calls Carbon its best model for cybersecurity work, such as checking which weak spots in software an attacker could use. Google describes its rollout as “deliberate” and plans to widen access to more trusted partners in stages.",
+    "For the rest of us, Google says it looks forward to bringing Carbon to “developers, businesses, and consumers soon.” The post gives no date, and it doesn’t say which countries or which Gemini plans will get it.",
+    "The newest model in the Gemini app remains Gemini 4 Argon. Google’s release notes list it as rolling out worldwide to Google AI Pro and Ultra subscribers from 13 October."
+  ],
+  "do_this": [
+    "If an app, website or advert offers you “Gemini 4 Carbon” today, treat it as suspect. Google hasn’t released it to the public."
+  ],
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+  "source_name": "Google’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "https://gemini.google/release-notes/",
+    "https://blog.google/"
+  ]
+}
