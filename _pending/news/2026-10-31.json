@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-31",
+  "slug": "england-planning-officers-planassist-ai",
+  "company": "Ministry of Housing, Communities and Local Government",
+  "headline": "Simple planning applications in England skip the committee from 31 October, with AI help",
+  "summary": "From 31 October, planning officers in England decide straightforward applications such as loft conversions without waiting for a committee. An AI tool called PlanAssist moves to 15 councils.",
+  "body": [
+    "Planning to extend your house or convert the loft? From today, Saturday 31 October, expert planning officers in England decide straightforward applications themselves. You no longer wait for a slot at a planning committee of councillors. The government says the change covers homeowners and small businesses improving their premises, and leaves councillors free for the biggest developments.",
+    "The government also announced an AI tool called PlanAssist, built with Google DeepMind, Google Cloud, Faculty and local councils. It pulls an application, local policies and site constraints into one place and gives the officer an initial assessment. Planning officers still review every application and make the decision.",
+    "In early testing, PlanAssist cut the time spent on key planning tasks by 58%. The government says that helps it halve processing times for routine householder applications, from eight weeks to four. After trials in Camden, Barnet and Dorset, 12 more councils join for 12 months: Ashford, Lambeth, Newcastle, Nottingham, Bristol, Cumberland, North Lincolnshire, Rochdale, Redbridge, South Gloucestershire, Stoke-on-Trent and Westminster.",
+    "The government intends to offer PlanAssist to every council in England by the end of 2027. Councils won’t have to use it. The committee change applies in England only, so it doesn’t affect Wales, Scotland or Northern Ireland."
+  ],
+  "do_this": [
+    "Planning an extension or loft conversion in England? Check whether your council appears in the list of 15 above, and ask its planning team how long householder decisions take now.",
+    "Remember a person still decides. AI helps your council officer sort the paperwork, and the officer signs off the result."
+  ],
+  "source_url": "https://www.gov.uk/government/news/faster-planning-decisions-as-new-rules-and-ai-tackle-delays",
+  "source_name": "the government’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.gov.uk/government/news/faster-planning-decisions-as-new-rules-and-ai-tackle-delays",
+    "https://www.gov.uk/government/publications/planning-committees-and-the-national-scheme-of-delegation-of-planning-functions-guidance-for-local-planning-authorities-in-england",
+    "https://blog.google/",
+    "https://gemini.google/release-notes/",
+    "https://www.anthropic.com/news",
+    "https://blog.google/innovation-and-ai/technology/safety-security/google-security-checkup/"
+  ]
+}
