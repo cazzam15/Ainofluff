@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-01",
+  "slug": "cma-investigates-meta-business-terms-ai",
+  "company": "Competition and Markets Authority",
+  "headline": "UK watchdog investigates Meta’s plan to use business websites for its AI",
+  "summary": "The CMA has opened an investigation into new Meta terms that could let it collect content from the websites of businesses using its services, including for its AI features, without giving them a choice. Meta has paused the change.",
+  "body": [
+    "Run a business website and advertise on Facebook or Instagram? On Friday 30 October, the Competition and Markets Authority (CMA) opened an investigation into Meta’s commercial terms for businesses using its platforms and services. The CMA says the new terms could let Meta collect content from the websites of businesses and publishers that use its services, and use it in its own products, including its AI features. Those businesses would get no choice on if or how their content is used.",
+    "Meta first planned to bring in the terms on 30 October. After talks with the CMA, it pushed that back to 20 November, and on 28 October it paused the rollout while it consults industry groups. The investigation followed concerns from the News Media Association and Movement for an Open Web.",
+    "The CMA will look at whether Meta holds a dominant position in a UK market and, if so, whether these terms abuse it. It stresses that no decision has been made on whether Meta has broken the law. Its indicative timetable runs information gathering from October 2026 to January 2027.",
+    "Separately, the CMA is asking Meta about its new Meta One business subscription. The Federation of Small Businesses has raised concerns about the impact on small firms, including posting external links on Facebook and Instagram without paying a subscription fee. Those questions sit outside this investigation."
+  ],
+  "do_this": [
+    "If your business uses Facebook or Instagram, watch for emails from Meta about new commercial terms and read them before you accept.",
+    "Have evidence of how these terms would affect your business? The CMA invites anyone with relevant information to contact its case team through the case page."
+  ],
+  "source_url": "https://www.gov.uk/government/news/cma-opens-investigation-into-metas-commercial-terms--2",
+  "source_name": "the CMA’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.gov.uk/search/news-and-communications?organisations[]=competition-and-markets-authority&order=updated-newest",
+    "https://www.gov.uk/government/news/cma-opens-investigation-into-metas-commercial-terms--2",
+    "https://www.gov.uk/cma-cases/suspected-abuse-of-a-dominant-position-in-relation-to-metas-commercial-terms"
+  ]
+}
