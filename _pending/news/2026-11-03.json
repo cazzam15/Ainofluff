@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-03",
+  "slug": "ncsc-ai-ransomware-infrastructure-2028",
+  "company": "National Cyber Security Centre",
+  "headline": "UK cyber agency expects AI-powered ransomware to hit critical infrastructure by 2028",
+  "summary": "The NCSC’s annual report says AI-powered malware is “highly likely” to be used in a ransomware attack on UK critical national infrastructure by 2028, and that AI will help attackers work faster within two years.",
+  "body": [
+    "The National Cyber Security Centre (NCSC), part of GCHQ, published its annual State of the Cyber Nation report on Tuesday 3 November. It warns that AI-powered malware is “highly likely” to be used in a ransomware attack on the UK’s critical national infrastructure by 2028.",
+    "Within the next two years, the report says, AI adoption by hostile actors is “highly likely” to increase the scale and efficiency of their operations. That includes ransomware, social engineering (tricking people into handing over access or money) and exploiting security flaws.",
+    "The NCSC says AI means weaknesses “that have been tolerated for far too long” can now be discovered and exploited. Its chief executive, Dr Richard Horne, said: “For decades, we have collectively got away with doing tech on the cheap.”",
+    "Horne wants leaders of every organisation to invest properly in technology, stop connecting it to the internet when it doesn’t need to be, and treat Cyber Essentials as the starting point for their security."
+  ],
+  "do_this": [
+    "Run a small business? Work through the NCSC’s Small organisations guide to cyber security. It covers backups, protecting devices and accounts, and spotting scams, and the NCSC says many steps take as little as 5 minutes.",
+    "List the devices and systems your business has online, and take anything that doesn’t need an internet connection off it.",
+    "Already certified for Cyber Essentials? Treat it as your first step and keep building from there."
+  ],
+  "source_url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+  "source_name": "the NCSC’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+    "https://www.ncsc.gov.uk/collection/annual-review-2026",
+    "https://www.ncsc.gov.uk/collection/small-business-guide"
+  ]
+}
