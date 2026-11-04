@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-04",
+  "slug": "cyber-essentials-75-percent-discount-small-firms",
+  "company": "Department for Digital, Culture, Media and Sport",
+  "headline": "Cyber Essentials now costs small firms 75% less, from £80 plus VAT",
+  "summary": "Small and medium-sized businesses getting their first Cyber Essentials certificate can now claim a 75% discount, paying £80 to £125 plus VAT, until March 2027 or until the money runs out.",
+  "body": [
+    "The government cut the price of Cyber Essentials, its basic cyber security certificate, by 75% on Tuesday 3 November. Micro, small and medium-sized businesses getting their first certificate now pay as little as £80, and no more than £125, plus VAT.",
+    "The discount comes from a new Cyber Essentials First Step Fund. It runs until March 2027, or until the money runs out. The government says the package responds to the way “artificial intelligence transforms both the cyber threat and the tools available to tackle it.”",
+    "Certified firms with a turnover under £20m also get up to £25,000 of cyber liability insurance. Some suppliers can get certified for free: more than 230 businesses have signed the Cyber Resilience Pledge, which lets them refer smaller firms in their supply chains for a free certificate."
+  ],
+  "do_this": [
+    "No Cyber Essentials certificate yet? Start your application at firststep.iasme.co.uk to claim the 75% discount.",
+    "Apply well before March 2027. The discount ends early if the funding runs out.",
+    "Supply a bigger company? Ask if it has signed the Cyber Resilience Pledge. If it has, it can refer you for a free certificate."
+  ],
+  "source_url": "https://www.gov.uk/government/news/new-government-backed-cyber-security-protections-could-save-uk-businesses-thousands",
+  "source_name": "the government’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.gov.uk/government/news/new-government-backed-cyber-security-protections-could-save-uk-businesses-thousands",
+    "https://www.gov.uk/government/publications/cyber-essentials-funding-package",
+    "https://firststep.iasme.co.uk/"
+  ]
+}
