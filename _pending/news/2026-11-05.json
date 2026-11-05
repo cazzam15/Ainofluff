@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-05",
+  "slug": "police-facial-recognition-new-law-watchdog",
+  "company": "Home Office",
+  "headline": "Police facial recognition gets its own law and a watchdog that can stop it",
+  "summary": "The Home Office says police use of facial recognition will get a specific law, independent bias testing and a new watchdog that could take forces to court. Shops using it will get their own code.",
+  "body": [
+    "Police facial recognition will get a dedicated law, the Home Office announced on Wednesday 4 November. Under the plans, forces could only use it when officers believe wanted people could be in an area, and every technology police use must be independently tested for bias by age, gender or race.",
+    "A new independent watchdog will oversee police use of current and future technologies. If a force breaks the rules, the watchdog can seek a court injunction to stop it using them. Businesses using facial recognition to tackle crime, including shops, will get a separate legal code.",
+    "The plans follow a public consultation that drew 13,845 responses. The rules today sit across a patchwork of laws. The government hasn’t said when the new law will reach Parliament, and its response names police forces in England and Wales without saying whether Scotland or Northern Ireland are covered.",
+    "Police already use the cameras. Static cameras trialled in Croydon between October 2025 and March 2026 led to 173 arrests, and the government has spent £11 million to triple the number of live facial recognition vans in England and Wales."
+  ],
+  "do_this": [
+    "Want to know how police use the cameras now? Read the government’s guide, Police use of facial recognition, on GOV.UK.",
+    "Run a shop with facial recognition cameras? Data protection law already applies to you, and a new code is on the way. Check your setup before it lands."
+  ],
+  "source_url": "https://www.gov.uk/government/news/stronger-laws-for-police-using-facial-recognition-technology",
+  "source_name": "the Home Office announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.gov.uk/government/news/stronger-laws-for-police-using-facial-recognition-technology",
+    "https://www.gov.uk/government/consultations/legal-framework-for-using-facial-recognition-in-law-enforcement",
+    "https://www.gov.uk/government/consultations/legal-framework-for-using-facial-recognition-in-law-enforcement/outcome/new-legal-framework-for-law-enforcement-use-of-biometrics-facial-recognition-and-similar-technologies-government-response-to-the-consultation-acces"
+  ]
+}
