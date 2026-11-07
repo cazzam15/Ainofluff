@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-07",
+  "slug": "bank-of-england-ai-growth-productivity",
+  "company": "Bank of England",
+  "headline": "AI drove just under a fifth of UK growth this year, the Bank of England says",
+  "summary": "The Bank of England estimates new AI activity accounts for just under a fifth of UK growth since the start of 2026, mostly from building the technology. Firms report a productivity boost of around 0.5% over three years and close to zero effect on jobs so far.",
+  "body": [
+    "AI has helped keep the UK economy growing this year. In its Monetary Policy Report on Thursday 5 November, the Bank of England estimates that new AI-related activity accounts for just under a fifth of UK GDP growth since the start of 2026. Most of that came from developing and setting up AI technology. Wider gains from firms using AI across the rest of the economy have stayed small so far.",
+    "Companies answering the Bank’s Decision Maker Panel survey estimate AI has increased productivity by around 0.5% over the past three years. They report close to zero impact on jobs. Businesses in touch with the Bank’s Agents say AI makes firms less likely to hire or replace staff, but not materially more likely to fire anyone so far.",
+    "Firms expect much more. The same survey puts the expected boost at about 0.9 percentage points a year on average over the next three years, split roughly equally between slower growth in staff numbers and faster growth in output. The Agents’ contacts increasingly report that firms using AI well, and at enough scale, can automate routine admin and speed up knowledge work.",
+    "The report landed alongside an interest rate rise. The Bank’s Monetary Policy Committee voted 8 to 1 to raise Bank Rate by 0.25 percentage points, to 4%."
+  ],
+  "do_this": [
+    "Running a small business? Pick one routine admin job, such as replying to common customer emails, and try a free AI tool on it for a week.",
+    "Note the minutes it saves each week. You’ll know if a paid plan earns its keep before you spend anything."
+  ],
+  "source_url": "https://www.bankofengland.co.uk/monetary-policy-report/2026/november-2026",
+  "source_name": "the Bank of England’s November 2026 Monetary Policy Report",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.gov.uk/search/news-and-communications?keywords=artificial+intelligence&order=updated-newest",
+    "https://www.gov.uk/search/news-and-communications?organisations[]=department-for-science-innovation-and-technology&order=updated-newest",
+    "https://www.bankofengland.co.uk/monetary-policy-report/2026/november-2026",
+    "https://www.bankofengland.co.uk/-/media/boe/files/monetary-policy-report/2026/november/monetary-policy-report-november-2026.pdf",
+    "https://blog.google/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/",
+    "https://gemini.google/release-notes/",
+    "https://www.anthropic.com/news",
+    "https://about.fb.com/news/",
+    "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/",
+    "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+    "https://about.fb.com/news/2026/11/whatsapp-events-brings-people-together-beyond-the-group-chat/",
+    "https://www.facebook.com/legal/commercial_terms",
+    "https://www.gov.uk/government/news/cma-opens-investigation-into-metas-commercial-terms--2",
+    "https://blogs.microsoft.com/",
+    "https://www.apple.com/uk/newsroom/"
+  ]
+}
