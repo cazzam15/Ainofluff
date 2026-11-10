@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-10",
+  "slug": "claude-fable-5-2-pro-users-this-week",
+  "company": "Anthropic",
+  "headline": "Claude Fable 5.2 is out, and Pro users can try it this week",
+  "summary": "Anthropic released Claude Fable 5.2 on 9 November. This week only, Pro subscribers can use it within their normal plan limits, though Anthropic says most people should start with Opus 5.5.",
+  "body": [
+    "Anthropic released Claude Fable 5.2 on Monday 9 November. Anthropic builds Fable for the hardest, open-ended technical work. The company says the new version improves on coding, reasoning and reading images, and produces its answers up to 30% faster than Fable 5.1.",
+    "Pro subscribers normally pay extra, through usage credits, to use Fable. For the launch week, Anthropic is letting Pro users and standard Team seats spend up to half of their weekly usage on Fable at no extra cost. That half comes out of your usual allowance, and Fable uses it up faster than other models. Max and Ultra subscribers and premium Team seats get one to three extra Fable resets, depending on how long they’ve subscribed. Free accounts can’t use Fable at all.",
+    "Anthropic’s own advice: for most coding and knowledge tasks, start with Claude Opus 5.5 and save Fable for the toughest jobs. It also says Fable 5.2’s safety filters block about 55% fewer requests than the last version, so expect fewer refusals. The UK’s AI Security Institute helped test the model before release.",
+    "Anthropic hasn’t said which countries get the launch offer, or exactly when it ends."
+  ],
+  "do_this": [
+    "On Claude Pro? Save one hard technical job, such as a broken spreadsheet formula, and try it on Fable 5.2 this week.",
+    "Keep Opus 5.5 for everyday questions, so Fable doesn’t eat your weekly allowance."
+  ],
+  "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+  "source_name": "Anthropic’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.gov.uk/search/news-and-communications?keywords=artificial+intelligence&order=updated-newest",
+    "https://gemini.google/release-notes/",
+    "https://blog.google/",
+    "https://www.anthropic.com/news",
+    "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "https://support.claude.com/en/articles/15424964-claude-fable-5-on-your-plan",
+    "https://www.ncsc.gov.uk/section/keep-up-to-date/ncsc-news",
+    "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/",
+    "https://www.ofcom.org.uk/news-centre",
+    "https://www.apple.com/uk/newsroom/"
+  ]
+}
