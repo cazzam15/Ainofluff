@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-11",
+  "slug": "meta-ai-teen-age-checks-worldwide",
+  "company": "Meta",
+  "headline": "Meta’s AI will move more teens using adult birthdays into Teen Accounts",
+  "summary": "Meta is expanding the AI it uses to spot teenagers who claim to be adults, and placing them in Teen Account protections. Instagram users in the UK already have it.",
+  "body": [
+    "On Monday 9 November, Meta said it is expanding its AI age-estimation technology worldwide. The AI looks for people it suspects are teenagers, even if they signed up with an adult birthday, and puts them in Teen Account protections. Those limit who can contact a teen, the content they see and their time on Meta’s apps. Meta says the rollout on Facebook is continuing, and similar technology reaches Threads later this year.",
+    "UK families have seen this before. In May, Meta named the UK as one of four countries where it already ran the technology on Instagram. Teens who try to change their birthday to over 18 have to prove their age with ID or a face-scan age estimate from Yoti. If Meta suspects an account belongs to a child under 13, it deactivates it, and the owner must prove their age to stop it being deleted.",
+    "Parents in the US will get a notification on Instagram explaining how to help keep their teen’s age accurate. Meta hasn’t said whether UK parents will get one. It has published a guide for parents everywhere, written by Larry Magid, chief executive of ConnectSafely."
+  ],
+  "do_this": [
+    "Check your child used their real date of birth when they set up Instagram or Facebook.",
+    "If your teen wants fewer restrictions, loosen settings together through Meta’s parental supervision tools, rather than letting them change their age.",
+    "Read Meta’s guide for parents at familycenter.meta.com/resources/meta-age-assurance."
+  ],
+  "source_url": "https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world/",
+  "source_name": "Meta’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.gov.uk/search/news-and-communications?keywords=artificial+intelligence&order=updated-newest",
+    "https://www.gov.uk/government/speeches/rewiring-the-state-and-the-future-civil-service",
+    "https://blog.google/",
+    "https://about.fb.com/news/",
+    "https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world/",
+    "https://about.fb.com/news/2026/05/ai-age-assurance-teens/",
+    "https://familycenter.meta.com/resources/meta-age-assurance"
+  ]
+}
