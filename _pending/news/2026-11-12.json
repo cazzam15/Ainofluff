@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-12",
+  "slug": "dfe-safety-badge-school-ai-tools",
+  "company": "Department for Education",
+  "headline": "AI tools pupils use at school in England could get a government safety badge",
+  "summary": "The Department for Education wants independent safety checks on AI chatbots, tutoring apps and other tech children use in school. Anyone can comment until 4 February 2027.",
+  "body": [
+    "On Tuesday 10 November, the Department for Education opened a consultation on a safety certification scheme for education technology and AI used by children in England. It covers early years settings, schools and colleges, for children aged 0 to 18. Independent assessors, accredited by the United Kingdom Accreditation Service, would check products against set safety criteria. Products that pass could carry a badge, and the department would keep a public list of certified products, for example on GOV.UK.",
+    "Four kinds of product are in scope: web filtering, tech that carries out high-risk processing of children’s data, AI tools pupils use directly, and personalised learning tools. AI chatbots, tutoring apps and content generators made for children would face eight checks. These include blocking harmful content, alerting staff, avoiding manipulative design, and limiting the risk of emotional dependence or “cognitive deskilling”. Lower-risk tech, such as email, word processors, tablets and most tools only staff use, falls outside it.",
+    "Don’t expect badges soon. The department says it needs at least 18 months to set the scheme up before any product gets certified, followed by a transition period. It also says the scheme is “technically non-mandatory”: it has no power to make schools use certified products, or make suppliers apply. It plans to set a clear expectation in statutory guidance instead, and asks whether a future law is needed."
+  ],
+  "do_this": [
+    "If you’re a parent or teacher, ask your school which AI tools pupils use, and how it checked they are safe.",
+    "Have your say before 11:59pm on 4 February 2027. The consultation is open to everyone, including parents and pupils, at consult.education.gov.uk."
+  ],
+  "source_url": "https://www.gov.uk/government/consultations/introducing-an-edtech-and-ai-product-safety-certification-scheme",
+  "source_name": "the Department for Education’s consultation",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.gov.uk/government/consultations/introducing-an-edtech-and-ai-product-safety-certification-scheme",
+    "https://consult.education.gov.uk/edtech-regulation-policy-team/education-technology-safety-assurance-certificatio/",
+    "https://consult.education.gov.uk/edtech-regulation-policy-team/education-technology-safety-assurance-certificatio/supporting_documents/introducing-a-certification-scheme-for-assuring-edtech-and-ai-product-safetypdf-1"
+  ]
+}
