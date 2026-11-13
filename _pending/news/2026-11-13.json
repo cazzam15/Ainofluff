@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-13",
+  "slug": "gemini-task-automation-uk",
+  "company": "Google",
+  "headline": "Gemini can now order food and book rides in your phone apps in the UK",
+  "summary": "Google’s Gemini app can now carry out tasks inside apps on some Android phones in the UK, such as ordering food or booking a ride. You stay responsible for any mistakes, including purchases.",
+  "body": [
+    "Google says task automation has reached the UK, India and Japan. You type a request into the Gemini app, such as ordering a takeaway or booking a taxi, and Gemini taps through the right app on your phone to do it for you.",
+    "It only works on newer phones: the Pixel 10 and Pixel 11 ranges, plus Samsung’s Galaxy S26 series, Z Flip 8, Z Fold 8 and Tab S12 tablets. You need to be 18 or over and signed in with a personal Google account. Work, school and supervised accounts can’t use it. Google calls it a beta, it works in English with select apps only, and you get a limited number of requests each day.",
+    "Google’s help page spells out the risk. It says you’re responsible for Gemini’s actions, “including mistakes and unexpected results like purchases”, and lists placing an order without your confirmation among the things that can go wrong. Gemini aims to ask before it completes certain actions, and you can stop a task or take over at any point."
+  ],
+  "do_this": [
+    "In the Gemini app, open Settings, then Screen automation, and set each app to “Ask every time” so Gemini needs your permission before it uses that app.",
+    "Never type card or login details into the chat. Google says to take control and enter them in the app yourself.",
+    "Watch the task while it runs and read every confirmation request before you tap yes."
+  ],
+  "source_url": "https://support.google.com/gemini/answer/16940971",
+  "source_name": "Google’s Gemini help page",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+    "https://support.google.com/gemini/answer/16940971"
+  ]
+}
