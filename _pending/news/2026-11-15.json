@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-15",
+  "slug": "gemini-4-hydrogen-free-auto-model",
+  "company": "Google",
+  "headline": "Free Gemini users can now get Google’s new Hydrogen model, if Auto is on",
+  "summary": "Google released Gemini 4 Hydrogen on 12 November. Free Gemini users only get it when auto model selection is switched on, and Google picks it for the prompts that need it.",
+  "body": [
+    "Google announced Gemini 4 Hydrogen on 12 November. It says Hydrogen finishes tasks 2.5 times faster than Gemini 3.8 Flash at its default setting, and that it is rolling out globally across Google’s apps for consumers, developers and businesses. Google also says Hydrogen is upgrading Google Search for all users.",
+    "On a free personal account, you can’t pick Hydrogen yourself. Google’s footnote says free users get it through auto model selection, when it suits the prompt. Google’s help page says most prompts still go to Flash-Lite, its smallest model, and with Auto switched off every answer comes from Flash-Lite.",
+    "Paying subscribers on Google AI Plus, Pro or Ultra can choose Hydrogen from the model list. Google hasn’t said which countries get Hydrogen beyond “globally”, and its post doesn’t mention the UK. On a work or school account, your Workspace licence decides which models you see."
+  ],
+  "do_this": [
+    "In the Gemini app or at gemini.google.com, open the menu, go to Settings, then Usage limits, and check auto model selection is on at the bottom."
+  ],
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+  "source_name": "Google’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "https://support.google.com/gemini/answer/18648722",
+    "https://gemini.google/release-notes/",
+    "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity"
+  ]
+}
