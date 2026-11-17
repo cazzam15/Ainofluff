@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-17",
+  "slug": "gemini-app-66-regional-voices-uk-english",
+  "company": "Google",
+  "headline": "Gemini app adds 66 regional voices, with options for UK English",
+  "summary": "Google started rolling out 66 regional voices in the Gemini app on Android and iOS on 16 November, including UK English. Google hasn’t said which countries or plans get them.",
+  "body": [
+    "Google started rolling out 66 new regional voices in the Gemini app on 16 November, on Android and iOS. They cover UK English, US English, Indian English, Hindi, Brazilian Portuguese, Indonesian and Korean, with a choice of voices for each.",
+    "Google says it tuned each voice for natural rhythm and everyday clarity, and steered away from exaggerated accents. Your pick carries across the whole app: chatting out loud in Gemini Live, practising a language, or tapping the Listen icon to hear a long answer read out.",
+    "Google’s post lists UK English but doesn’t name the regional accents or say how many UK voices there are. It also hasn’t said which countries get the voices, or whether free and paid plans both get them. Google calls this a rollout, so your phone may not show them yet."
+  ],
+  "do_this": [
+    "In the Gemini app, tap the three-dot menu in Gemini Live, or open Gemini’s voice in your app settings. Preview the voices there and pick one."
+  ],
+  "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+  "source_name": "Google’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://blog.google/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+    "https://gemini.google/release-notes/",
+    "https://www.anthropic.com/news",
+    "https://blogs.microsoft.com/",
+    "https://about.fb.com/news/",
+    "https://about.fb.com/news/2026/11/introducing-direct-an-app-just-for-messaging/",
+    "https://www.gov.uk/search/news-and-communications?keywords=artificial+intelligence&order=updated-newest",
+    "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/",
+    "https://www.ncsc.gov.uk/section/keep-up-to-date/ncsc-news",
+    "https://www.techtimes.com/articles/330868/20261116/google-rolls-out-66-gemini-regional-voices-including-uk-geordie-scouse-brummie-accents.htm"
+  ]
+}
