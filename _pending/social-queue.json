@@ -314,5 +314,155 @@
     "Posted At": "",
     "media": "2026-10-11-claude-agents-fake-police-tip.png",
     "exported_at": "2026-10-14"
+  },
+  {
+    "id": "2026-11-18-barclays-black-friday-ai-scams",
+    "added": "2026-11-17",
+    "Date": "2026-11-18 19:00",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "76% of UK adults say AI has made scams more convincing, but only 36% check first",
+    "Caption Notes": "76% of UK adults say AI has made scams more convincing, but only 36% check a website is genuine before they buy.\n\nFake reviews and copycat shop sites are getting harder to spot. Barclays' SPOT check:\nS: Slow down. Countdown timers are there to rush you.\nP: Pay by card or a trusted service, never by bank transfer to a seller you don't know.\nO: Open the official site or app yourself. Don't use links in ads or texts.\nT: Talk to someone if it feels off.\n\nSend this to someone who's deal hunting this week.\nSource: Barclays, 13 Nov 2026. More AI news, no fluff, over on X: @CaroBuildsUK",
+    "x_text": "76% of UK adults say AI has made scams more convincing, but only 36% check a website is genuine before they buy. Barclays' SPOT check: slow down, pay safely, open the official site yourself, talk to someone if it feels off. Source: Barclays, 13 Nov 2026.",
+    "graphic": {
+      "headline": "Spot an AI shopping scam",
+      "highlight": "scam",
+      "lines": [
+        "S: Slow down. P: Pay safely",
+        "O: Open the official site yourself",
+        "T: Talk to someone if it feels off"
+      ],
+      "source": "Source: Barclays, Nov 2026"
+    },
+    "alt_text": "The headline \"Spot an AI shopping scam\" above four letters, S, P, O and T, each with a short tip: slow down, pay safely, open the official site yourself, talk to someone.",
+    "label": "news",
+    "source_url": "https://home.barclays/news/press-releases/20260/110/shoppers-worry-about-black-friday-ai-scams--but-drop-their-guard/",
+    "checked_sources": [
+      "https://home.barclays/news/press-releases/20260/110/shoppers-worry-about-black-friday-ai-scams--but-drop-their-guard/"
+    ],
+    "Status": "publer",
+    "Posted At": "",
+    "media": "2026-11-18-barclays-black-friday-ai-scams.png"
+  },
+  {
+    "id": "2026-11-19-amazon-alexa-for-shopping-uk",
+    "added": "2026-11-17",
+    "Date": "2026-11-19 19:00",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "Amazon's free AI shopping assistant is now in the UK",
+    "Caption Notes": "Alexa for Shopping launched in the UK on 11 Nov. It's free for anyone signed in to Amazon, so you don't need Prime or an Echo.\n\nThe handy bit for Black Friday is Price History. Tap it on any product page to see up to a year of prices, so you can tell whether a \"deal\" really is one. It can also compare products side by side and sum up the reviews.\n\nUpdate the Amazon Shopping app and tap the Alexa icon at the bottom.\nSource: Amazon UK, 11 Nov 2026. More AI news, no fluff, over on X: @CaroBuildsUK",
+    "x_text": "Alexa for Shopping launched in the UK on 11 Nov. It's free if you're signed in to Amazon. Tap Price History on a product page to see up to a year of prices, and tell whether a \"deal\" really is one. Source: Amazon UK, 11 Nov 2026.",
+    "graphic": {
+      "headline": "Is that Black Friday deal real?",
+      "highlight": "real",
+      "lines": [
+        "Free Alexa for Shopping is now in the UK",
+        "Check up to a year of price history",
+        "Compare products side by side"
+      ],
+      "source": "Source: Amazon UK, Nov 2026"
+    },
+    "alt_text": "The headline \"Is that Black Friday deal real?\" above three lines: free Alexa for Shopping is now in the UK, check up to a year of price history, and compare products side by side.",
+    "label": "news",
+    "source_url": "https://www.aboutamazon.co.uk/news/retail/meet-alexa-for-shopping-your-personalised-ai-assistant-on-amazon",
+    "checked_sources": [
+      "https://www.aboutamazon.co.uk/news/retail/meet-alexa-for-shopping-your-personalised-ai-assistant-on-amazon"
+    ],
+    "Status": "publer",
+    "Posted At": "",
+    "media": "2026-11-19-amazon-alexa-for-shopping-uk.png"
+  },
+  {
+    "id": "2026-11-20-chatgpt-voice-modes-end",
+    "added": "2026-11-17",
+    "Date": "2026-11-20 19:00",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "ChatGPT's old voice modes end on 11 December",
+    "Caption Notes": "If you talk to ChatGPT out loud, a change is coming.\n\nOpenAI is retiring Standard and Advanced voice on 11 December 2026. Everyone moves to GPT-Live, the newer voice model it launched in July. OpenAI says nearly all voice users already use it.\n\nYou don't need to do anything. If the voice sounds a bit different after the 11th, that's why.\nSource: OpenAI ChatGPT release notes, 10 Nov 2026. More AI news, no fluff, over on X: @CaroBuildsUK",
+    "x_text": "OpenAI is retiring ChatGPT's Standard and Advanced voice on 11 December 2026. Everyone moves to GPT-Live. You don't need to do anything. If the voice sounds a bit different after the 11th, that's why. Source: OpenAI, 10 Nov 2026.",
+    "graphic": {
+      "headline": "ChatGPT voice is changing",
+      "highlight": "changing",
+      "lines": [
+        "Standard and Advanced voice end 11 Dec",
+        "Everyone moves to GPT-Live",
+        "There's nothing you need to do"
+      ],
+      "source": "Source: OpenAI, Nov 2026"
+    },
+    "alt_text": "The headline \"ChatGPT voice is changing\" above three lines: Standard and Advanced voice end on 11 December, everyone moves to GPT-Live, and there's nothing you need to do.",
+    "label": "news",
+    "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "checked_sources": [
+      "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    ],
+    "Status": "publer",
+    "Posted At": "",
+    "media": "2026-11-20-chatgpt-voice-modes-end.png"
+  },
+  {
+    "id": "2026-11-21-uk-banks-block-ai-agents",
+    "added": "2026-11-17",
+    "Date": "2026-11-21 19:00",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "UK banks are blocking AI agents from your account",
+    "Caption Notes": "HSBC, Nationwide, NatWest, Barclays and Lloyds have all moved to block AI agents from accessing customer accounts. In some cases that includes stopping agents from making payments without you directly involved.\n\nWhy: there are no clear rules yet on who is responsible if a bot gets it wrong with your money. The Telegraph reports the bans are pre-emptive, with no signs yet of bots getting into accounts.\n\nThe takeaway: don't give any AI tool your banking login.\nSource: The Telegraph, 8 Nov 2026. More AI news, no fluff, over on X: @CaroBuildsUK",
+    "x_text": "HSBC, Nationwide, NatWest, Barclays and Lloyds have moved to block AI agents from accessing customer accounts. Don't give any AI tool your banking login. Source: The Telegraph, 8 Nov 2026.",
+    "graphic": {
+      "headline": "Banks say no to AI agents",
+      "highlight": "AI agents",
+      "lines": [
+        "HSBC, Nationwide, NatWest,",
+        "Barclays and Lloyds",
+        "Never give an AI tool your banking login"
+      ],
+      "source": "Source: The Telegraph, Nov 2026"
+    },
+    "alt_text": "The headline \"Banks say no to AI agents\" above the names HSBC, Nationwide, NatWest, Barclays and Lloyds, and the line \"Never give an AI tool your banking login\".",
+    "label": "news",
+    "source_url": "https://www.telegraph.co.uk/business/2026/11/08/banks-ban-ai-from-accounts-over-fears-of-rogue-agents/",
+    "checked_sources": [
+      "https://www.telegraph.co.uk/business/2026/11/08/banks-ban-ai-from-accounts-over-fears-of-rogue-agents/"
+    ],
+    "Status": "publer",
+    "Posted At": "",
+    "media": "2026-11-21-uk-banks-block-ai-agents.png"
+  },
+  {
+    "id": "2026-11-22-ai-cancel-subscriptions",
+    "added": "2026-11-17",
+    "Date": "2026-11-22 19:00",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "Would you let AI cancel your subscriptions?",
+    "Caption Notes": "75% of UK adults say they'd let AI do money-saving jobs for them.\n\nWhat people would hand over:\n• 41%: cancel unused subscriptions\n• 36%: chase a refund or dispute a charge\n• 30%: switch insurance or energy\n\nWhat they wouldn't:\n• 17%: move their savings\n• 10%: buy and sell investments\n\nThe boring admin goes to AI and the big money decisions stay with us. Which would you hand over?\nSource: Attest 2027 Consumer Trends Report (2,000 UK adults aged 18 to 64). These are what people say they'd allow, not what they've done. More AI news, no fluff, over on X: @CaroBuildsUK",
+    "x_text": "75% of UK adults say they'd let AI do money-saving jobs for them. 41% would cancel unused subscriptions, 36% would chase a refund, 30% would switch insurance or energy. Fewer would hand over savings (17%) or investments (10%). Source: Attest 2027 Consumer Trends Report.",
+    "graphic": {
+      "headline": "What would you let AI do with your money?",
+      "highlight": "money",
+      "lines": [
+        "Cancel subscriptions 41%",
+        "Chase refunds 36%. Switch energy 30%",
+        "Move savings 17%. Trade investments 10%"
+      ],
+      "source": "Source: Attest, 2027 trends report"
+    },
+    "alt_text": "The headline \"What would you let AI do with your money?\" above a list: cancel subscriptions 41%, chase refunds 36%, switch insurance or energy 30%, move savings 17%, trade investments 10%.",
+    "label": "news",
+    "source_url": "https://itbrief.co.uk/story/uk-adults-back-ai-for-money-saving-financial-chores",
+    "checked_sources": [
+      "https://itbrief.co.uk/story/uk-adults-back-ai-for-money-saving-financial-chores"
+    ],
+    "Status": "publer",
+    "Posted At": "",
+    "media": "2026-11-22-ai-cancel-subscriptions.png"
   }
 ]
