@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-18",
+  "slug": "gemini-keep-history-opt-out-ai-training",
+  "company": "Google",
+  "headline": "Gemini will let you keep your chat history without training Google’s AI",
+  "summary": "Google announced on 16 November that new Gemini settings will let you save your chats while opting out of AI model training. The change rolls out globally in the coming weeks.",
+  "body": [
+    "Google announced on Monday 16 November that new settings in the Gemini app will let you keep your chat history while opting out of generative AI model training. Google says the changes start rolling out globally in the Gemini app in the coming weeks, so expect them on UK accounts too, though possibly not yet on yours.",
+    "Switching History off works differently now. Google says your future chats will still be saved for around two months, and used to respond to you, process your feedback and protect Google, its users and the public.",
+    "Google’s help pages set out the rest. History deletes itself after 18 months by default, and you can change that to 3 or 36 months, or keep it indefinitely. Temporary chats never train Google’s AI models. A person may review some chats, and Google keeps reviewed chats for up to three years, even after you delete them. Work and school accounts may follow different rules."
+  ],
+  "do_this": [
+    "Once the update reaches you, open gemini.google.com on a computer, click Settings, then History. Google’s help page names the training option “Chat content including text & uploads”.",
+    "Pick an auto-delete period in the same place: 3, 18 or 36 months.",
+    "Use a temporary chat for anything private. Google doesn’t use those to train its models."
+  ],
+  "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/",
+  "source_name": "Google’s announcement",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://gemini.google/release-notes/",
+    "https://www.digitaltrends.com/computing/gemini-users-can-finally-save-their-ai-chats-without-letting-google-use-them-for-training-but-theres-a-catch/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/",
+    "https://support.google.com/gemini?p=chat_history",
+    "https://support.google.com/gemini/answer/13594961",
+    "https://support.google.com/gemini/answer/13278892"
+  ]
+}
