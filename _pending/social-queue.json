@@ -343,7 +343,8 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-11-18-barclays-black-friday-ai-scams.png"
+    "media": "2026-11-18-barclays-black-friday-ai-scams.png",
+    "exported_at": "2026-11-18"
   },
   {
     "id": "2026-11-19-amazon-alexa-for-shopping-uk",
@@ -373,7 +374,8 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-11-19-amazon-alexa-for-shopping-uk.png"
+    "media": "2026-11-19-amazon-alexa-for-shopping-uk.png",
+    "exported_at": "2026-11-18"
   },
   {
     "id": "2026-11-20-chatgpt-voice-modes-end",
@@ -403,7 +405,8 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-11-20-chatgpt-voice-modes-end.png"
+    "media": "2026-11-20-chatgpt-voice-modes-end.png",
+    "exported_at": "2026-11-18"
   },
   {
     "id": "2026-11-21-uk-banks-block-ai-agents",
@@ -433,7 +436,8 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-11-21-uk-banks-block-ai-agents.png"
+    "media": "2026-11-21-uk-banks-block-ai-agents.png",
+    "exported_at": "2026-11-18"
   },
   {
     "id": "2026-11-22-ai-cancel-subscriptions",
@@ -463,6 +467,7 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-11-22-ai-cancel-subscriptions.png"
+    "media": "2026-11-22-ai-cancel-subscriptions.png",
+    "exported_at": "2026-11-18"
   }
 ]
