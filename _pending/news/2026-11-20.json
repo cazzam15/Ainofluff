@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-20",
+  "slug": "canva-switch-off-generative-ai-tools",
+  "company": "Canva",
+  "headline": "Canva now lets you switch off its AI tools with one setting",
+  "summary": "Free and Pro users can now turn off Canva’s generative AI features in one place, and ask for fewer AI-made templates in search. The switches are rolling out gradually.",
+  "body": [
+    "Canva has added a setting that turns off its generative AI features for your account. On Canva Free and Canva Pro, one switch disables more than 20 tools, including Canva AI, Magic Write, Magic Design, Magic Media, Dream Lab, Image to Video and Translate designs. The AI stays on unless you change it, and any new generative AI features Canva adds will follow your choice.",
+    "Canva’s AI tools that don’t generate anything new, such as the background remover, keep working with the switch off.",
+    "A second setting cuts down the templates and elements Canva has tagged as AI-generated in search and recommendations. Canva says some will still slip through, and switching it off won’t touch AI content already in your designs.",
+    "Canva is rolling both settings out gradually and hasn’t said which countries get them first. If you use Canva Teams, Business, Enterprise or Education, you won’t see the switch: your admin decides who can use the AI features."
+  ],
+  "do_this": [
+    "To turn the AI tools off, select your profile icon, then Settings, then Permissions under “Controls and permissions”, and switch off Enable generative AI features.",
+    "For fewer AI-made templates, select your profile icon, then Your account, then AI personalization, and switch off AI-generated content.",
+    "If you can’t see either setting yet, check again in a few days."
+  ],
+  "source_url": "https://www.canva.com/help/manage-ai-features/",
+  "source_name": "Canva’s help centre",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.canva.com/help/manage-ai-features/"
+  ]
+}
