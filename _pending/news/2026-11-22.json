@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-22",
+  "slug": "chatgpt-space-plus-users-worldwide",
+  "company": "OpenAI",
+  "headline": "ChatGPT Space reaches Plus users worldwide, replacing your Library",
+  "summary": "OpenAI started rolling out Space to ChatGPT Plus users worldwide on 20 November. You can build pages and slides with ChatGPT and share them, but people on the free plan can’t open them.",
+  "body": [
+    "OpenAI began rolling out ChatGPT Space to Plus subscribers worldwide on 20 November, for users aged 18 and over. Until now it was only for Pro, Business and Enterprise accounts.",
+    "Space lets you make interactive pages and presentations with ChatGPT, then invite other people to build on them with you. OpenAI suggests a to-do list that updates itself, or a study guide with a 3D model you can explore. Pages can also update on their own from apps you’ve connected to ChatGPT, and you can tag ChatGPT in a comment to ask for changes.",
+    "Sharing has limits. Anyone you share with must be signed in to a paid Plus, Pro, Business or Enterprise account with Space. Friends on the free plan can’t open your pages, and there are no public links.",
+    "Space sits in the sidebar and takes over from Library as the home for your pages, slides, images and uploaded files. It works on the web, the desktop app, and the iPhone and Android apps."
+  ],
+  "do_this": [
+    "If you pay for Plus, look for Space in the ChatGPT sidebar. Your images and uploaded files that used to live in Library now sit there.",
+    "Before you plan a shared page with family or colleagues, check they pay for ChatGPT. Free users can’t open it."
+  ],
+  "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+  "source_name": "OpenAI’s ChatGPT release notes",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "https://gemini.google/release-notes/",
+    "https://support.claude.com/en/articles/12138966-release-notes"
+  ]
+}
