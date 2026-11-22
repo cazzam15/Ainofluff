@@ -124,7 +124,8 @@
       .hero-headline .struck::after { animation: strike 0.45s cubic-bezier(.2,0,.2,1) 0.75s both; }
       .hero-headline .replace { animation: rise 0.6s cubic-bezier(.2,0,.2,1) 1.15s both; }
       .hero-sub, .hero-signup, .hero-cta-row { animation: rise 0.6s cubic-bezier(.2,0,.2,1) 1.4s both; }
-      .hero-media { animation: settle 0.9s cubic-bezier(.2,0,.2,1) 0.3s both; }
+      /* Move only, no fade: the video poster is the largest thing on screen, so it must show from the first paint (Google LCP). */
+      .hero-media { animation: settle-in 0.9s cubic-bezier(.2,0,.2,1) both; }
       .strip-track { animation: marquee 45s linear infinite; }
       .strip:hover .strip-track { animation-play-state: paused; }
       .js .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s cubic-bezier(.2,0,.2,1); transition-delay: var(--delay, 0s); }
@@ -133,6 +134,7 @@
     @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
     @keyframes strike { from { transform: scaleX(0); } to { transform: scaleX(1); } }
     @keyframes settle { from { opacity: 0; transform: translateY(24px) scale(0.97); } to { opacity: 1; transform: none; } }
+    @keyframes settle-in { from { transform: translateY(24px) scale(0.97); } to { transform: none; } }
     @keyframes marquee { to { transform: translateX(-50%); } }
     @media (max-width: 900px) {
       .hero-inner { grid-template-columns: 1fr; gap: 40px; }
