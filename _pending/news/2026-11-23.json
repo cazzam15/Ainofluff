@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-23",
+  "slug": "signal-blocks-phone-ai-assistants-reading-chats",
+  "company": "Signal",
+  "headline": "Signal now stops your phone’s built-in AI from reading your chats",
+  "summary": "Signal says it now blocks AI assistants built into iPhones and Android phones from capturing what’s on your Signal screen. On a Mac, you need to keep Siri out of Signal yourself.",
+  "body": [
+    "Signal, the encrypted messaging app, posted on 20 November that it is blocking AI assistants built into phone operating systems from capturing your Signal chats. On iPhones running iOS 27, it stops screenshots inside the app, and a new “Block Siri AI” setting appears in Signal’s settings.",
+    "On Android, Signal switches on its “Screen security” setting by itself when it spots an AI assistant trying to read your Signal screen. Signal names Google’s Gemini and Apple’s Siri among the assistants it has in mind. It used the same trick last year to keep Microsoft’s Recall feature on Windows 11 away from your messages.",
+    "Macs are the gap. Signal says it can’t reliably block screenshots on macOS 27, so it asks Mac users to exclude the app from Siri themselves. Signal also warns that stopping screenshots doesn’t close every route an AI agent could use to get at your data.",
+    "You can switch the protection off if you want to take screenshots. Signal warns that doing so could expose your messages, and your contacts’ messages, to these AI agents."
+  ],
+  "do_this": [
+    "On an iPhone with iOS 27, look in Signal’s settings for the new “Block Siri AI” option.",
+    "On a Mac, open System Settings, go to Siri and add Signal to the Excluded Apps list.",
+    "Think twice before you switch off screen security just to grab a screenshot of a chat."
+  ],
+  "source_url": "https://signal.org/blog/protecting-your-privacy/",
+  "source_name": "Signal’s blog post",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://signal.org/blog/",
+    "https://signal.org/blog/protecting-your-privacy/"
+  ]
+}
