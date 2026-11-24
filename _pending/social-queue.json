@@ -469,5 +469,155 @@
     "Posted At": "",
     "media": "2026-11-22-ai-cancel-subscriptions.png",
     "exported_at": "2026-11-18"
+  },
+  {
+    "id": "2026-11-25-chatbot-fake-shops",
+    "added": "2026-11-24",
+    "Date": "2026-11-25 19:00",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "Scammers are tricking chatbots into recommending fake shops",
+    "Caption Notes": "Black Friday is on 27 November, and scammers are using AI to clone real shop websites. National Trading Standards says criminals are also \"poisoning\" chatbots like ChatGPT so they recommend these fake sites.\n\nRed flags:\n• Huge discounts, sometimes 80% off\n• Extra words in the web address, like \"official\" or \"deals\"\n• Asked to pay by bank transfer or crypto\n\nGo to the shop's own website or app directly, and pay by card.\nSource: The Guardian, 22 Nov 2026. More AI news, no fluff, over on X: @CaroBuildsUK",
+    "x_text": "Scammers are using AI to clone shop websites. National Trading Standards says they are also poisoning chatbots so they recommend fake sites. Red flags: huge discounts, official or deals in the web address, and bank transfer or crypto only. Source: The Guardian, 22 Nov 2026.",
+    "graphic": {
+      "headline": "Don't trust a chatbot's bargain",
+      "highlight": "bargain",
+      "lines": [
+        "80% off",
+        "'official' in the web address",
+        "Bank transfer only"
+      ],
+      "source": "Source: The Guardian, 22 Nov 2026"
+    },
+    "alt_text": "The headline \"Don't trust a chatbot's bargain\" above three red flags: \"80% off\", \"'official' in the web address\", \"Bank transfer only\".",
+    "label": "news",
+    "source_url": "https://www.theguardian.com/money/2026/nov/22/black-friday-scam-deals--ai-fake-storefront",
+    "checked_sources": [
+      "https://www.theguardian.com/money/2026/nov/22/black-friday-scam-deals--ai-fake-storefront"
+    ],
+    "Status": "publer",
+    "Posted At": "",
+    "media": "2026-11-25-chatbot-fake-shops.png"
+  },
+  {
+    "id": "2026-11-26-ai-faked-holiday-deals",
+    "added": "2026-11-24",
+    "Date": "2026-11-26 19:00",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "AI-faked holiday deals ahead of Travel Tuesday",
+    "Caption Notes": "The UK Civil Aviation Authority is warning that AI fakery is being used to push \"too good to be true\" holiday deals over Black Friday (27 Nov) and Travel Tuesday (1 Dec).\n\nBefore you book:\n• Check that any package holiday with flights is ATOL protected\n• Pay by credit card\n• Get travel insurance\n\nSpot a deal on social media? Go to the company's own site to check it.\nSource: UK Civil Aviation Authority, 20 Nov 2026. More AI news, no fluff, over on X: @CaroBuildsUK",
+    "x_text": "The UK Civil Aviation Authority warns that AI fakery is being used to push too-good-to-be-true holiday deals over Black Friday and Travel Tuesday (1 Dec). Before you book: check it's ATOL protected, pay by credit card, and get travel insurance. Source: CAA, 20 Nov 2026.",
+    "graphic": {
+      "headline": "Too-good holiday deals?",
+      "highlight": "holiday deals",
+      "lines": [
+        "Check it's ATOL protected",
+        "Pay by credit card",
+        "Get travel insurance"
+      ],
+      "source": "Source: UK Civil Aviation Authority, 20 Nov 2026"
+    },
+    "alt_text": "The headline \"Too-good holiday deals?\" above three tips: \"Check it's ATOL protected\", \"Pay by credit card\", \"Get travel insurance\".",
+    "label": "news",
+    "source_url": "https://www.caa.co.uk/newsroom/news/holidaymakers-warned-to-beware-of-online-scams-and-ai-generated-fake-deals-during-black-friday",
+    "checked_sources": [
+      "https://www.caa.co.uk/newsroom/news/holidaymakers-warned-to-beware-of-online-scams-and-ai-generated-fake-deals-during-black-friday"
+    ],
+    "Status": "publer",
+    "Posted At": "",
+    "media": "2026-11-26-ai-faked-holiday-deals.png"
+  },
+  {
+    "id": "2026-11-27-meta-muse-uk-launch",
+    "added": "2026-11-24",
+    "Date": "2026-11-27 19:00",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "Meta's AI agent Muse launches in the UK today",
+    "Caption Notes": "Meta's Muse launched in the UK today. It's an AI agent for over-18s that doesn't just answer questions. It goes off and does tasks for you, like finding a cheaper energy deal or sorting the school calendar.\n\nThe catch:\n• It asks your permission every time it wants to send, post or buy something (you can turn that down in settings)\n• It works best when you connect your email, calendar and messages\n• It's only free up to a point, then subscriptions kick in\n\nUK regulators, including the CMA and the ICO, say normal consumer law applies, and agents can make mistakes. Keep the permission checks switched on.\nSource: BBC News and the CMA, 24 Nov 2026. More AI news, no fluff, over on X: @CaroBuildsUK",
+    "x_text": "Meta's Muse launched in the UK on 24 November. It's an AI agent for over-18s that does tasks for you. It asks permission before it sends, posts or buys, and is only free up to a point. UK regulators say agents can make mistakes. Source: BBC News and the CMA, 24 Nov 2026.",
+    "graphic": {
+      "headline": "Meta's AI agent is here",
+      "highlight": "AI agent",
+      "lines": [
+        "Does tasks for you",
+        "Asks permission each time",
+        "Free up to a point"
+      ],
+      "source": "Source: BBC News and the CMA, 24 Nov 2026"
+    },
+    "alt_text": "The headline \"Meta's AI agent is here\" above three lines: \"Does tasks for you\", \"Asks permission each time\", \"Free up to a point\".",
+    "label": "news",
+    "source_url": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o",
+    "checked_sources": [
+      "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o",
+      "https://competitionandmarkets.blog.gov.uk/2026/11/24/cma-statement-on-uk-launch-of-meta-muse/"
+    ],
+    "Status": "publer",
+    "Posted At": "",
+    "media": "2026-11-27-meta-muse-uk-launch.png"
+  },
+  {
+    "id": "2026-11-28-ofcom-children-ai-chatbots",
+    "added": "2026-11-24",
+    "Date": "2026-11-28 19:00",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "8 in 10 UK children now use AI chatbots",
+    "Caption Notes": "New Ofcom research: 81% of UK 8 to 17-year-olds have used an AI chatbot in the last six months, compared with 64% of adults.\n\nAmong the children who use them:\n• 35% use them every day\n• 53% use them for homework\n• 9% have turned to one for company or someone to talk to\n\nIf you've got kids, it's worth asking which chatbot they use and what for.\nSource: Ofcom, 24 Nov 2026. More AI news, no fluff, over on X: @CaroBuildsUK",
+    "x_text": "New Ofcom research: 81% of UK 8 to 17-year-olds have used an AI chatbot in the last six months, compared with 64% of adults. Among the children who use them, 35% use them every day, 53% for homework, and 9% have turned to one for company. Source: Ofcom, 24 Nov 2026.",
+    "graphic": {
+      "headline": "Kids are ahead of us on AI",
+      "highlight": "Kids",
+      "lines": [
+        "Children 81%",
+        "Adults 64%",
+        "35% of kids who use chatbots use them daily"
+      ],
+      "source": "Source: Ofcom, 24 Nov 2026"
+    },
+    "alt_text": "The headline \"Kids are ahead of us on AI\" above the figures: children 81%, adults 64%, and \"35% of kids who use chatbots use them daily\".",
+    "label": "news",
+    "source_url": "https://www.ofcom.org.uk/online-safety/protecting-children/eight-in-10-uk-children-now-using-ai-chatbots-vs.-two-thirds-of-adults",
+    "checked_sources": [
+      "https://www.ofcom.org.uk/online-safety/protecting-children/eight-in-10-uk-children-now-using-ai-chatbots-vs.-two-thirds-of-adults"
+    ],
+    "Status": "publer",
+    "Posted At": "",
+    "media": "2026-11-28-ofcom-children-ai-chatbots.png"
+  },
+  {
+    "id": "2026-11-29-chatgpt-live-dictation",
+    "added": "2026-11-24",
+    "Date": "2026-11-29 19:00",
+    "Platform": "All",
+    "Format": "Photo",
+    "Content Type": "AI News",
+    "Topic": "ChatGPT now types as you talk, with no 10-minute limit",
+    "Caption Notes": "Handy one if you'd rather talk than type. ChatGPT's new Live Dictation shows your words as you speak, instead of after you stop. OpenAI has also removed the 10-minute recording limit.\n\nIt's rolling out now on every plan, free included, on web, desktop, iPhone and Android. Tap the sound wave to see the text, then fix anything before you send.\n\nGood for brain-dumping a to-do list on the school run.\nSource: The Verge, 19 Nov 2026. More AI news, no fluff, over on X: @CaroBuildsUK",
+    "x_text": "ChatGPT's new Live Dictation shows your words as you speak, instead of after you stop. OpenAI has also removed the 10-minute recording limit. It's rolling out on every plan, free included, on web, desktop, iPhone and Android. Source: The Verge, 19 Nov 2026.",
+    "graphic": {
+      "headline": "Talk, don't type",
+      "highlight": "Talk",
+      "lines": [
+        "ChatGPT types as you speak",
+        "No more 10-minute limit. All plans."
+      ],
+      "source": "Source: The Verge, 19 Nov 2026"
+    },
+    "alt_text": "The headline \"Talk, don't type\" above two lines: \"ChatGPT types as you speak\" and \"No more 10-minute limit. All plans.\"",
+    "label": "news",
+    "source_url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+    "checked_sources": [
+      "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation"
+    ],
+    "Status": "publer",
+    "Posted At": "",
+    "media": "2026-11-29-chatgpt-live-dictation.png"
   }
 ]
