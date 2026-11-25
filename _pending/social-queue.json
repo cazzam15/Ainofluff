@@ -498,7 +498,8 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-11-25-chatbot-fake-shops.png"
+    "media": "2026-11-25-chatbot-fake-shops.png",
+    "exported_at": "2026-11-25"
   },
   {
     "id": "2026-11-26-ai-faked-holiday-deals",
@@ -528,7 +529,8 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-11-26-ai-faked-holiday-deals.png"
+    "media": "2026-11-26-ai-faked-holiday-deals.png",
+    "exported_at": "2026-11-25"
   },
   {
     "id": "2026-11-27-meta-muse-uk-launch",
@@ -559,7 +561,8 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-11-27-meta-muse-uk-launch.png"
+    "media": "2026-11-27-meta-muse-uk-launch.png",
+    "exported_at": "2026-11-25"
   },
   {
     "id": "2026-11-28-ofcom-children-ai-chatbots",
@@ -589,7 +592,8 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-11-28-ofcom-children-ai-chatbots.png"
+    "media": "2026-11-28-ofcom-children-ai-chatbots.png",
+    "exported_at": "2026-11-25"
   },
   {
     "id": "2026-11-29-chatgpt-live-dictation",
@@ -618,6 +622,7 @@
     ],
     "Status": "publer",
     "Posted At": "",
-    "media": "2026-11-29-chatgpt-live-dictation.png"
+    "media": "2026-11-29-chatgpt-live-dictation.png",
+    "exported_at": "2026-11-25"
   }
 ]
