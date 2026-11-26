@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-26",
+  "slug": "fca-ai-agents-may-need-authorisation",
+  "company": "Financial Conduct Authority",
+  "headline": "UK money watchdog tells AI agent makers they may need its approval",
+  "summary": "The Financial Conduct Authority says companies whose AI agents move money, arrange borrowing or make investment decisions may need its authorisation, tech firms and social media platforms included.",
+  "body": [
+    "The Financial Conduct Authority (FCA) set out its approach to AI agents on 24 November. An AI agent carries out tasks for you, and some are starting to make payments, move money, arrange borrowing or make investment decisions. The FCA says firms are moving from testing agents to using them, and it is already talking to companies offering personal AI agents to UK consumers.",
+    "Tech companies and social media platforms are in scope. “Just because a business describes itself as a technology provider does not mean that they do not need to be authorised,” the FCA says. It lists payment services, credit broking and financial advice among the activities to check. If someone offers regulated financial services without its authorisation, the FCA has powers to step in and says it “will not hesitate to use them if necessary.”",
+    "The FCA also expects AI providers to help you understand the limits of the money information and advice their tools give, with “clear, proportionate and consistent disclaimers”. Banks, insurers and other regulated firms stay responsible for any AI agent they use, even one bought in from another company, and must plan how customers get support if something goes wrong."
+  ],
+  "do_this": [
+    "Treat money answers from an AI chatbot as a starting point, and check anything important before you act on it.",
+    "Before you let an AI tool pay, borrow or invest for you, look up the company behind it with the FCA Firm Checker on fca.org.uk."
+  ],
+  "source_url": "https://www.fca.org.uk/firms/innovation/ai-approach/agentic-ai",
+  "source_name": "the FCA’s page on its approach to agentic AI",
+  "checked_sources": [
+    "https://www.gov.uk",
+    "https://www.fca.org.uk/firms/innovation/ai-approach/agentic-ai",
+    "https://www.fca.org.uk/news",
+    "https://www.fca.org.uk/consumers/check-if-firm-fca-authorised",
+    "https://www.policyrix.com/news/2026-11-24/fca-approach-to-agentic-ai-financial-services-consumers-november-2026"
+  ]
+}
